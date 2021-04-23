@@ -4,84 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./Assets/fontawesome-free-5.15.1-web/css/all.min.css">
     <title>Ticket-Sport</title>
 </head>
 
 <body>
-    <div class="total bg-info col-12">
-        <div class="top-site d-grid bg-light" style="grid-template-columns:1fr 2fr;">
-            <header class="container">
+    <div class="total ">
+        <div class="top-site">
+            <header>
                 <div class="header">
                     <nav class="navbar d-grid"
-                        style="display: grid;grid-template-columns:1fr 1fr 1fr 1fr ;direction: rtl;">
+                        style="display: grid;grid-template-columns:150px 200px 340px 180px ;direction: rtl;">
                         <div class="navbar-brand">
                             <h3>تیکت اسپرت</h3>
                         </div>
-                        <div class="nav-item"><input type="serach" placeholder="جستجو"><span><i
-                                    class="fa fa-search"></i></span></div>
-                        <div class="nav-item" style="display: grid;grid-template-columns:1fr 1fr 1fr 1fr ;">
-                            <div class="nav-item"><a href="" class="nav-link">باشگاه</a></div>
-                            <div class="nav-item"><a href="" class="nav-link">دسته بندی ها</a></div>
-                            <div class="nav-item"><a href="" class="nav-link">وبلاگ</a></div>
-                            <div class="nav-item"><a href="" class="nav-link">ارتباط با ما</a></div>
+                        <div class="nav-item search-box" >
+                            <input type="serach" class="form-control"  placeholder="جستجو"> 
                         </div>
-                        <div class="nav-item" style="display: grid;grid-template-columns:1fr 1fr 1fr ;direction: rtl;">
-                            <span><i>1</i></span>
-                            <a href=""><span class="">ورود</span></a>
-                            <a href=""><span class="">ورود</span></a>
+                        <div class="nav-item menue " style="display: grid;grid-template-columns:1fr 1fr 1fr 1fr ;">
+                            <li><a href="" class="">باشگاه &nbsp; &nbsp;|</a></li>
+                            <li><a href="" class="">دسته بندی ها &nbsp; &nbsp;|</a></li>
+                            <li><a href="" class="">وبلاگ &nbsp; &nbsp;|</a></li>
+                            <li><a href="" class=" ">ارتباط با ما</a></li>
+                        </div>
+                        <div class="nav-item acount-box" >
+                            <i class="far fa-user-circle "></i>
+                            <a href="">ورود |</a>
+                           <a href="" class="pl-2">ثبت نام</a> 
                         </div>
                     </nav>
                 </div>
             </header>
             <main>
                 <div class="last-match" style="display: grid; grid-template-columns: 1fr 1fr;">
-                    <div class="card">
+                    <div class="card col-8">
                         <div class="card-header">
-                            <img src="" alt="">
+                            <img src="./Assets/Image/img-12.jpg" class="img-fluid" alt="">
                         </div>
                         <div class="card-body" style="display: grid; grid-template-columns: 1fr 1fr;">
-                            <div><img src="" alt=""></div>
-                            <div><img src="" alt=""></div>
+                            <div class="m-auto text-center"><img src="./Assets/Image/img-14.png" class="img-fluid" alt=""><h4 class="pt-3 ">پرسپولیس</h4><p>PERSPOLISE</p></div>
+                            <div class="m-auto text-center"><img src="./Assets/Image/img-13.png" class="img-fluid" alt=""><h4 class="pt-3">استقلال</h4><p>ESTEGHLAL</p></div>
                         </div>
                         <div class="card-footer" style="display: grid; grid-template-rows: 1fr 1fr;">
-                            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-                                <li></li><span>ورزشگاه آزادی</span>
-                                <li></li><span>۲۷ دی</span>
-                                <li></li><span>۱۵:۳۰</span>
+                            <div style="display: grid; grid-template-columns: 2fr 1fr 1fr;" class="footer-in">
+                                <li class="text-right pt-3  mt-3 mr-3"><p>ورزشگاه آزادی تهران</p></li>
+                                <li class="pt-3 mt-3"><h6 >۲۷ دی</h6></li>
+                                <li class="ml-3 mt-3 pt-3"><h6>۱۵:۳۰</h6></li>
                             </div>
-                            <div style="display: grid; grid-template-columns: 1fr 1fr;">
-                                <a href="" class="btn">
-                                    خرید بلیط<i></i>
+                            <div class="text-center">
+                                <li class=" mx-3 text-center"> <a href="" class="btn btn-success btn-block text-center">
+                                    <div style="display: grid;grid-template-columns: 8fr 1fr;">
+                                    <div>خرید بلیط</div>
+                                    <div><span class=""><i class="fas fa-angle-left"></i></span></div>
+                                    </div>
                                 </a>
+                            </li>
                             </div>
-                        </div>
-                        <div class="card-footer">
-                            Footer
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header">
-                            <img src="" alt="">
-                        </div>
-                        <div class="card-body" style="display: grid; grid-template-columns: 1fr 1fr;">
-                            <div><img src="" alt=""></div>
-                            <div><img src="" alt=""></div>
-                        </div>
-                        <div class="card-footer" style="display: grid; grid-template-rows: 1fr 1fr;">
-                            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr;">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                            <div style="display: grid; grid-template-columns: 1fr 1fr;">
-                                <a href="" class="btn">
-                                    <span></span>
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="card-footer">
-                            Footer
                         </div>
                     </div>
                 </div>
@@ -528,6 +508,14 @@
 
     </div>
     </div>
+
+
+
+
+
+    <script src="./Assets/bootstrap/bootstrap js/jquery-3.3.1.min.js"></script>
+    <script src="./Assets/bootstrap/bootstrap js/bootstrap.min.js"></script>
+    <script src="./Assets/fontawesome-free-5.15.1-web/js/all.min.js"></script>
 </body>
 
 </html>
