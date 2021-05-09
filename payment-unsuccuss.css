@@ -1,0 +1,188 @@
+@font-face {
+  font-family: "AKavir";
+  src: url("./Assets/Font/AKavir.ttf");
+}
+@font-face {
+  font-family: "shabnam";
+  src: url("./Assets/Font/shabnam/Shabnam.ttf");
+}
+
+div.main{
+  width: 100%;
+  margin: 0px -10px 0px 0px;
+  height: 1140px;
+  background-image: url(./Assets/Image/img-9.jpg);
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.title-payment{
+  width: 222px;
+  margin: 41px 0px 0px 554px;
+  height: 38px;
+  white-space: nowrap;
+}
+p.title-payment-action{
+  font-weight: 600;
+  font-size: 24px;
+  font-family: "shabnam";
+  color: aliceblue;
+ 
+}
+div.end-payment{
+  width: 344px;
+  margin: -492px  0px 0px 494px;
+  height: 91px;
+  white-space: nowrap;
+  text-align: center;
+}
+p.end-payment-action{
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "shabnam";
+  color: aliceblue;
+  line-height: 25px;
+}
+/* card */
+div.footer-in{
+  width: 350px;
+  margin: -116px 0px 0px 0px;
+  border-top: 2px solid rgb(219 210 210);
+  padding: 20px 0px 0px 0px;
+  direction: rtl;
+  font-family: "shabnam";
+}
+div.footer-in li{
+  list-style: none;
+  white-space: nowrap;
+}
+li.varzeshgah{
+  margin: -2px 0px 0px 53px;
+  font-weight: 700;
+  font-size: 15px;
+}
+li.date{
+  margin: -2px 0px 0px -6px;
+  font-size: 15px;
+  font-weight: 500;
+}
+li.time{
+  margin: -2px 0px 0px 0px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.card-header {
+  padding: 0px;
+  margin-bottom: 0;
+  background-color: rgb(255, 255, 255) !important;
+  border-bottom:none !important;
+}
+.card-header h4{
+  font-size: 19px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+.card-header p{
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: 10px;
+  letter-spacing: 3px;
+}
+div.match-card-detail{
+  background-color: #b81414;
+  width: 392px;
+  height: 170px;
+  margin: -54px 0px -25px -21px;
+  border-radius: 0px 0px 4px 4px;
+}
+div.match-card-detail li{
+  list-style: none;
+  margin: 0px 0px 0px 17px;
+  font-size: 15px;
+  color: white;
+ 
+  
+}
+li.match-card-detail1{
+  border-bottom: 1px solid rgb(255 255 255 / 64%);
+  width: 355px;
+  padding: 23px 0px;
+}
+li.match-card-detail2{
+  width: 355px;
+  padding: 14px 0px;
+  line-height: 29px;
+}
+
+div.price{
+  margin: 39px 0px -7px -2px;
+  width: 354px;
+  padding: 0px 0px;
+  height: 107px;
+}
+div.price li{
+  list-style: none;
+  text-align: center;
+  white-space: nowrap;
+  border-bottom: 2px solid rgb(237 228 228);
+}
+div.price span{
+  font-size: 14px;
+  color: rgb(0 0 0);
+  font-weight: 600;
+  word-spacing: 2px;
+}
+div.price p{
+  font-size: 23px;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  word-spacing: 6px;
+  margin: 12px 0px;
+}
+.card-footer {
+  padding: 0px;
+  margin: -14px 0px 11px 0px;
+  background-color: rgb(255, 255, 255) !important;
+  border-top:none !important;
+}
+.card-footer li{
+  list-style: none;
+  margin: -2px 0px 0px -19px;
+}
+.card-footer img{
+  width: 388px;
+  height: 86px;
+
+}
+div.card-body{
+height: 100px ;
+margin: 77px 0px 0px 0px;
+}
+div.card{
+  height: 441px;
+  margin: -42px 0px 80px 465px;
+  width: 392px;
+  box-shadow: 0px 1px 12px 3px gainsboro;
+  font-family: "shabnam";
+}
+div.share{
+  font-family: "shabnam";
+  margin: -95px 0px 80px 464px;
+
+}
+
+div.share button{
+  height: 77px;
+  margin: -57px 0px 80px 1px;
+  width: 393px;
+  font-size: 19px;
+  font-weight: 900;
+  color: black;
+  text-align: center;
+  padding-right: 33px;
+}
+
+div.print .svg-inline--fa.fa-w-16 {
+  width: 2em;
+}
