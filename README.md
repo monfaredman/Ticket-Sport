@@ -1,6 +1,6 @@
 # ticket-sport
 
-> ticket-sport
+> A Vue.js project
 
 ## Build Setup
 
