@@ -1,0 +1,2336 @@
+@media only screen and (min-width: 1200px) {
+  header {
+    nav {
+      .navbar-brand {
+        a {
+        }
+      }
+      .collapse {
+        .search-box {
+          input {
+          }
+        }
+        .menu {
+          li:not(:last-child) {
+          }
+          li {
+            a {
+            }
+          }
+        }
+        .acount-box {
+          li:first-child {
+          }
+          li {
+            i {
+            }
+          }
+          li.login {
+          }
+          li:last-child {
+          }
+          .svg-inline--fa {
+          }
+        }
+      }
+
+      .collapsing {
+      }
+    }
+  }
+  div.top-site {
+    .card-match {
+      .card-header {
+        img {
+        }
+      }
+      .card-body {
+        div {
+          p {
+          }
+          span {
+          }
+          img {
+          }
+        }
+      }
+      .card-footer {
+        .footer-in {
+          div:first-child {
+            p {
+            }
+          }
+          div.date-topsite {
+            span {
+            }
+          }
+          div:last-child {
+            span {
+            }
+          }
+        }
+        .button-topsite {
+          li {
+            a {
+              i {
+              }
+            }
+          }
+        }
+      }
+    }
+    .col-4 {
+      flex: 0 0 auto;
+      width: 28.333333%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  header {
+    nav {
+      .navbar-brand {
+        a {
+        }
+      }
+      .collapse {
+        .search-box {
+          margin: 13px 5px;
+          input {
+            width: 200px;
+          }
+        }
+        .menu {
+          margin: 17px -8px 0px 0px;
+          li:not(:last-child) {
+          }
+          li {
+            a {
+            }
+          }
+        }
+        .acount-box {
+          margin: 12px auto 10px auto;
+          text-align: center;
+          li:first-child {
+          }
+          li {
+            i {
+            }
+          }
+          li.login {
+          }
+          li:last-child {
+          }
+          .svg-inline--fa {
+          }
+        }
+      }
+
+      .collapsing {
+      }
+      .collapsing.show {
+      }
+    }
+  }
+  div.top-site {
+    .card-match {
+      .card-header {
+        img {
+        }
+      }
+      .card-body {
+        div {
+          p {
+            font-size: 19px;
+          }
+          span {
+            font-size: 10px;
+          }
+          img {
+          }
+        }
+      }
+      .card-footer {
+        .footer-in {
+          div:first-child {
+            p {
+            }
+          }
+          div.date-topsite {
+            margin-right: 103px;
+            span {
+            }
+          }
+          div:last-child {
+            margin-right: 0px;
+            span {
+            }
+          }
+        }
+        .button-topsite {
+          li {
+            a {
+              i {
+                left: -82px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .col-4 {
+      flex: 0 0 auto;
+      width: 28.333333%;
+    }
+  }
+  div.sport-category {
+    .brand-sport-category {
+      h4 {
+      }
+    }
+    .sport-category-item {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      .sport-item {
+        li:first-child {
+          span {
+            i {
+            }
+          }
+        }
+        .sport-name {
+          span {
+          }
+        }
+        li:last-child {
+          span {
+          }
+        }
+      }
+    }
+  }
+  div.hottest-match {
+    .brand-hottest {
+      h4 {
+      }
+    }
+    .two-matches {
+      .card {
+        .card-header {
+          div {
+            img {
+            }
+          }
+          div {
+            p {
+            }
+            h6 {
+            }
+          }
+          div.footer-in2 {
+            li:first-child {
+            }
+            li:last-child {
+            }
+          }
+        }
+        .card-body {
+          div {
+            img {
+            }
+            h4 {
+            }
+            p {
+            }
+          }
+        }
+        .card-footer {
+          .firts-footer {
+            .seat {
+              span {
+              }
+
+              h5 {
+              }
+
+              span {
+              }
+            }
+          }
+          .second-footer {
+            .social-icons {
+              li:first-child {
+                span {
+                }
+              }
+              li:not(:first-child) {
+                span {
+                }
+              }
+            }
+            .hottest-button {
+              li {
+                a {
+                  div {
+                    div {
+                    }
+                    div {
+                      span {
+                        i {
+                          left: -77px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .col-6 {
+      }
+    }
+  }
+  div.table-matches {
+    .table-brand {
+      h4 {
+      }
+    }
+    .table {
+      background-color: unset !important;
+      border-top: none !important;
+      tr {
+        td.img-first {
+          li {
+            img {
+            }
+          }
+        }
+      }
+      td.img-second {
+        li {
+          img {
+            margin: 0 -66px;
+          }
+        }
+      }
+      td.space {
+        span {
+        }
+      }
+      td.team-first {
+        li {
+          span {
+          }
+        }
+      }
+      td.team-second {
+        li {
+          span {
+          }
+        }
+      }
+      td.date-match {
+        li {
+          span {
+          }
+        }
+      }
+      td.time-match {
+        li {
+          span {
+          }
+        }
+      }
+      td.buy-ticket {
+        li {
+          a {
+            i {
+            }
+          }
+        }
+      }
+    }
+  }
+  div.special-match {
+    .special-back {
+      .row {
+        .card-match {
+          .card-header {
+            img {
+            }
+          }
+          .card-body {
+            div {
+              p {
+                font-size: 18px;
+              }
+              span {
+                font-size: 11px;
+              }
+              img {
+              }
+            }
+          }
+          .card-footer {
+            .footer-in {
+              div:first-child {
+                p {
+                  font-size: 13px;
+                }
+              }
+              div.date-topsite {
+                margin-right: 101px;
+                span {
+                  font-size: 11px;
+                }
+              }
+              div:last-child {
+                margin-right: 0px;
+                span {
+                  font-size: 11px;
+                }
+              }
+            }
+            .button-topsite {
+              li {
+                a {
+                  i {
+                    left: -71px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .col-4 {
+          flex: 0 0 auto;
+          width: 28.333333%;
+        }
+      }
+    }
+  }
+  div.sport-magazine {
+    .magazine-brand {
+      h4 {
+      }
+      span {
+      }
+    }
+    .row {
+      .card-match {
+        .card-header {
+          img {
+          }
+        }
+        .card-body {
+          li:first-child {
+            span {
+            }
+          }
+          .date-magazine {
+            p {
+            }
+          }
+          li:last-child {
+            span {
+            }
+          }
+        }
+        .card-footer {
+          .button-topsite {
+            li {
+              a {
+                i {
+                }
+              }
+            }
+          }
+        }
+      }
+      .col-4 {
+        flex: 0 0 auto;
+        width: 29.333333%;
+      }
+    }
+    .social-icons {
+      .social-icons-magazine {
+        li:first-child {
+          span {
+          }
+        }
+        li:not(:first-child) {
+          span {
+          }
+        }
+      }
+    }
+  }
+  div.comments {
+    .brand-comment {
+      h4 {
+      }
+      p {
+      }
+    }
+    .comments-items {
+      div.comments-item {
+        li:first-child {
+          i {
+          }
+        }
+        li:last-child {
+          span {
+          }
+        }
+      }
+      .col-3 {
+        width: 22%;
+      }
+    }
+    .user-comment {
+      .comment-users {
+        width: 14%;
+        margin-left: 69px;
+        ul:first-child {
+          img {
+          }
+        }
+        ul:last-child {
+          li:first-child {
+            p {
+            }
+          }
+          li:last-child {
+            p {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header {
+    nav {
+      a {
+        color: white !important;
+        text-decoration: none !important;
+      }
+      .navbar-brand {
+      }
+      #collapseExample {
+        position: fixed;
+        top: 0px;
+        background-color: rebeccapurple;
+        left: 0px;
+        height: 100%;
+        width: 39%;
+        z-index: -3;
+        transition: 0.15s;
+
+        .search-box {
+          margin: 95px auto 10px auto;
+          text-align: center;
+          input {
+            width: 100%;
+            border-radius: 0;
+          }
+        }
+        .menu {
+          margin: 0px auto;
+          li:not(:last-child) {
+          }
+          li {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            width: 100%;
+            border: none;
+            text-decoration: none;
+            a {
+            }
+          }
+        }
+        .acount-box {
+          border: 1px solid white;
+          border-radius: 0px;
+          background-color: #f9fafb;
+          opacity: 0.6;
+          margin: 22px auto;
+          width: 100%;
+          text-align: center;
+          li:first-child {
+          }
+          li {
+            i {
+              display: none;
+            }
+          }
+          li.login {
+            border-left: none !important;
+            padding: 0px 7px !important;
+          }
+          li:last-child {
+            padding: 0px 0px !important;
+          }
+          .svg-inline--fa {
+          }
+        }
+      }
+      .collapsing {
+        height: 0 !important;
+      }
+      .collapse {
+        &:not(.show) {
+          display: none;
+        }
+      }
+
+      div.show {
+        display: block;
+      }
+    }
+  }
+  div.top-site {
+    .card-match {
+      .card-header {
+        img {
+        }
+      }
+      .card-body {
+        div {
+          p {
+            font-size: 17px;
+          }
+          span {
+            font-size: 10px;
+          }
+          img {
+          }
+        }
+      }
+      .card-footer {
+        .footer-in {
+          div:first-child {
+            white-space: nowrap;
+            width: 25%;
+            margin-right: -8px;
+            padding-top: 5px;
+            p {
+              font-weight: 900;
+              font-size: 12px;
+              font-size: 13px;
+              font-family: "shabnam";
+            }
+          }
+          div.date-topsite {
+            margin-right: 68px;
+            span {
+              font-size: 12px;
+              font-weight: 600;
+              font-family: "shabnam";
+            }
+          }
+          div:last-child {
+            margin-right: 7px;
+            span {
+              font-size: 12px;
+              font-weight: 600;
+              font-family: "shabnam";
+            }
+          }
+        }
+        .button-topsite {
+          margin: 0px auto 0px auto;
+          padding: 8px 0 10px 0;
+          li {
+            a {
+              width: 100%;
+              font-weight: 300;
+              font-size: 16px;
+              i {
+                left: -64px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .col-4 {
+      flex: 0 0 auto;
+      width: 32.333333%;
+    }
+  }
+  div.sport-category {
+    .brand-sport-category {
+      h4 {
+      }
+    }
+    .sport-category-item {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      .sport-item {
+        li:first-child {
+          span {
+            i {
+            }
+          }
+        }
+        .sport-name {
+          span {
+          }
+        }
+        li:last-child {
+          margin-right: -2px !important;
+          span {
+          }
+        }
+      }
+    }
+  }
+  div.hottest-match {
+    .brand-hottest {
+      h4 {
+      }
+    }
+    .two-matches {
+      .card {
+        .card-header {
+          div {
+            img {
+            }
+          }
+          div {
+            p {
+              font-size: 14px;
+              margin: 0;
+              padding: 5px 0;
+            }
+            h6 {
+              font-size: 13px;
+            }
+          }
+          div.footer-in2 {
+            li:first-child {
+            }
+            li:last-child {
+            }
+          }
+        }
+        .card-body {
+          div {
+            img {
+            }
+            h4 {
+              font-size: 22px;
+            }
+            p {
+              font-size: 10px;
+            }
+          }
+        }
+        .card-footer {
+          .firts-footer {
+            .seat {
+              span {
+              }
+
+              h5 {
+                font-size: 13px;
+              }
+
+              span {
+                font-size: 8px;
+              }
+            }
+          }
+          .second-footer {
+            .social-icons {
+              height: 44px;
+              li:first-child {
+                span {
+                  font-size: 8px;
+                }
+              }
+              li:not(:first-child) {
+                width: 11%;
+                span {
+                  font-size: 16px;
+                }
+              }
+            }
+            .hottest-button {
+              li {
+                a {
+                  div {
+                    height: 30px;
+                    div {
+                    }
+                    div {
+                      span {
+                        i {
+                          position: relative;
+                          left: -48px;
+                          top: -29px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .col-6 {
+      }
+    }
+  }
+  div.table-matches {
+    .table-brand {
+      h4 {
+      }
+    }
+    .table {
+      background-color: unset !important;
+      border-bottom-width: unset !important ;
+      tr {
+        td.img-first {
+          li {
+            img {
+            }
+          }
+        }
+      }
+      td.img-second {
+        li {
+          img {
+            margin: 0 -27px;
+          }
+        }
+      }
+      td.space {
+        padding-top: 13px;
+        span {
+          white-space: nowrap;
+        }
+      }
+      td.team-first {
+        padding-top: 13px;
+        li {
+          span {
+            white-space: nowrap;
+          }
+        }
+      }
+      td.team-second {
+        padding-top: 13px;
+        li {
+          span {
+            white-space: nowrap;
+          }
+        }
+      }
+      td.date-match {
+        padding-top: 13px;
+        li {
+          span {
+            white-space: nowrap;
+          }
+        }
+      }
+      td.time-match {
+        padding-top: 13px;
+        li {
+          span {
+            white-space: nowrap;
+          }
+        }
+      }
+      td.buy-ticket {
+        padding-top: 13px;
+        white-space: nowrap;
+        li {
+          a {
+            i {
+            }
+          }
+        }
+      }
+    }
+  }
+  div.special-match {
+    .card-match {
+      .card-header {
+        img {
+        }
+      }
+      .card-body {
+        div {
+          p {
+            font-size: 17px;
+          }
+          span {
+            font-size: 10px;
+          }
+          img {
+          }
+        }
+      }
+      .card-footer {
+        .footer-in {
+          div:first-child {
+            white-space: nowrap;
+            width: 25%;
+            margin-right: -8px;
+            padding-top: 5px;
+            p {
+              font-weight: 900;
+              font-size: 12px;
+              font-size: 13px;
+              font-family: "shabnam";
+            }
+          }
+          div.date-topsite {
+            margin-right: 68px;
+            span {
+              font-size: 12px;
+              font-weight: 600;
+              font-family: "shabnam";
+            }
+          }
+          div:last-child {
+            margin-right: 7px;
+            span {
+              font-size: 12px;
+              font-weight: 600;
+              font-family: "shabnam";
+            }
+          }
+        }
+        .button-topsite {
+          margin: 0px auto 0px auto;
+          padding: 8px 0 10px 0;
+          li {
+            a {
+              width: 100%;
+              font-weight: 300;
+              font-size: 16px;
+              i {
+                left: -64px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .col-4 {
+      flex: 0 0 auto;
+      width: 32.333333%;
+    }
+  }
+  div.sport-magazine {
+    .magazine-brand {
+      h4 {
+      }
+      span {
+      }
+    }
+    .row {
+      .card-match {
+        .card-header {
+          img {
+          }
+        }
+        .card-body {
+          li:first-child {
+            span {
+              font-size: 14px;
+            }
+          }
+          .date-magazine {
+            p {
+              font-size: 11px;
+            }
+          }
+          li:last-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 90%;
+            span {
+              font-size: 12px;
+            }
+          }
+        }
+        .card-footer {
+          .button-topsite {
+            li {
+              a {
+                font-size: 11px;
+                i {
+                  left: -57px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .col-4 {
+        flex: 0 0 auto;
+        width: 28.333333%;
+      }
+    }
+    .social-icons {
+      .social-icons-magazine {
+        li:first-child {
+          span {
+          }
+        }
+        li:not(:first-child) {
+          span {
+          }
+        }
+      }
+    }
+  }
+  div.comments {
+    .brand-comment {
+      h4 {
+      }
+      p {
+      }
+    }
+    .comments-items {
+      div.comments-item {
+        margin: 29px auto;
+        width: 22%;
+        li:first-child {
+          i {
+          }
+        }
+        li:last-child {
+          span {
+          }
+        }
+      }
+      .col-3 {
+        width: 22%;
+      }
+    }
+    .user-comment {
+      .comment-users {
+        width: 20%;
+        margin-left: -10px;
+        ul:first-child {
+          img {
+          }
+        }
+        ul:last-child {
+          li:first-child {
+            p {
+            }
+          }
+          li:last-child {
+            p {
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .containerBox {
+      .footer-one {
+        .footer-news {
+          li {
+            p {
+            }
+          }
+
+          .span-li {
+            span {
+            }
+          }
+        }
+        .footer-emails {
+          input {
+            width: 295px;
+          }
+          a {
+          }
+        }
+      }
+    }
+    .container {
+      .footer-two {
+        .footer-address {
+          li:first-child {
+            h3 {
+            }
+          }
+          li:not(:first-child) {
+          }
+        }
+        .footer-menu {
+          margin: 20px 18px 0 0;
+          li {
+          }
+        }
+        .footer-q {
+          white-space: nowrap;
+          li {
+          }
+        }
+
+        .footer-app {
+          li:first-child {
+          }
+          li.with {
+          }
+
+          li {
+            display: inline-block;
+            padding: 8px 37px 0 0;
+            font-size: 19px;
+            i {
+            }
+          }
+        }
+      }
+    }
+
+    .footer-three {
+      .social-icons-footer {
+        li {
+          span {
+            i {
+            }
+          }
+        }
+      }
+      .last-site {
+        li {
+          img {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    nav {
+      .navbar-brand {
+        a {
+        }
+      }
+      .collapse {
+        .search-box {
+          input {
+          }
+        }
+        .menu {
+          li:not(:last-child) {
+          }
+          li {
+            a {
+            }
+          }
+        }
+        .acount-box {
+          height: 8%;
+          li:first-child {
+            border-left: none !important;
+            padding: 0px 7px !important;
+          }
+          li {
+            padding: 0px {
+
+            }
+          }
+          li.login {
+            border-left: none !important;
+            padding: 0px 7px !important;
+          }
+          li:last-child {
+            padding: 0px 0px !important;
+          }
+          .svg-inline--fa {
+          }
+        }
+      }
+
+      .collapsing {
+      }
+    }
+  }
+  div.top-site {
+    height: 510px;
+    .card-match {
+      top: 93px;
+      left: 66px;
+      .card-header {
+        img {
+        }
+      }
+      .card-body {
+        div {
+          p {
+            font-size: 14px;
+          }
+          span {
+            letter-spacing: 2px;
+            font-size: 8px;
+          }
+          img {
+          }
+        }
+      }
+      .card-footer {
+        .footer-in {
+          margin: auto !important;
+          padding-top: 5px;
+        }
+        div:first-child {
+          margin-right: -8px;
+          padding-top: 9px;
+          p {
+            font-size: 9px !important;
+          }
+        }
+        div.date-topsite {
+          margin-right: 53px;
+          white-space: nowrap;
+          span {
+            font-size: 10px !important;
+          }
+        }
+        div:last-child {
+          margin-right: 3px !important;
+          span {
+            font-size: 10px !important;
+          }
+        }
+      }
+      .button-topsite {
+        margin: 0px auto 0px auto;
+        padding: 8px 0 10px 0;
+        li {
+          a {
+            width: 100%;
+            font-weight: 300;
+            font-size: 14px !important;
+            i {
+              left: -47px !important;
+            }
+          }
+        }
+      }
+    }
+    .col-4 {
+      width: 35.333333%;
+    }
+  }
+  div.sport-category {
+    .brand-sport-category {
+      h4 {
+      }
+    }
+    .sport-category-item {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      .sport-item {
+        li:first-child {
+          span {
+            i {
+              font-size: 26px;
+            }
+          }
+        }
+        .sport-name {
+          span {
+            font-size: 12px;
+          }
+        }
+        li:last-child {
+          margin-right: -2px !important;
+          span {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  div.hottest-match {
+    padding: 0 0 24px 0;
+
+    .brand-hottest {
+      margin: 23px 0;
+      h4 {
+      }
+    }
+    .two-matches {
+      .card {
+        .card-header {
+          div {
+            img {
+            }
+          }
+          div {
+            p {
+              font-size: 10px;
+            }
+            h6 {
+              font-size: 9px;
+            }
+          }
+          div.footer-in2 {
+            li:first-child {
+            }
+            li:last-child {
+            }
+          }
+        }
+        .card-body {
+          div {
+            img {
+            }
+            h4 {
+              font-size: 13px;
+            }
+            p {
+              font-size: 7px;
+            }
+          }
+        }
+        .card-footer {
+          .firts-footer {
+            .seat {
+              span {
+              }
+
+              h5 {
+                font-size: 10px;
+              }
+
+              span {
+                font-size: 6px;
+              }
+            }
+          }
+          .second-footer {
+            .social-icons {
+              height: 44px;
+              li:first-child {
+                span {
+                  font-size: 7px;
+                }
+              }
+              li:not(:first-child) {
+                width: 11%;
+                span {
+                  font-size: 11px;
+                }
+              }
+            }
+            .hottest-button {
+              li {
+                a {
+                  div {
+                    height: 27px;
+                    div {
+                      font-size: 10;
+                    }
+                    div {
+                      span {
+                        i {
+                          position: relative;
+                          left: -35px;
+                          top: -29px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .col-6 {
+      }
+    }
+  }
+  div.table-matches {
+    .table-brand {
+      h4 {
+      }
+    }
+    .table {
+      background-color: unset !important;
+      border-bottom-width: unset !important ;
+      tr {
+        td.img-first {
+          width: 8%;
+          li {
+            img {
+            }
+          }
+        }
+      }
+      td.img-second {
+        width: 8%;
+        li {
+          img {
+            margin: 0 -8px;
+          }
+        }
+      }
+      td.space {
+        span {
+          white-space: nowrap;
+          font-size: 12px;
+        }
+      }
+      td.team-first {
+        padding-top: 18px;
+        font-size: 12px;
+        li {
+          span {
+            white-space: nowrap;
+            font-size: 12px;
+          }
+        }
+      }
+      td.team-second {
+        li {
+          span {
+            white-space: nowrap;
+            font-size: 12px;
+          }
+        }
+      }
+      td.date-match {
+        li {
+          span {
+            font-size: 12px;
+            white-space: nowrap;
+          }
+        }
+      }
+      td.time-match {
+        padding-top: 18px;
+        font-size: 12px;
+        li {
+          span {
+            white-space: nowrap;
+            font-size: 12px;
+          }
+        }
+      }
+      td.buy-ticket {
+        padding-top: 18px;
+        white-space: nowrap;
+        font-size: 12px;
+        li {
+          a {
+            i {
+            }
+          }
+        }
+      }
+    }
+  }
+  div.special-match {
+    .special-back {
+      .row {
+        .card-match {
+          .card-header {
+            img {
+            }
+          }
+          .card-body {
+            div {
+              p {
+                font-size: 18px;
+              }
+              span {
+                font-size: 11px;
+              }
+              img {
+              }
+            }
+          }
+          .card-footer {
+            .footer-in {
+              div:first-child {
+                p {
+                  font-size: 13px;
+                }
+              }
+              div.date-topsite {
+                margin-right: 90px;
+                span {
+                  font-size: 11px;
+                }
+              }
+              div:last-child {
+                margin-right: 0px;
+                span {
+                  font-size: 11px;
+                }
+              }
+            }
+            .button-topsite {
+              li {
+                a {
+                  i {
+                    left: -63px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .col-4 {
+          flex: 0 0 auto;
+          width: 45.333333% !important;
+        }
+      }
+    }
+  }
+  div.sport-magazine {
+    .magazine-brand {
+      h4 {
+      }
+      span {
+      }
+    }
+    .row {
+      .card-match {
+        .card-header {
+          img {
+          }
+        }
+        .card-body {
+          li:first-child {
+            margin: 0 5px;
+            span {
+              font-size: 11px;
+            }
+          }
+          .date-magazine {
+            p {
+              font-size: 8px;
+            }
+          }
+          li:last-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 90%;
+            span {
+              font-size: 9px;
+            }
+          }
+        }
+        .card-footer {
+          .button-topsite {
+            li {
+              a {
+                font-size: 11px;
+                i {
+                  left: -57px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .col-4 {
+        flex: 0 0 auto;
+        width: 27.333333%;
+      }
+    }
+    .social-icons {
+      .social-icons-magazine {
+        width: 36%;
+        padding: 10px 32px 0px 0px;
+        opacity: 0.6;
+        li:first-child {
+          span {
+            font-size: 10px;
+          }
+        }
+        li:not(:first-child) {
+          span {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  div.comments {
+    .brand-comment {
+      h4 {
+      }
+      p {
+      }
+    }
+    .comments-items {
+      div.comments-item {
+        margin: 6px auto;
+        width: 32%;
+        li:first-child {
+          i {
+          }
+        }
+        li:last-child {
+          span {
+          }
+        }
+      }
+      .col-3 {
+        width: 22%;
+      }
+    }
+    .user-comment {
+      display: none;
+      .comment-users {
+        width: 20%;
+        margin-left: -10px;
+        ul:first-child {
+          img {
+          }
+        }
+        ul:last-child {
+          li:first-child {
+            p {
+            }
+          }
+          li:last-child {
+            p {
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .containerBox {
+      .footer-one {
+        .footer-news {
+          li {
+            p {
+            }
+          }
+
+          .span-li {
+            span {
+              font-size: 9px;
+            }
+          }
+        }
+        .footer-emails {
+          input {
+            width: 219px;
+            font-size: 14px;
+          }
+          a {
+          }
+        }
+      }
+    }
+    .container {
+      .footer-two {
+        .footer-address {
+          li:first-child {
+            h3 {
+            }
+          }
+          li:not(:first-child) {
+            font-size: 10px;
+            white-space: normal;
+          }
+        }
+        .footer-menu {
+          margin: 20px 18px 0 0;
+          li {
+          }
+        }
+        .footer-q {
+          white-space: nowrap;
+          li {
+          }
+        }
+
+        .footer-app {
+          li:first-child {
+          }
+          li.with {
+          }
+
+          li {
+            display: inline-block;
+            padding: 8px 37px 0 0;
+            font-size: 19px;
+            i {
+            }
+          }
+        }
+      }
+    }
+
+    .footer-three {
+      .social-icons-footer {
+        li {
+          span {
+            i {
+            }
+          }
+        }
+      }
+      .last-site {
+        li {
+          img {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  header {
+    nav {
+      .navbar-brand {
+        a {
+        }
+      }
+      .collapse {
+        .search-box {
+          input {
+          }
+        }
+        .menu {
+          li:not(:last-child) {
+          }
+          li {
+            a {
+            }
+          }
+        }
+        .acount-box {
+          height: 8%;
+          li:first-child {
+            padding: 0px !important;
+          }
+          li {
+            padding: 0px !important;
+            i {
+              display: none;
+            }
+          }
+          li.login {
+            border-left: none !important;
+            padding: 18px 0px !important;
+          }
+          li:last-child {
+            padding: 0px 8px 0px 8px !important;
+          }
+          .svg-inline--fa {
+          }
+        }
+      }
+
+      .collapsing {
+      }
+    }
+  }
+  div.top-site {
+    height: 510px;
+    .card-match {
+      top: 93px;
+      left: 33px;
+      .card-header {
+        img {
+        }
+      }
+      .card-body {
+        div {
+          p {
+            font-size: 11px;
+            margin-bottom: -5px;
+          }
+          span {
+            letter-spacing: 1px;
+            font-size: 7px;
+          }
+          img {
+          }
+        }
+      }
+      .card-footer {
+        .footer-in {
+          margin: auto !important;
+          padding-top: 5px;
+        }
+        div:first-child {
+          margin-right: -8px;
+          padding-top: 10px !important;
+          p {
+            font-size: 8px !important ;
+          }
+        }
+        div.date-topsite {
+          margin-right: 44px !important;
+          white-space: nowrap;
+          span {
+            font-size: 7px !important;
+          }
+        }
+        div:last-child {
+          margin-right: 3px !important;
+          span {
+            font-size: 7px !important;
+          }
+        }
+      }
+      .button-topsite {
+        margin: 0px auto 0px auto;
+        padding: 0 0 7px 0 !important;
+        li {
+          a {
+            width: 100%;
+            font-weight: 300;
+            font-size: 14px !important;
+            i {
+              left: -17px !important;
+            }
+          }
+        }
+      }
+    }
+    .col-4 {
+      width: 39.333333%;
+    }
+  }
+  div.last-number {
+    display: block !important;
+    .total-tickets {
+      text-align: center;
+      margin-bottom: 25px;
+      li {
+        h3 {
+        }
+        span {
+        }
+      }
+    }
+  }
+  div.sport-category {
+    .brand-sport-category {
+      text-align: center;
+      h4 {
+        font-size: 16px;
+      }
+    }
+    .sport-category-item {
+      display: block;
+      .sport-item {
+        li:first-child {
+          span {
+            i {
+              font-size: 26px;
+            }
+          }
+        }
+        .sport-name {
+          span {
+            font-size: 12px;
+          }
+        }
+        li:last-child {
+          margin-right: -2px !important;
+          span {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  div.hottest-match {
+    padding: 0 0 24px 0;
+
+    .brand-hottest {
+      margin: 23px 0;
+      text-align: center;
+      h4 {
+      }
+    }
+    .two-matches {
+      .card {
+        .card-header {
+          div {
+            img {
+            }
+          }
+          div {
+            p {
+              font-size: 8px;
+            }
+            h6 {
+              font-size: 7px;
+            }
+          }
+          div.footer-in2 {
+            li:first-child {
+            }
+            li:last-child {
+            }
+          }
+        }
+        .card-body {
+          padding: 0;
+          div {
+            padding: 0;
+            img {
+              padding: 0;
+            }
+            h4 {
+              font-size: 5px;
+              padding: 0;
+              margin: 0;
+            }
+            p {
+              font-size: 2px;
+              padding: 0;
+            }
+          }
+        }
+        .card-footer {
+          padding: 0;
+          .firts-footer {
+            padding: 0;
+            .seat {
+              padding: 0;
+              span {
+              }
+
+              h5 {
+                font-size: 10px;
+                padding: 0;
+              }
+
+              span {
+                font-size: 6px;
+              }
+            }
+          }
+          .second-footer {
+            .social-icons {
+              padding: 0;
+              height: 25px;
+              li:first-child {
+                padding: 0;
+                span {
+                  font-size: 5px;
+                }
+              }
+              li:not(:first-child) {
+                padding: 0;
+                width: 6%;
+                span {
+                  font-size: 9px;
+                }
+              }
+            }
+            .hottest-button {
+              padding: 0;
+              li {
+                margin: auto !important;
+                a {
+                  div {
+                    padding: 0;
+                    height: 12px;
+                    div {
+                      font-size: 8px;
+                      padding: 0;
+                    }
+                    div {
+                      padding: 0;
+                      span {
+                        i {
+                          position: relative;
+                          left: -35px;
+                          top: -29px;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .col-6 {
+      }
+    }
+  }
+  div.table-matches {
+    .table-brand {
+      text-align: center;
+      h4 {
+      }
+    }
+    .table {
+      background-color: unset !important;
+      border-bottom-width: unset !important ;
+      tr {
+        td.img-first {
+          display: none;
+          li {
+            img {
+            }
+          }
+        }
+      }
+      td.img-second {
+        display: none;
+        li {
+          img {
+          }
+        }
+      }
+      td.space {
+        span {
+          white-space: nowrap;
+          font-size: 9px;
+        }
+      }
+      td.team-first {
+        padding-top: 18px;
+        font-size: 12p9pxx;
+        li {
+          span {
+            white-space: nowrap;
+            font-size: 9px;
+          }
+        }
+      }
+      td.team-second {
+        li {
+          span {
+            white-space: nowrap;
+            font-size: 9px;
+          }
+        }
+      }
+      td.date-match {
+        li {
+          span {
+            font-size: 9px;
+            white-space: nowrap;
+          }
+        }
+      }
+      td.time-match {
+        padding-top: 18px;
+        font-size: 9px;
+        li {
+          span {
+            white-space: nowrap;
+            font-size: 9px;
+          }
+        }
+      }
+      td.buy-ticket {
+        display: none;
+      }
+    }
+  }
+  div.special-match {
+    height: 1075px;
+    .special-back {
+      .brand-special {
+        text-align: center;
+      }
+      .row {
+        .card-match {
+          margin: 10px auto;
+          .card-header {
+            img {
+            }
+          }
+          .card-body {
+            div {
+              p {
+                font-size: 18px;
+              }
+              span {
+                font-size: 11px;
+              }
+              img {
+              }
+            }
+          }
+          .card-footer {
+            .footer-in {
+              div:first-child {
+                p {
+                  font-size: 13px;
+                }
+              }
+              div.date-topsite {
+                margin-right: 90px;
+                span {
+                  font-size: 11px;
+                }
+              }
+              div:last-child {
+                margin-right: 0px;
+                span {
+                  font-size: 11px;
+                }
+              }
+            }
+            .button-topsite {
+              li {
+                a {
+                  i {
+                    left: -63px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .col-4 {
+          flex: 0 0 auto;
+          width: 91.333333% !important;
+        }
+      }
+    }
+  }
+  div.sport-magazine {
+    padding-bottom: 73px;
+    .magazine-brand {
+      text-align: center;
+      h4 {
+        font-size: 23px;
+      }
+      span {
+      }
+    }
+    .row {
+      .card-match {
+        margin-bottom: 13px;
+        .card-header {
+          img {
+          }
+        }
+        .card-body {
+          li:first-child {
+            margin: 0 5px;
+            span {
+              font-size: 8px;
+            }
+          }
+          .date-magazine {
+            p {
+              font-size: 6px;
+            }
+          }
+          li:last-child {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 90%;
+            span {
+              font-size: 7px;
+            }
+          }
+        }
+        .card-footer {
+          .button-topsite {
+            li {
+              a {
+                font-size: 6px;
+                i {
+                  left: -28px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .col-4 {
+        flex: 0 0 auto;
+        width: 38.333333%;
+      }
+    }
+    .social-icons {
+      display: none;
+      .social-icons-magazine {
+        width: 36%;
+        padding: 10px 32px 0px 0px;
+        opacity: 0.6;
+        li:first-child {
+          span {
+            font-size: 10px;
+          }
+        }
+        li:not(:first-child) {
+          span {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  div.comments {
+    .brand-comment {
+      h4 {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+    }
+    .comments-items {
+      div.comments-item {
+        margin: 6px auto;
+        width: 47%;
+        li:first-child {
+          i {
+            font-size: 22px;
+          }
+        }
+        li:last-child {
+          span {
+            font-size: 9px;
+          }
+        }
+      }
+      .col-3 {
+        width: 22%;
+      }
+    }
+    .user-comment {
+      display: none;
+      .comment-users {
+        width: 20%;
+        margin-left: -10px;
+        ul:first-child {
+          img {
+          }
+        }
+        ul:last-child {
+          li:first-child {
+            p {
+            }
+          }
+          li:last-child {
+            p {
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .containerBox {
+      .footer-one {
+        display: unset;
+        text-align: center;
+        .footer-news {
+          display: none;
+          li {
+            p {
+            }
+          }
+
+          .span-li {
+            span {
+              font-size: 9px;
+            }
+          }
+        }
+        .footer-emails {
+          text-align: center;
+          input {
+            width: 219px;
+            font-size: 14px;
+          }
+          a {
+          }
+        }
+      }
+    }
+    .container {
+      .footer-two {
+        grid-template-columns: 1fr 1fr 1fr;
+        .footer-address {
+          li:first-child {
+            h3 {
+            }
+          }
+          li:not(:first-child) {
+            font-size: 10px;
+            white-space: normal;
+          }
+        }
+        .footer-menu {
+          margin: 20px 18px 0 0;
+          li {
+          }
+        }
+        .footer-q {
+          white-space: normal;
+          li {
+          }
+        }
+
+        .footer-app {
+          display: none;
+          li:first-child {
+          }
+          li.with {
+          }
+
+          li {
+            display: inline-block;
+            padding: 8px 37px 0 0;
+            font-size: 19px;
+            i {
+            }
+          }
+        }
+      }
+    }
+
+    .footer-three {
+      display: none;
+
+      .social-icons-footer {
+        li {
+          display: none;
+          span {
+            i {
+            }
+          }
+        }
+      }
+      .last-site {
+        li {
+          img {
+          }
+        }
+      }
+    }
+  }
+}

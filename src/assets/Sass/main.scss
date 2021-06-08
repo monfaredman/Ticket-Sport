@@ -1,0 +1,36 @@
+// در این فایل تنها لینک import فایل های بالا قرار دارد.
+
+@import "./pages/Index";
+@import "./layout/header";
+@import "./layout/section1";
+@import "./layout/section2";
+@import "./layout/section3";
+@import "./layout/section4";
+@import "./layout/section5";
+@import "./layout/section6";
+@import "./layout/section7";
+@import "./layout/section8";
+@import "./layout/section9";
+@import "./layout/footer";
+@import "./base/responseve";
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+
+/* body */
+body {
+  background-color: white;
+  direction: rtl;
+}
+
+body li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=main.css.map */

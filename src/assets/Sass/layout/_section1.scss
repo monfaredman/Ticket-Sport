@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+div.top-site {
+  background-image: url("../Images/img-5.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+  height: 653px;
+  margin: auto;
+  direction: ltr;
+  .card-match {
+    border: none !important;
+    border-radius: 6px;
+    padding: 0%;
+    margin: auto 0px;
+    position: relative;
+    background-color: #fff;
+    top: 85px;
+    left: 125px;
+
+    .card-header {
+      padding: 0px !important;
+      margin: 0%;
+      img {
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+      }
+    }
+    .card-body {
+      padding: 0px !important;
+      margin-top: 8px;
+      align-items: center;
+      div {
+        width: 50%;
+        p {
+          letter-spacing: 1px;
+          font-size: 22px;
+          font-weight: 700;
+          font-family: Samim;
+          margin-bottom: 4px;
+          padding-top: 1px !important;
+        }
+        span {
+          letter-spacing: 4px;
+          font-size: small;
+          font-family: "Samim";
+          font-size: 12px;
+        }
+        img {
+          width: 39%;
+        }
+      }
+    }
+    .card-footer {
+      padding: 0px !important;
+      margin-top: 0px;
+      align-items: center;
+      direction: rtl;
+      border-top: 0ch !important;
+      background-color: white !important;
+
+      .footer-in {
+        border-top: 1px solid #8080803b;
+        width: 92%;
+        margin: 12px auto 0px auto;
+        padding: 10px 0;
+
+        div:first-child {
+          white-space: nowrap;
+          width: 25%;
+          margin-right: -8px;
+          p {
+            font-weight: 900;
+            font-size: 14px;
+            font-size: 19px;
+            font-family: "shabnam";
+          }
+        }
+        div.date-topsite {
+          width: 25%;
+          margin-right: 123px;
+          span {
+            font-size: 14px;
+            font-weight: 600;
+            font-family: "shabnam";
+          }
+        }
+        div:last-child {
+          width: 11%;
+          margin-right: 6px;
+          padding: 0;
+          text-align: center;
+          span {
+            font-size: 14px;
+            font-weight: 600;
+            font-family: "shabnam";
+          }
+        }
+      }
+      .button-topsite {
+        margin: 0px auto 0px auto;
+        padding: 1px 0 12px 0;
+        li {
+          width: 94%;
+          margin: auto;
+          a {
+            width: 100%;
+            font-weight: 300;
+            font-size: 20px;
+            i {
+              position: relative;
+              left: -110px;
+              top: 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .col-4 {
+    flex: 0 0 auto;
+    width: 25.333333%;
+  }
+}

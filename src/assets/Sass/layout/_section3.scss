@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+/* sport-category */
+div.sport-category {
+  margin: auto;
+  direction: rtl;
+  font-family: shabnam;
+  border-bottom: 1px solid rgba(194, 181, 181, 0.438);
+  padding: 0px 0px 48px 0px;
+  .brand-sport-category {
+    text-align: right;
+    margin-bottom: 20px;
+    h4 {
+    }
+  }
+  .sport-category-item {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 103px;
+    .sport-item {
+      border-radius: 10px;
+      align-items: center;
+      color: aliceblue;
+      white-space: nowrap;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin: 0px 5px 0px 7px;
+      li:first-child {
+        text-align: center;
+        span {
+          i {
+          }
+        }
+      }
+      .sport-name {
+        text-align: center;
+        width: 100%;
+        span {
+          font-size: 20px;
+          margin-left: 5px;
+          padding-left: 8px;
+          border-left: 1px solid;
+        }
+      }
+      li:last-child {
+        text-align: right;
+        width: 100%;
+        margin-right: -7px;
+        span {
+          font-size: 14px;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}

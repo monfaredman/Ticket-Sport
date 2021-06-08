@@ -1,0 +1,2651 @@
+/* head */
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+header {
+  position: absolute;
+  z-index: 20;
+  width: 100%;
+}
+
+header nav {
+  margin: 0px 0px;
+  direction: rtl;
+  position: fixed;
+}
+
+header nav .navbar-brand {
+  font-size: 30px;
+  margin: 0px;
+}
+
+header nav .navbar-brand a {
+  font-family: AArghavan;
+  letter-spacing: 5px;
+  font-size: 27px;
+  margin: auto;
+  color: white;
+  text-decoration: none;
+}
+
+header nav .collapse {
+  grid-template-columns: 2fr 3fr 172px;
+  width: 84%;
+  display: grid;
+  flex-basis: unset;
+  flex-grow: unset;
+  align-items: unset;
+}
+
+header nav .collapse .search-box {
+  margin: 13px 28px;
+}
+
+header nav .collapse .search-box input {
+  border: 2px solid white;
+  border-radius: 50px;
+  background-image: url("../Images/img-11.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 10px 8px;
+  font-family: shabnam;
+  width: 219px;
+}
+
+header nav .collapse .menu {
+  margin: 17px 30px 0px 0px;
+}
+
+header nav .collapse .menu li:not(:last-child) {
+  border-left: 1px solid white;
+}
+
+header nav .collapse .menu li {
+  display: inline;
+  padding: 0px 11px 0px 11px;
+  text-decoration: none;
+}
+
+header nav .collapse .menu li a {
+  color: #ebe2e2;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: shabnam;
+  font-size: 15px;
+}
+
+header nav .collapse .acount-box {
+  border: 1px solid white;
+  border-radius: 50px;
+  background-color: #f9fafb;
+  opacity: 0.6;
+  list-style: none;
+  margin-right: 26px;
+  height: 42px;
+  margin-top: 10px;
+}
+
+header nav .collapse .acount-box li:first-child {
+  position: relative;
+  left: 3px;
+  top: 5px;
+}
+
+header nav .collapse .acount-box li {
+  white-space: nowrap;
+  color: black;
+  font-family: shabnam;
+  display: inline-block;
+}
+
+header nav .collapse .acount-box li i {
+  font-size: 25px;
+  margin: auto;
+  padding: 2px 9px 5px 9px;
+}
+
+header nav .collapse .acount-box li.login {
+  line-height: 2px;
+  padding: 2px 0px 18px 6px;
+}
+
+header nav .collapse .acount-box li:last-child {
+  padding: 0px 0px 0px 8px;
+}
+
+header nav .collapse .acount-box .svg-inline--fa {
+  font-size: x-large;
+  vertical-align: -11.125px;
+}
+
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+div.top-site {
+  background-image: url("../Images/img-5.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+  height: 653px;
+  margin: auto;
+  direction: ltr;
+}
+
+div.top-site .card-match {
+  border: none !important;
+  border-radius: 6px;
+  padding: 0%;
+  margin: auto 0px;
+  position: relative;
+  background-color: #fff;
+  top: 85px;
+  left: 125px;
+}
+
+div.top-site .card-match .card-header {
+  padding: 0px !important;
+  margin: 0%;
+}
+
+div.top-site .card-match .card-header img {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+div.top-site .card-match .card-body {
+  padding: 0px !important;
+  margin-top: 8px;
+  align-items: center;
+}
+
+div.top-site .card-match .card-body div {
+  width: 50%;
+}
+
+div.top-site .card-match .card-body div p {
+  letter-spacing: 1px;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Samim;
+  margin-bottom: 4px;
+  padding-top: 1px !important;
+}
+
+div.top-site .card-match .card-body div span {
+  letter-spacing: 4px;
+  font-size: small;
+  font-family: "Samim";
+  font-size: 12px;
+}
+
+div.top-site .card-match .card-body div img {
+  width: 39%;
+}
+
+div.top-site .card-match .card-footer {
+  padding: 0px !important;
+  margin-top: 0px;
+  align-items: center;
+  direction: rtl;
+  border-top: 0ch !important;
+  background-color: white !important;
+}
+
+div.top-site .card-match .card-footer .footer-in {
+  border-top: 1px solid #8080803b;
+  width: 92%;
+  margin: 12px auto 0px auto;
+  padding: 10px 0;
+}
+
+div.top-site .card-match .card-footer .footer-in div:first-child {
+  white-space: nowrap;
+  width: 25%;
+  margin-right: -8px;
+}
+
+div.top-site .card-match .card-footer .footer-in div:first-child p {
+  font-weight: 900;
+  font-size: 14px;
+  font-size: 19px;
+  font-family: "shabnam";
+}
+
+div.top-site .card-match .card-footer .footer-in div.date-topsite {
+  width: 25%;
+  margin-right: 123px;
+}
+
+div.top-site .card-match .card-footer .footer-in div.date-topsite span {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "shabnam";
+}
+
+div.top-site .card-match .card-footer .footer-in div:last-child {
+  width: 11%;
+  margin-right: 6px;
+  padding: 0;
+  text-align: center;
+}
+
+div.top-site .card-match .card-footer .footer-in div:last-child span {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "shabnam";
+}
+
+div.top-site .card-match .card-footer .button-topsite {
+  margin: 0px auto 0px auto;
+  padding: 1px 0 12px 0;
+}
+
+div.top-site .card-match .card-footer .button-topsite li {
+  width: 94%;
+  margin: auto;
+}
+
+div.top-site .card-match .card-footer .button-topsite li a {
+  width: 100%;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+div.top-site .card-match .card-footer .button-topsite li a i {
+  position: relative;
+  left: -110px;
+  top: 0px;
+}
+
+div.top-site .col-4 {
+  flex: 0 0 auto;
+  width: 25.333333%;
+}
+
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+/* last-number */
+div.last-number {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px auto;
+  padding: 10px 0px 25px 0px;
+  direction: rtl;
+  font-family: shabnam;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.253);
+}
+
+div.last-number .total-tickets li {
+  margin: 0% !important;
+  padding: 0px !important;
+}
+
+div.last-number .total-tickets li span {
+  font-size: small;
+  color: gray;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+/* sport-category */
+div.sport-category {
+  margin: auto;
+  direction: rtl;
+  font-family: shabnam;
+  border-bottom: 1px solid rgba(194, 181, 181, 0.438);
+  padding: 0px 0px 48px 0px;
+}
+
+div.sport-category .brand-sport-category {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+div.sport-category .sport-category-item {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 103px;
+}
+
+div.sport-category .sport-category-item .sport-item {
+  border-radius: 10px;
+  align-items: center;
+  color: aliceblue;
+  white-space: nowrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0px 5px 0px 7px;
+}
+
+div.sport-category .sport-category-item .sport-item li:first-child {
+  text-align: center;
+}
+
+div.sport-category .sport-category-item .sport-item .sport-name {
+  text-align: center;
+  width: 100%;
+}
+
+div.sport-category .sport-category-item .sport-item .sport-name span {
+  font-size: 20px;
+  margin-left: 5px;
+  padding-left: 8px;
+  border-left: 1px solid;
+}
+
+div.sport-category .sport-category-item .sport-item li:last-child {
+  text-align: right;
+  width: 100%;
+  margin-right: -7px;
+}
+
+div.sport-category .sport-category-item .sport-item li:last-child span {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+/* hottest-match */
+div.hottest-match {
+  margin: auto;
+  direction: rtl;
+  font-family: shabnam;
+  border-bottom: 1px solid #80808033;
+  padding: 0;
+  padding-bottom: 24px;
+}
+
+div.hottest-match .brand-hottest {
+  margin: 23px 0;
+}
+
+div.hottest-match .two-matches {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+}
+
+div.hottest-match .two-matches .card {
+  border-radius: 10px;
+  margin: auto;
+}
+
+div.hottest-match .two-matches .card .card-header {
+  background-color: white !important;
+  border-bottom: none !important;
+  padding: 0px !important;
+}
+
+div.hottest-match .two-matches .card .card-header div {
+  width: 100%;
+}
+
+div.hottest-match .two-matches .card .card-header div img {
+  border-radius: 10px 10px 0 0;
+}
+
+div.hottest-match .two-matches .card .card-header div p {
+  opacity: 0.7;
+}
+
+div.hottest-match .two-matches .card .card-header div.footer-in2 {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.589);
+  width: 93%;
+  white-space: nowrap;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+div.hottest-match .two-matches .card .card-header div.footer-in2 li:last-child {
+  margin-right: 42px;
+}
+
+div.hottest-match .two-matches .card .card-body {
+  align-items: center;
+  width: 93%;
+  margin: auto;
+  border-bottom: 1px solid #80808033;
+}
+
+div.hottest-match .two-matches .card .card-body div {
+  width: 50%;
+}
+
+div.hottest-match .two-matches .card .card-body div img {
+  width: 36%;
+  text-align: center;
+}
+
+div.hottest-match .two-matches .card .card-body div h4 {
+  font-family: "Samim";
+  font-size: 27px;
+}
+
+div.hottest-match .two-matches .card .card-body div p {
+  font-family: "Samim";
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+div.hottest-match .two-matches .card .card-footer {
+  background-color: unset !important;
+  border-top: none !important;
+}
+
+div.hottest-match .two-matches .card .card-footer .firts-footer {
+  width: 100%;
+  margin: auto;
+  border-bottom: 1px solid #80808033;
+  padding: 3px 0;
+}
+
+div.hottest-match .two-matches .card .card-footer .firts-footer .seat {
+  display: inline-block;
+  width: 40%;
+}
+
+div.hottest-match .two-matches .card .card-footer .firts-footer .seat span {
+  font-size: 11px;
+  opacity: 0.6;
+  white-space: nowrap;
+}
+
+div.hottest-match .two-matches .card .card-footer .firts-footer .seat h5 {
+  font-size: 17px;
+  color: #30f6c7;
+  margin: 0;
+}
+
+div.hottest-match .two-matches .card .card-footer .firts-footer .seat span {
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+div.hottest-match .two-matches .card .card-footer .second-footer {
+  width: 100%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+div.hottest-match .two-matches .card .card-footer .second-footer .social-icons {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  padding: 0;
+  height: 51px;
+  background-color: #80808024;
+  border-radius: 4px;
+}
+
+div.hottest-match .two-matches .card .card-footer .second-footer .social-icons li:first-child {
+  width: 30%;
+  text-align: center;
+  padding: 0;
+  position: relative;
+  top: -6px;
+}
+
+div.hottest-match .two-matches .card .card-footer .second-footer .social-icons li:first-child span {
+  font-size: 11px;
+}
+
+div.hottest-match .two-matches .card .card-footer .second-footer .social-icons li:not(:first-child) {
+  width: 15%;
+  text-align: center;
+  margin-right: 5px;
+  padding: 13px 0;
+}
+
+div.hottest-match .two-matches .card .card-footer .second-footer .social-icons li:not(:first-child) span {
+  font-size: 22px;
+  opacity: 0.7;
+}
+
+div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button {
+  display: inline-block;
+  width: 49%;
+}
+
+div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button li {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button li a {
+  width: 100%;
+  margin: auto;
+}
+
+div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button li a div {
+  height: 37px;
+}
+
+div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button li a div div {
+  padding: 6px;
+}
+
+div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button li a div div span i {
+  position: relative;
+  left: -94px;
+  top: -36px;
+}
+
+div.hottest-match .two-matches .col-6 {
+  flex: 0 0 auto;
+  width: 96%;
+}
+
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+/* table-matches */
+div.table-matches {
+  margin: auto;
+  direction: rtl;
+  font-family: shabnam;
+  padding: 0px 0px 48px 0px;
+}
+
+div.table-matches .table-brand {
+  padding: 32px 0;
+}
+
+div.table-matches .table {
+  background-color: unset;
+  border-bottom-width: unset;
+}
+
+div.table-matches .table tr {
+  background-color: unset !important;
+  border-top: none !important;
+}
+
+div.table-matches .table tr td.img-first {
+  background-color: unset !important;
+  border-top: none !important;
+  width: 6%;
+}
+
+div.table-matches .table td.img-second {
+  background-color: unset !important;
+  border-top: none !important;
+  width: 6%;
+}
+
+div.table-matches .table td.img-second li img {
+  margin: 0 -95px;
+}
+
+div.table-matches .table td.space {
+  background-color: unset !important;
+  border-top: none !important;
+  padding-top: 29px;
+}
+
+div.table-matches .table td.space span {
+  width: 7%;
+}
+
+div.table-matches .table td.team-first {
+  background-color: unset !important;
+  border-top: none !important;
+  padding-top: 29px;
+  width: 12%;
+}
+
+div.table-matches .table td.team-second {
+  background-color: unset !important;
+  border-top: none !important;
+  padding-top: 29px;
+}
+
+div.table-matches .table td.date-match {
+  background-color: unset !important;
+  border-top: none !important;
+  padding-top: 29px;
+}
+
+div.table-matches .table td.date-match li {
+  margin: 0 0px 0 0;
+}
+
+div.table-matches .table td.time-match {
+  background-color: unset !important;
+  border-top: none !important;
+  padding-top: 29px;
+}
+
+div.table-matches .table td.buy-ticket {
+  background-color: unset !important;
+  border-top: none !important;
+  padding-top: 29px;
+  text-align: left;
+}
+
+div.table-matches .table td.buy-ticket li a {
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+div.table-matches .table td.buy-ticket li a i {
+  position: relative;
+  top: 1px;
+  right: 14px;
+}
+
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+/* special-match */
+div.special-match {
+  width: 100%;
+  height: 687px;
+  background-image: url("../Images/img-1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  direction: ltr;
+  font-family: shabnam;
+}
+
+div.special-match .special-back {
+  margin: auto;
+}
+
+div.special-match .special-back .brand-special {
+  text-align: right;
+  padding-top: 20px;
+}
+
+div.special-match .special-back .brand-special h5 {
+  font-size: 27px;
+}
+
+div.special-match .special-back .brand-special span {
+  font-size: 15px;
+}
+
+div.special-match .special-back .row .card-match {
+  border: none !important;
+  border-radius: 6px;
+  padding: 0%;
+  margin: auto 11px;
+  position: relative;
+  background-color: #fff;
+  top: 54px;
+  top: 54px;
+  left: 0;
+}
+
+div.special-match .special-back .row .card-match .card-header {
+  padding: 0px !important;
+  margin: 0%;
+}
+
+div.special-match .special-back .row .card-match .card-header img {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+div.special-match .special-back .row .card-match .card-body {
+  padding: 0px !important;
+  margin-top: 8px;
+  align-items: center;
+}
+
+div.special-match .special-back .row .card-match .card-body div {
+  width: 50%;
+}
+
+div.special-match .special-back .row .card-match .card-body div p {
+  letter-spacing: 1px;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: Samim;
+  margin-bottom: 4px;
+  padding-top: 1px !important;
+}
+
+div.special-match .special-back .row .card-match .card-body div span {
+  letter-spacing: 4px;
+  font-size: small;
+  font-family: "Samim";
+  font-size: 12px;
+}
+
+div.special-match .special-back .row .card-match .card-body div img {
+  width: 39%;
+}
+
+div.special-match .special-back .row .card-match .card-footer {
+  padding: 0px !important;
+  margin-top: 0px;
+  align-items: center;
+  direction: rtl;
+  border-top: 0ch !important;
+  background-color: white !important;
+}
+
+div.special-match .special-back .row .card-match .card-footer .footer-in {
+  border-top: 1px solid #8080803b;
+  width: 92%;
+  margin: 12px auto 0px auto;
+  padding: 10px 0;
+}
+
+div.special-match .special-back .row .card-match .card-footer .footer-in div:first-child {
+  white-space: nowrap;
+  width: 25%;
+  margin-right: -8px;
+}
+
+div.special-match .special-back .row .card-match .card-footer .footer-in div:first-child p {
+  font-weight: 900;
+  font-size: 14px;
+  font-size: 19px;
+  font-family: "shabnam";
+}
+
+div.special-match .special-back .row .card-match .card-footer .footer-in div.date-topsite {
+  width: 25%;
+  margin-right: 123px;
+}
+
+div.special-match .special-back .row .card-match .card-footer .footer-in div.date-topsite span {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "shabnam";
+}
+
+div.special-match .special-back .row .card-match .card-footer .footer-in div:last-child {
+  width: 11%;
+  margin-right: 6px;
+  padding: 0;
+  text-align: center;
+}
+
+div.special-match .special-back .row .card-match .card-footer .footer-in div:last-child span {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "shabnam";
+}
+
+div.special-match .special-back .row .card-match .card-footer .button-topsite {
+  margin: 0px auto 0px auto;
+  padding: 1px 0 12px 0;
+}
+
+div.special-match .special-back .row .card-match .card-footer .button-topsite li {
+  width: 94%;
+  margin: auto;
+}
+
+div.special-match .special-back .row .card-match .card-footer .button-topsite li a {
+  width: 100%;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+div.special-match .special-back .row .card-match .card-footer .button-topsite li a i {
+  position: relative;
+  left: -110px;
+  top: 0px;
+}
+
+div.special-match .special-back .row .col-4 {
+  flex: 0 0 auto;
+  width: 30.333333%;
+}
+
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+/* sport-magazine */
+div.sport-magazine {
+  margin: auto;
+  direction: rtl;
+  font-family: shabnam;
+  width: 100%;
+  padding: 0;
+  border-bottom: 1px solid #80808033;
+  padding-bottom: 34px;
+}
+
+div.sport-magazine .magazine-brand {
+  text-align: right;
+  padding-top: 20px;
+}
+
+div.sport-magazine .magazine-brand h4 {
+  font-size: 26px;
+  font-weight: 800;
+}
+
+div.sport-magazine .magazine-brand span {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+div.sport-magazine .row .card-match {
+  border: none !important;
+  border-radius: 10px;
+  padding: 0%;
+  margin: auto 16px;
+  position: relative;
+  background-color: #fff;
+  top: 54px;
+  top: 54px;
+  left: 0;
+  box-shadow: 0px 3px 10px 1px #8080803d;
+}
+
+div.sport-magazine .row .card-match .card-header {
+  padding: 0px !important;
+  margin: 0%;
+}
+
+div.sport-magazine .row .card-match .card-header img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+div.sport-magazine .row .card-match .card-body {
+  padding: 0px !important;
+  margin-top: 8px;
+  align-items: center;
+}
+
+div.sport-magazine .row .card-match .card-body li:first-child {
+  margin-right: 12px;
+}
+
+div.sport-magazine .row .card-match .card-body li:first-child span {
+  font-family: "Samim";
+  font-weight: 600;
+  word-break: break-word;
+  font-size: 20px;
+  word-spacing: 1px;
+}
+
+div.sport-magazine .row .card-match .card-body .date-magazine {
+  margin-right: 12px;
+}
+
+div.sport-magazine .row .card-match .card-body .date-magazine p {
+  font-family: "Samim";
+  font-weight: 400;
+  word-break: break-word;
+  font-size: 15px;
+  margin-top: 6px;
+  opacity: 0.7;
+  text-align: right;
+  word-spacing: 1px;
+}
+
+div.sport-magazine .row .card-match .card-body li:last-child {
+  margin-right: 12px;
+}
+
+div.sport-magazine .row .card-match .card-body li:last-child span {
+  font-family: "Samim";
+  font-weight: 400;
+  word-break: break-word;
+  font-size: 15px;
+  word-spacing: 1px;
+  opacity: 0.9;
+}
+
+div.sport-magazine .row .card-match .card-footer {
+  padding: 0px !important;
+  margin-top: 0px;
+  align-items: center;
+  direction: rtl;
+  border-top: 0ch !important;
+  background-color: white !important;
+  border-radius: 10px;
+}
+
+div.sport-magazine .row .card-match .card-footer .button-topsite {
+  margin: 0px auto 0px auto;
+  padding: 1px 0 12px 0;
+}
+
+div.sport-magazine .row .card-match .card-footer .button-topsite li {
+  width: 94%;
+  margin: auto;
+}
+
+div.sport-magazine .row .card-match .card-footer .button-topsite li a {
+  width: 100%;
+  font-weight: 100;
+  font-size: 17px;
+  font-family: "Samim";
+}
+
+div.sport-magazine .row .card-match .card-footer .button-topsite li a i {
+  position: relative;
+  left: -103px;
+  top: 2px;
+}
+
+div.sport-magazine .row .col-4 {
+  flex: 0 0 auto;
+  width: 30.333333%;
+}
+
+div.sport-magazine .social-icons {
+  margin-top: 50px;
+}
+
+div.sport-magazine .social-icons .social-icons-magazine {
+  display: inline-block;
+  width: 35%;
+  padding: 10px 23px 0px 0px;
+  opacity: 0.6;
+}
+
+div.sport-magazine .social-icons .social-icons-magazine li:first-child {
+  display: inline-block;
+  width: 26%;
+  font-size: 12px;
+}
+
+div.sport-magazine .social-icons .social-icons-magazine li:not(:first-child) {
+  display: inline-block;
+  width: 8%;
+  padding: 10px 19px 0px 0px;
+}
+
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+/* comments */
+div.comments {
+  margin: auto;
+  direction: rtl;
+  font-family: shabnam;
+  padding: 0;
+  border-bottom: 1px solid #80808033;
+  padding-bottom: 34px;
+}
+
+div.comments .brand-comment {
+  padding: 33px 0;
+}
+
+div.comments .brand-comment h4 {
+  font-size: 25px;
+  color: black;
+  font-weight: 500;
+  text-align: right;
+}
+
+div.comments .brand-comment p {
+  font-size: 13px;
+  color: black;
+  opacity: 0.4;
+  text-align: right;
+  font-weight: 100;
+}
+
+div.comments .comments-items {
+  margin-top: -7px;
+}
+
+div.comments .comments-items div.comments-item {
+  background-image: url("../Images/img-60.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  border-radius: 14px;
+  margin: 0px 11px;
+}
+
+div.comments .comments-items div.comments-item li:first-child {
+  text-align: right;
+  margin: 14px 19px 0px 0px;
+}
+
+div.comments .comments-items div.comments-item li:first-child i {
+  color: #1ea11a;
+  opacity: 0.8;
+  font-size: 39px;
+}
+
+div.comments .comments-items div.comments-item li:last-child {
+  text-align: right;
+  margin: 29px 19px 124px 0px;
+}
+
+div.comments .comments-items div.comments-item li:last-child span {
+  font-weight: 500;
+  text-align: right;
+  direction: rtl;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+  color: white;
+  font-family: "Samim";
+}
+
+div.comments .comments-items .col-3 {
+  width: 23%;
+}
+
+div.comments .user-comment .comment-users {
+  width: 13%;
+  display: inline-block;
+  margin-left: 109px;
+  margin-right: 28px;
+}
+
+div.comments .user-comment .comment-users ul:first-child {
+  display: inline-block;
+  width: 50%;
+}
+
+div.comments .user-comment .comment-users ul:first-child img {
+  border-radius: 50%;
+  margin: -19px 16px 0 0;
+}
+
+div.comments .user-comment .comment-users ul:last-child {
+  display: inline-block;
+  width: 50%;
+}
+
+div.comments .user-comment .comment-users ul:last-child li:first-child p {
+  font-size: 14px;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+div.comments .user-comment .comment-users ul:last-child li:last-child p {
+  font-size: 11px;
+  white-space: nowrap;
+  font-weight: 400;
+  opacity: 0.4;
+  margin: -15px 0 0 0;
+}
+
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+/* support */
+div.support {
+  margin: 50px auto;
+  direction: rtl;
+  font-family: shabnam;
+}
+
+div.support .support-brand h4 {
+  margin: 0px 0px 0px 0px;
+  direction: rtl;
+  text-align: right;
+  white-space: nowrap;
+  font-size: 20px;
+  color: black;
+  font-weight: 800;
+}
+
+div.support .support-brand p {
+  margin: 2px 0;
+  direction: rtl;
+  text-align: right;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+div.support .support-items .support-item {
+  display: inline-block;
+  width: 18%;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+/* footer */
+footer {
+  margin: auto;
+  padding: 0px 0px 0px 0px;
+  direction: rtl;
+  font-family: shabnam;
+  display: grid;
+  grid-template-rows: 100px 200px 100px;
+}
+
+footer .containerBox {
+  background-color: #06ca58;
+  width: 100%;
+}
+
+footer .containerBox .footer-one {
+  margin: auto;
+  padding: 0px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer .containerBox .footer-one .footer-news {
+  padding: 27px 0;
+}
+
+footer .containerBox .footer-one .footer-news li {
+  display: block;
+}
+
+footer .containerBox .footer-one .footer-news li p {
+  white-space: nowrap;
+  font-size: 14px;
+  color: #f7f7f7;
+  text-align: right;
+  margin: 0;
+}
+
+footer .containerBox .footer-one .footer-news .span-li {
+  text-align: right;
+  display: block;
+}
+
+footer .containerBox .footer-one .footer-news .span-li span {
+  white-space: nowrap;
+  font-size: 12px;
+  color: black;
+  opacity: 0.6;
+}
+
+footer .containerBox .footer-one .footer-emails {
+  margin: 32px 0;
+  text-align: left;
+  border-radius: 6px;
+}
+
+footer .containerBox .footer-one .footer-emails input {
+  margin: -3px -65px;
+  width: 409px;
+}
+
+footer .containerBox .footer-one .footer-emails a {
+  position: relative;
+  left: -1px;
+  font-size: 12px;
+  width: 89px;
+}
+
+footer .container {
+  padding: 0;
+}
+
+footer .container .footer-two {
+  margin: auto;
+  padding: 0px 0px 0px 0px;
+  background-color: #fdfdfd;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer .container .footer-two .footer-address {
+  padding: 0px 0px 0px 0px;
+  align-items: center;
+  direction: rtl;
+}
+
+footer .container .footer-two .footer-address li:first-child {
+  direction: rtl;
+  text-align: right;
+  white-space: nowrap;
+  font-size: 10px;
+  font-weight: 900;
+}
+
+footer .container .footer-two .footer-address li:first-child h3 {
+  margin-bottom: 19px;
+  font-size: 31px;
+  padding: 21px 0 0px 0;
+  font-weight: 900;
+  font-family: "AArghavan";
+  background: -webkit-linear-gradient(45deg, #32f800, #e4f211);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer .container .footer-two .footer-address li:not(:first-child) {
+  font-size: 12px;
+  white-space: nowrap;
+  padding: 3px 0;
+  font-weight: 500;
+}
+
+footer .container .footer-two .footer-menu {
+  padding: 0px 0px 0px 0px;
+  align-items: center;
+  direction: rtl;
+  margin: 20px 113px 0 0;
+}
+
+footer .container .footer-two .footer-menu li {
+  padding: 10px 0px 0px 0px;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+footer .container .footer-two .footer-q {
+  margin: 20px 0 0 0;
+}
+
+footer .container .footer-two .footer-q li {
+  padding: 10px 0px 0px 0px;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+footer .container .footer-two .footer-app {
+  padding: 0px 0px 0px 0px;
+  direction: rtl;
+  text-align: left;
+  margin: 0 0 7px 0;
+}
+
+footer .container .footer-two .footer-app li:first-child {
+  padding: 6px 0px 0px 0px;
+  direction: rtl;
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+footer .container .footer-two .footer-app li.with {
+  padding: 6px 77px 0px 0px;
+  direction: rtl;
+  white-space: nowrap;
+  font-size: 11px;
+  font-weight: 100;
+  opacity: 0.6;
+  display: block;
+}
+
+footer .container .footer-two .footer-app li {
+  display: inline-block;
+  display: inline-block;
+  padding: 8px 45px 0 0;
+  font-size: 30px;
+}
+
+footer .footer-three {
+  padding: 0px 0px 0px 0px;
+  background-color: white;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer .footer-three .social-icons-footer {
+  opacity: 0.6;
+}
+
+footer .footer-three .social-icons-footer li {
+  display: inline-block;
+  font-size: 23px;
+  padding-left: 25px;
+}
+
+footer .footer-three .last-site {
+  text-align: left;
+}
+
+footer .footer-three .last-site li {
+  display: inline-block;
+  width: 13%;
+}
+
+@media only screen and (min-width: 1200px) {
+  div.top-site .col-4 {
+    flex: 0 0 auto;
+    width: 28.333333%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  header nav .collapse .search-box {
+    margin: 13px 5px;
+  }
+  header nav .collapse .search-box input {
+    width: 200px;
+  }
+  header nav .collapse .menu {
+    margin: 17px -8px 0px 0px;
+  }
+  header nav .collapse .acount-box {
+    margin: 12px auto 10px auto;
+    text-align: center;
+  }
+  div.top-site .card-match .card-body div p {
+    font-size: 19px;
+  }
+  div.top-site .card-match .card-body div span {
+    font-size: 10px;
+  }
+  div.top-site .card-match .card-footer .footer-in div.date-topsite {
+    margin-right: 103px;
+  }
+  div.top-site .card-match .card-footer .footer-in div:last-child {
+    margin-right: 0px;
+  }
+  div.top-site .card-match .card-footer .button-topsite li a i {
+    left: -82px;
+  }
+  div.top-site .col-4 {
+    flex: 0 0 auto;
+    width: 28.333333%;
+  }
+  div.sport-category .sport-category-item {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button li a div div span i {
+    left: -77px;
+  }
+  div.table-matches .table {
+    background-color: unset !important;
+    border-top: none !important;
+  }
+  div.table-matches .table td.img-second li img {
+    margin: 0 -66px;
+  }
+  div.special-match .special-back .row .card-match .card-body div p {
+    font-size: 18px;
+  }
+  div.special-match .special-back .row .card-match .card-body div span {
+    font-size: 11px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .footer-in div:first-child p {
+    font-size: 13px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .footer-in div.date-topsite {
+    margin-right: 101px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .footer-in div.date-topsite span {
+    font-size: 11px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .footer-in div:last-child {
+    margin-right: 0px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .footer-in div:last-child span {
+    font-size: 11px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .button-topsite li a i {
+    left: -71px;
+  }
+  div.special-match .special-back .row .col-4 {
+    flex: 0 0 auto;
+    width: 28.333333%;
+  }
+  div.sport-magazine .row .col-4 {
+    flex: 0 0 auto;
+    width: 29.333333%;
+  }
+  div.comments .comments-items .col-3 {
+    width: 22%;
+  }
+  div.comments .user-comment .comment-users {
+    width: 14%;
+    margin-left: 69px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header nav a {
+    color: white !important;
+    text-decoration: none !important;
+  }
+  header nav #collapseExample {
+    position: fixed;
+    top: 0px;
+    background-color: rebeccapurple;
+    left: 0px;
+    height: 100%;
+    width: 39%;
+    z-index: -3;
+    transition: 0.15s;
+  }
+  header nav #collapseExample .search-box {
+    margin: 95px auto 10px auto;
+    text-align: center;
+  }
+  header nav #collapseExample .search-box input {
+    width: 100%;
+    border-radius: 0;
+  }
+  header nav #collapseExample .menu {
+    margin: 0px auto;
+  }
+  header nav #collapseExample .menu li {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    width: 100%;
+    border: none;
+    text-decoration: none;
+  }
+  header nav #collapseExample .acount-box {
+    border: 1px solid white;
+    border-radius: 0px;
+    background-color: #f9fafb;
+    opacity: 0.6;
+    margin: 22px auto;
+    width: 100%;
+    text-align: center;
+  }
+  header nav #collapseExample .acount-box li i {
+    display: none;
+  }
+  header nav #collapseExample .acount-box li.login {
+    border-left: none !important;
+    padding: 0px 7px !important;
+  }
+  header nav #collapseExample .acount-box li:last-child {
+    padding: 0px 0px !important;
+  }
+  header nav .collapsing {
+    height: 0 !important;
+  }
+  header nav .collapse:not(.show) {
+    display: none;
+  }
+  header nav div.show {
+    display: block;
+  }
+  div.top-site .card-match .card-body div p {
+    font-size: 17px;
+  }
+  div.top-site .card-match .card-body div span {
+    font-size: 10px;
+  }
+  div.top-site .card-match .card-footer .footer-in div:first-child {
+    white-space: nowrap;
+    width: 25%;
+    margin-right: -8px;
+    padding-top: 5px;
+  }
+  div.top-site .card-match .card-footer .footer-in div:first-child p {
+    font-weight: 900;
+    font-size: 12px;
+    font-size: 13px;
+    font-family: "shabnam";
+  }
+  div.top-site .card-match .card-footer .footer-in div.date-topsite {
+    margin-right: 68px;
+  }
+  div.top-site .card-match .card-footer .footer-in div.date-topsite span {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "shabnam";
+  }
+  div.top-site .card-match .card-footer .footer-in div:last-child {
+    margin-right: 7px;
+  }
+  div.top-site .card-match .card-footer .footer-in div:last-child span {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "shabnam";
+  }
+  div.top-site .card-match .card-footer .button-topsite {
+    margin: 0px auto 0px auto;
+    padding: 8px 0 10px 0;
+  }
+  div.top-site .card-match .card-footer .button-topsite li a {
+    width: 100%;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  div.top-site .card-match .card-footer .button-topsite li a i {
+    left: -64px;
+  }
+  div.top-site .col-4 {
+    flex: 0 0 auto;
+    width: 32.333333%;
+  }
+  div.sport-category .sport-category-item {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  div.sport-category .sport-category-item .sport-item li:last-child {
+    margin-right: -2px !important;
+  }
+  div.hottest-match .two-matches .card .card-header div p {
+    font-size: 14px;
+    margin: 0;
+    padding: 5px 0;
+  }
+  div.hottest-match .two-matches .card .card-header div h6 {
+    font-size: 13px;
+  }
+  div.hottest-match .two-matches .card .card-body div h4 {
+    font-size: 22px;
+  }
+  div.hottest-match .two-matches .card .card-body div p {
+    font-size: 10px;
+  }
+  div.hottest-match .two-matches .card .card-footer .firts-footer .seat h5 {
+    font-size: 13px;
+  }
+  div.hottest-match .two-matches .card .card-footer .firts-footer .seat span {
+    font-size: 8px;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .social-icons {
+    height: 44px;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .social-icons li:first-child span {
+    font-size: 8px;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .social-icons li:not(:first-child) {
+    width: 11%;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .social-icons li:not(:first-child) span {
+    font-size: 16px;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button li a div {
+    height: 30px;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button li a div div span i {
+    position: relative;
+    left: -48px;
+    top: -29px;
+  }
+  div.table-matches .table {
+    background-color: unset !important;
+    border-bottom-width: unset !important;
+  }
+  div.table-matches .table td.img-second li img {
+    margin: 0 -27px;
+  }
+  div.table-matches .table td.space {
+    padding-top: 13px;
+  }
+  div.table-matches .table td.space span {
+    white-space: nowrap;
+  }
+  div.table-matches .table td.team-first {
+    padding-top: 13px;
+  }
+  div.table-matches .table td.team-first li span {
+    white-space: nowrap;
+  }
+  div.table-matches .table td.team-second {
+    padding-top: 13px;
+  }
+  div.table-matches .table td.team-second li span {
+    white-space: nowrap;
+  }
+  div.table-matches .table td.date-match {
+    padding-top: 13px;
+  }
+  div.table-matches .table td.date-match li span {
+    white-space: nowrap;
+  }
+  div.table-matches .table td.time-match {
+    padding-top: 13px;
+  }
+  div.table-matches .table td.time-match li span {
+    white-space: nowrap;
+  }
+  div.table-matches .table td.buy-ticket {
+    padding-top: 13px;
+    white-space: nowrap;
+  }
+  div.special-match .card-match .card-body div p {
+    font-size: 17px;
+  }
+  div.special-match .card-match .card-body div span {
+    font-size: 10px;
+  }
+  div.special-match .card-match .card-footer .footer-in div:first-child {
+    white-space: nowrap;
+    width: 25%;
+    margin-right: -8px;
+    padding-top: 5px;
+  }
+  div.special-match .card-match .card-footer .footer-in div:first-child p {
+    font-weight: 900;
+    font-size: 12px;
+    font-size: 13px;
+    font-family: "shabnam";
+  }
+  div.special-match .card-match .card-footer .footer-in div.date-topsite {
+    margin-right: 68px;
+  }
+  div.special-match .card-match .card-footer .footer-in div.date-topsite span {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "shabnam";
+  }
+  div.special-match .card-match .card-footer .footer-in div:last-child {
+    margin-right: 7px;
+  }
+  div.special-match .card-match .card-footer .footer-in div:last-child span {
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "shabnam";
+  }
+  div.special-match .card-match .card-footer .button-topsite {
+    margin: 0px auto 0px auto;
+    padding: 8px 0 10px 0;
+  }
+  div.special-match .card-match .card-footer .button-topsite li a {
+    width: 100%;
+    font-weight: 300;
+    font-size: 16px;
+  }
+  div.special-match .card-match .card-footer .button-topsite li a i {
+    left: -64px;
+  }
+  div.special-match .col-4 {
+    flex: 0 0 auto;
+    width: 32.333333%;
+  }
+  div.sport-magazine .row .card-match .card-body li:first-child span {
+    font-size: 14px;
+  }
+  div.sport-magazine .row .card-match .card-body .date-magazine p {
+    font-size: 11px;
+  }
+  div.sport-magazine .row .card-match .card-body li:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90%;
+  }
+  div.sport-magazine .row .card-match .card-body li:last-child span {
+    font-size: 12px;
+  }
+  div.sport-magazine .row .card-match .card-footer .button-topsite li a {
+    font-size: 11px;
+  }
+  div.sport-magazine .row .card-match .card-footer .button-topsite li a i {
+    left: -57px;
+  }
+  div.sport-magazine .row .col-4 {
+    flex: 0 0 auto;
+    width: 28.333333%;
+  }
+  div.comments .comments-items div.comments-item {
+    margin: 29px auto;
+    width: 22%;
+  }
+  div.comments .comments-items .col-3 {
+    width: 22%;
+  }
+  div.comments .user-comment .comment-users {
+    width: 20%;
+    margin-left: -10px;
+  }
+  footer .containerBox .footer-one .footer-emails input {
+    width: 295px;
+  }
+  footer .container .footer-two .footer-menu {
+    margin: 20px 18px 0 0;
+  }
+  footer .container .footer-two .footer-q {
+    white-space: nowrap;
+  }
+  footer .container .footer-two .footer-app li {
+    display: inline-block;
+    padding: 8px 37px 0 0;
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header nav .collapse .acount-box {
+    height: 8%;
+  }
+  header nav .collapse .acount-box li:first-child {
+    border-left: none !important;
+    padding: 0px 7px !important;
+  }
+  header nav .collapse .acount-box li {
+    padding: 0px;
+  }
+  header nav .collapse .acount-box li.login {
+    border-left: none !important;
+    padding: 0px 7px !important;
+  }
+  header nav .collapse .acount-box li:last-child {
+    padding: 0px 0px !important;
+  }
+  div.top-site {
+    height: 510px;
+  }
+  div.top-site .card-match {
+    top: 93px;
+    left: 66px;
+  }
+  div.top-site .card-match .card-body div p {
+    font-size: 14px;
+  }
+  div.top-site .card-match .card-body div span {
+    letter-spacing: 2px;
+    font-size: 8px;
+  }
+  div.top-site .card-match .card-footer .footer-in {
+    margin: auto !important;
+    padding-top: 5px;
+  }
+  div.top-site .card-match .card-footer div:first-child {
+    margin-right: -8px;
+    padding-top: 9px;
+  }
+  div.top-site .card-match .card-footer div:first-child p {
+    font-size: 9px !important;
+  }
+  div.top-site .card-match .card-footer div.date-topsite {
+    margin-right: 53px;
+    white-space: nowrap;
+  }
+  div.top-site .card-match .card-footer div.date-topsite span {
+    font-size: 10px !important;
+  }
+  div.top-site .card-match .card-footer div:last-child {
+    margin-right: 3px !important;
+  }
+  div.top-site .card-match .card-footer div:last-child span {
+    font-size: 10px !important;
+  }
+  div.top-site .card-match .button-topsite {
+    margin: 0px auto 0px auto;
+    padding: 8px 0 10px 0;
+  }
+  div.top-site .card-match .button-topsite li a {
+    width: 100%;
+    font-weight: 300;
+    font-size: 14px !important;
+  }
+  div.top-site .card-match .button-topsite li a i {
+    left: -47px !important;
+  }
+  div.top-site .col-4 {
+    width: 35.333333%;
+  }
+  div.sport-category .sport-category-item {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  div.sport-category .sport-category-item .sport-item li:first-child span i {
+    font-size: 26px;
+  }
+  div.sport-category .sport-category-item .sport-item .sport-name span {
+    font-size: 12px;
+  }
+  div.sport-category .sport-category-item .sport-item li:last-child {
+    margin-right: -2px !important;
+  }
+  div.sport-category .sport-category-item .sport-item li:last-child span {
+    font-size: 12px;
+  }
+  div.hottest-match {
+    padding: 0 0 24px 0;
+  }
+  div.hottest-match .brand-hottest {
+    margin: 23px 0;
+  }
+  div.hottest-match .two-matches .card .card-header div p {
+    font-size: 10px;
+  }
+  div.hottest-match .two-matches .card .card-header div h6 {
+    font-size: 9px;
+  }
+  div.hottest-match .two-matches .card .card-body div h4 {
+    font-size: 13px;
+  }
+  div.hottest-match .two-matches .card .card-body div p {
+    font-size: 7px;
+  }
+  div.hottest-match .two-matches .card .card-footer .firts-footer .seat h5 {
+    font-size: 10px;
+  }
+  div.hottest-match .two-matches .card .card-footer .firts-footer .seat span {
+    font-size: 6px;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .social-icons {
+    height: 44px;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .social-icons li:first-child span {
+    font-size: 7px;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .social-icons li:not(:first-child) {
+    width: 11%;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .social-icons li:not(:first-child) span {
+    font-size: 11px;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button li a div {
+    height: 27px;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button li a div div {
+    font-size: 10;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button li a div div span i {
+    position: relative;
+    left: -35px;
+    top: -29px;
+  }
+  div.table-matches .table {
+    background-color: unset !important;
+    border-bottom-width: unset !important;
+  }
+  div.table-matches .table tr td.img-first {
+    width: 8%;
+  }
+  div.table-matches .table td.img-second {
+    width: 8%;
+  }
+  div.table-matches .table td.img-second li img {
+    margin: 0 -8px;
+  }
+  div.table-matches .table td.space span {
+    white-space: nowrap;
+    font-size: 12px;
+  }
+  div.table-matches .table td.team-first {
+    padding-top: 18px;
+    font-size: 12px;
+  }
+  div.table-matches .table td.team-first li span {
+    white-space: nowrap;
+    font-size: 12px;
+  }
+  div.table-matches .table td.team-second li span {
+    white-space: nowrap;
+    font-size: 12px;
+  }
+  div.table-matches .table td.date-match li span {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  div.table-matches .table td.time-match {
+    padding-top: 18px;
+    font-size: 12px;
+  }
+  div.table-matches .table td.time-match li span {
+    white-space: nowrap;
+    font-size: 12px;
+  }
+  div.table-matches .table td.buy-ticket {
+    padding-top: 18px;
+    white-space: nowrap;
+    font-size: 12px;
+  }
+  div.special-match .special-back .row .card-match .card-body div p {
+    font-size: 18px;
+  }
+  div.special-match .special-back .row .card-match .card-body div span {
+    font-size: 11px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .footer-in div:first-child p {
+    font-size: 13px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .footer-in div.date-topsite {
+    margin-right: 90px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .footer-in div.date-topsite span {
+    font-size: 11px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .footer-in div:last-child {
+    margin-right: 0px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .footer-in div:last-child span {
+    font-size: 11px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .button-topsite li a i {
+    left: -63px;
+  }
+  div.special-match .special-back .row .col-4 {
+    flex: 0 0 auto;
+    width: 45.333333% !important;
+  }
+  div.sport-magazine .row .card-match .card-body li:first-child {
+    margin: 0 5px;
+  }
+  div.sport-magazine .row .card-match .card-body li:first-child span {
+    font-size: 11px;
+  }
+  div.sport-magazine .row .card-match .card-body .date-magazine p {
+    font-size: 8px;
+  }
+  div.sport-magazine .row .card-match .card-body li:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90%;
+  }
+  div.sport-magazine .row .card-match .card-body li:last-child span {
+    font-size: 9px;
+  }
+  div.sport-magazine .row .card-match .card-footer .button-topsite li a {
+    font-size: 11px;
+  }
+  div.sport-magazine .row .card-match .card-footer .button-topsite li a i {
+    left: -57px;
+  }
+  div.sport-magazine .row .col-4 {
+    flex: 0 0 auto;
+    width: 27.333333%;
+  }
+  div.sport-magazine .social-icons .social-icons-magazine {
+    width: 36%;
+    padding: 10px 32px 0px 0px;
+    opacity: 0.6;
+  }
+  div.sport-magazine .social-icons .social-icons-magazine li:first-child span {
+    font-size: 10px;
+  }
+  div.sport-magazine .social-icons .social-icons-magazine li:not(:first-child) span {
+    font-size: 12px;
+  }
+  div.comments .comments-items div.comments-item {
+    margin: 6px auto;
+    width: 32%;
+  }
+  div.comments .comments-items .col-3 {
+    width: 22%;
+  }
+  div.comments .user-comment {
+    display: none;
+  }
+  div.comments .user-comment .comment-users {
+    width: 20%;
+    margin-left: -10px;
+  }
+  footer .containerBox .footer-one .footer-news .span-li span {
+    font-size: 9px;
+  }
+  footer .containerBox .footer-one .footer-emails input {
+    width: 219px;
+    font-size: 14px;
+  }
+  footer .container .footer-two .footer-address li:not(:first-child) {
+    font-size: 10px;
+    white-space: normal;
+  }
+  footer .container .footer-two .footer-menu {
+    margin: 20px 18px 0 0;
+  }
+  footer .container .footer-two .footer-q {
+    white-space: nowrap;
+  }
+  footer .container .footer-two .footer-app li {
+    display: inline-block;
+    padding: 8px 37px 0 0;
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  header nav .collapse .acount-box {
+    height: 8%;
+  }
+  header nav .collapse .acount-box li:first-child {
+    padding: 0px !important;
+  }
+  header nav .collapse .acount-box li {
+    padding: 0px !important;
+  }
+  header nav .collapse .acount-box li i {
+    display: none;
+  }
+  header nav .collapse .acount-box li.login {
+    border-left: none !important;
+    padding: 18px 0px !important;
+  }
+  header nav .collapse .acount-box li:last-child {
+    padding: 0px 8px 0px 8px !important;
+  }
+  div.top-site {
+    height: 510px;
+  }
+  div.top-site .card-match {
+    top: 93px;
+    left: 33px;
+  }
+  div.top-site .card-match .card-body div p {
+    font-size: 11px;
+    margin-bottom: -5px;
+  }
+  div.top-site .card-match .card-body div span {
+    letter-spacing: 1px;
+    font-size: 7px;
+  }
+  div.top-site .card-match .card-footer .footer-in {
+    margin: auto !important;
+    padding-top: 5px;
+  }
+  div.top-site .card-match .card-footer div:first-child {
+    margin-right: -8px;
+    padding-top: 10px !important;
+  }
+  div.top-site .card-match .card-footer div:first-child p {
+    font-size: 8px !important;
+  }
+  div.top-site .card-match .card-footer div.date-topsite {
+    margin-right: 44px !important;
+    white-space: nowrap;
+  }
+  div.top-site .card-match .card-footer div.date-topsite span {
+    font-size: 7px !important;
+  }
+  div.top-site .card-match .card-footer div:last-child {
+    margin-right: 3px !important;
+  }
+  div.top-site .card-match .card-footer div:last-child span {
+    font-size: 7px !important;
+  }
+  div.top-site .card-match .button-topsite {
+    margin: 0px auto 0px auto;
+    padding: 0 0 7px 0 !important;
+  }
+  div.top-site .card-match .button-topsite li a {
+    width: 100%;
+    font-weight: 300;
+    font-size: 14px !important;
+  }
+  div.top-site .card-match .button-topsite li a i {
+    left: -17px !important;
+  }
+  div.top-site .col-4 {
+    width: 39.333333%;
+  }
+  div.last-number {
+    display: block !important;
+  }
+  div.last-number .total-tickets {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  div.sport-category .brand-sport-category {
+    text-align: center;
+  }
+  div.sport-category .brand-sport-category h4 {
+    font-size: 16px;
+  }
+  div.sport-category .sport-category-item {
+    display: block;
+  }
+  div.sport-category .sport-category-item .sport-item li:first-child span i {
+    font-size: 26px;
+  }
+  div.sport-category .sport-category-item .sport-item .sport-name span {
+    font-size: 12px;
+  }
+  div.sport-category .sport-category-item .sport-item li:last-child {
+    margin-right: -2px !important;
+  }
+  div.sport-category .sport-category-item .sport-item li:last-child span {
+    font-size: 12px;
+  }
+  div.hottest-match {
+    padding: 0 0 24px 0;
+  }
+  div.hottest-match .brand-hottest {
+    margin: 23px 0;
+    text-align: center;
+  }
+  div.hottest-match .two-matches .card .card-header div p {
+    font-size: 8px;
+  }
+  div.hottest-match .two-matches .card .card-header div h6 {
+    font-size: 7px;
+  }
+  div.hottest-match .two-matches .card .card-body {
+    padding: 0;
+  }
+  div.hottest-match .two-matches .card .card-body div {
+    padding: 0;
+  }
+  div.hottest-match .two-matches .card .card-body div img {
+    padding: 0;
+  }
+  div.hottest-match .two-matches .card .card-body div h4 {
+    font-size: 5px;
+    padding: 0;
+    margin: 0;
+  }
+  div.hottest-match .two-matches .card .card-body div p {
+    font-size: 2px;
+    padding: 0;
+  }
+  div.hottest-match .two-matches .card .card-footer {
+    padding: 0;
+  }
+  div.hottest-match .two-matches .card .card-footer .firts-footer {
+    padding: 0;
+  }
+  div.hottest-match .two-matches .card .card-footer .firts-footer .seat {
+    padding: 0;
+  }
+  div.hottest-match .two-matches .card .card-footer .firts-footer .seat h5 {
+    font-size: 10px;
+    padding: 0;
+  }
+  div.hottest-match .two-matches .card .card-footer .firts-footer .seat span {
+    font-size: 6px;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .social-icons {
+    padding: 0;
+    height: 25px;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .social-icons li:first-child {
+    padding: 0;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .social-icons li:first-child span {
+    font-size: 5px;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .social-icons li:not(:first-child) {
+    padding: 0;
+    width: 6%;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .social-icons li:not(:first-child) span {
+    font-size: 9px;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button {
+    padding: 0;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button li {
+    margin: auto !important;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button li a div {
+    padding: 0;
+    height: 12px;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button li a div div {
+    font-size: 8px;
+    padding: 0;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button li a div div {
+    padding: 0;
+  }
+  div.hottest-match .two-matches .card .card-footer .second-footer .hottest-button li a div div span i {
+    position: relative;
+    left: -35px;
+    top: -29px;
+  }
+  div.table-matches .table-brand {
+    text-align: center;
+  }
+  div.table-matches .table {
+    background-color: unset !important;
+    border-bottom-width: unset !important;
+  }
+  div.table-matches .table tr td.img-first {
+    display: none;
+  }
+  div.table-matches .table td.img-second {
+    display: none;
+  }
+  div.table-matches .table td.space span {
+    white-space: nowrap;
+    font-size: 9px;
+  }
+  div.table-matches .table td.team-first {
+    padding-top: 18px;
+    font-size: 12p9pxx;
+  }
+  div.table-matches .table td.team-first li span {
+    white-space: nowrap;
+    font-size: 9px;
+  }
+  div.table-matches .table td.team-second li span {
+    white-space: nowrap;
+    font-size: 9px;
+  }
+  div.table-matches .table td.date-match li span {
+    font-size: 9px;
+    white-space: nowrap;
+  }
+  div.table-matches .table td.time-match {
+    padding-top: 18px;
+    font-size: 9px;
+  }
+  div.table-matches .table td.time-match li span {
+    white-space: nowrap;
+    font-size: 9px;
+  }
+  div.table-matches .table td.buy-ticket {
+    display: none;
+  }
+  div.special-match {
+    height: 1075px;
+  }
+  div.special-match .special-back .brand-special {
+    text-align: center;
+  }
+  div.special-match .special-back .row .card-match {
+    margin: 10px auto;
+  }
+  div.special-match .special-back .row .card-match .card-body div p {
+    font-size: 18px;
+  }
+  div.special-match .special-back .row .card-match .card-body div span {
+    font-size: 11px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .footer-in div:first-child p {
+    font-size: 13px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .footer-in div.date-topsite {
+    margin-right: 90px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .footer-in div.date-topsite span {
+    font-size: 11px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .footer-in div:last-child {
+    margin-right: 0px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .footer-in div:last-child span {
+    font-size: 11px;
+  }
+  div.special-match .special-back .row .card-match .card-footer .button-topsite li a i {
+    left: -63px;
+  }
+  div.special-match .special-back .row .col-4 {
+    flex: 0 0 auto;
+    width: 91.333333% !important;
+  }
+  div.sport-magazine {
+    padding-bottom: 73px;
+  }
+  div.sport-magazine .magazine-brand {
+    text-align: center;
+  }
+  div.sport-magazine .magazine-brand h4 {
+    font-size: 23px;
+  }
+  div.sport-magazine .row .card-match {
+    margin-bottom: 13px;
+  }
+  div.sport-magazine .row .card-match .card-body li:first-child {
+    margin: 0 5px;
+  }
+  div.sport-magazine .row .card-match .card-body li:first-child span {
+    font-size: 8px;
+  }
+  div.sport-magazine .row .card-match .card-body .date-magazine p {
+    font-size: 6px;
+  }
+  div.sport-magazine .row .card-match .card-body li:last-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 90%;
+  }
+  div.sport-magazine .row .card-match .card-body li:last-child span {
+    font-size: 7px;
+  }
+  div.sport-magazine .row .card-match .card-footer .button-topsite li a {
+    font-size: 6px;
+  }
+  div.sport-magazine .row .card-match .card-footer .button-topsite li a i {
+    left: -28px;
+  }
+  div.sport-magazine .row .col-4 {
+    flex: 0 0 auto;
+    width: 38.333333%;
+  }
+  div.sport-magazine .social-icons {
+    display: none;
+  }
+  div.sport-magazine .social-icons .social-icons-magazine {
+    width: 36%;
+    padding: 10px 32px 0px 0px;
+    opacity: 0.6;
+  }
+  div.sport-magazine .social-icons .social-icons-magazine li:first-child span {
+    font-size: 10px;
+  }
+  div.sport-magazine .social-icons .social-icons-magazine li:not(:first-child) span {
+    font-size: 12px;
+  }
+  div.comments .brand-comment h4 {
+    text-align: center;
+  }
+  div.comments .brand-comment p {
+    text-align: center;
+  }
+  div.comments .comments-items div.comments-item {
+    margin: 6px auto;
+    width: 47%;
+  }
+  div.comments .comments-items div.comments-item li:first-child i {
+    font-size: 22px;
+  }
+  div.comments .comments-items div.comments-item li:last-child span {
+    font-size: 9px;
+  }
+  div.comments .comments-items .col-3 {
+    width: 22%;
+  }
+  div.comments .user-comment {
+    display: none;
+  }
+  div.comments .user-comment .comment-users {
+    width: 20%;
+    margin-left: -10px;
+  }
+  footer .containerBox .footer-one {
+    display: unset;
+    text-align: center;
+  }
+  footer .containerBox .footer-one .footer-news {
+    display: none;
+  }
+  footer .containerBox .footer-one .footer-news .span-li span {
+    font-size: 9px;
+  }
+  footer .containerBox .footer-one .footer-emails {
+    text-align: center;
+  }
+  footer .containerBox .footer-one .footer-emails input {
+    width: 219px;
+    font-size: 14px;
+  }
+  footer .container .footer-two {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  footer .container .footer-two .footer-address li:not(:first-child) {
+    font-size: 10px;
+    white-space: normal;
+  }
+  footer .container .footer-two .footer-menu {
+    margin: 20px 18px 0 0;
+  }
+  footer .container .footer-two .footer-q {
+    white-space: normal;
+  }
+  footer .container .footer-two .footer-app {
+    display: none;
+  }
+  footer .container .footer-two .footer-app li {
+    display: inline-block;
+    padding: 8px 37px 0 0;
+    font-size: 19px;
+  }
+  footer .footer-three {
+    display: none;
+  }
+  footer .footer-three .social-icons-footer li {
+    display: none;
+  }
+}
+
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+
+/* body */
+body {
+  background-color: white;
+  direction: rtl;
+}
+
+body li {
+  list-style: none;
+}
+/*# sourceMappingURL=main.css.map */

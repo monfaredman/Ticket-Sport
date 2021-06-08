@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+/* last-number */
+div.last-number {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px auto;
+  padding: 10px 0px 25px 0px;
+  direction: rtl;
+  font-family: shabnam;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.253);
+  .total-tickets {
+    li {
+      margin: 0% !important;
+      padding: 0px !important;
+      h3 {
+      }
+      span {
+        font-size: small;
+        color: gray;
+        margin-top: 0px;
+        padding-top: 0px;
+      }
+    }
+  }
+}

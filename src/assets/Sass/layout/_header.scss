@@ -1,0 +1,124 @@
+/* head */
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+header {
+  position: absolute;
+  z-index: 20;
+  width: 100%;
+  nav {
+    margin: 0px 0px;
+    direction: rtl;
+    position: fixed;
+    .navbar-brand {
+      font-size: 30px;
+      margin: 0px;
+
+      a {
+        font-family: AArghavan;
+        letter-spacing: 5px;
+        font-size: 27px;
+        margin: auto;
+        color: white;
+        text-decoration: none;
+      }
+    }
+    .collapse {
+      grid-template-columns: 2fr 3fr 172px;
+      width: 84%;
+      display: grid;
+      flex-basis: unset;
+      flex-grow: unset;
+      align-items: unset;
+      .search-box {
+        margin: 13px 28px;
+        input {
+          border: 2px solid white;
+          border-radius: 50px;
+          background-image: url("../Images/img-11.svg");
+          background-size: 20px;
+          background-repeat: no-repeat;
+          background-position: 10px 8px;
+          font-family: shabnam;
+          width: 219px;
+        }
+      }
+      .menu {
+        margin: 17px 30px 0px 0px;
+        li:not(:last-child) {
+          border-left: 1px solid white;
+        }
+        li {
+          display: inline;
+          padding: 0px 11px 0px 11px;
+          text-decoration: none;
+          a {
+            color: #ebe2e2;
+            text-decoration: none;
+            white-space: nowrap;
+            font-family: shabnam;
+            font-size: 15px;
+          }
+        }
+      }
+      .acount-box {
+        border: 1px solid white;
+        border-radius: 50px;
+        background-color: #f9fafb;
+        opacity: 0.6;
+        list-style: none;
+        margin-right: 26px;
+        height: 42px;
+        margin-top: 10px;
+        li:first-child {
+          position: relative;
+          left: 3px;
+          top: 5px;
+        }
+        li {
+          white-space: nowrap;
+          color: black;
+          font-family: shabnam;
+          display: inline-block;
+          i {
+            font-size: 25px;
+            margin: auto;
+            padding: 2px 9px 5px 9px;
+          }
+        }
+        li.login {
+          line-height: 2px;
+          padding: 2px 0px 18px 6px;
+        }
+        li:last-child {
+          padding: 0px 0px 0px 8px;
+        }
+        .svg-inline--fa {
+          font-size: x-large;
+          vertical-align: -11.125px;
+        }
+      }
+    }
+
+    .collapsing {
+    }
+  }
+}

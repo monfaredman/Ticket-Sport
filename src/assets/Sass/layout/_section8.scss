@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+/* comments */
+div.comments {
+  margin: auto;
+  direction: rtl;
+  font-family: shabnam;
+  padding: 0;
+  border-bottom: 1px solid #80808033;
+  padding-bottom: 34px;
+  .brand-comment {
+    padding: 33px 0;
+    h4 {
+      font-size: 25px;
+      color: black;
+      font-weight: 500;
+      text-align: right;
+    }
+    p {
+      font-size: 13px;
+      color: black;
+      opacity: 0.4;
+      text-align: right;
+      font-weight: 100;
+    }
+  }
+  .comments-items {
+    margin-top: -7px;
+    div.comments-item {
+      background-image: url("../Images/img-60.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      opacity: 0.8;
+      border-radius: 14px;
+      margin: 0px 11px;
+      li:first-child {
+        text-align: right;
+        margin: 14px 19px 0px 0px;
+        i {
+          color: #1ea11a;
+          opacity: 0.8;
+          font-size: 39px;
+        }
+      }
+      li:last-child {
+        text-align: right;
+        margin: 29px 19px 124px 0px;
+        span {
+          font-weight: 500;
+          text-align: right;
+          direction: rtl;
+          word-spacing: 1px;
+          letter-spacing: 0.5px;
+          font-size: 14px;
+          color: white;
+          font-family: "Samim";
+        }
+      }
+    }
+    .col-3 {
+      width: 23%;
+    }
+  }
+  .user-comment {
+    .comment-users {
+      width: 13%;
+      display: inline-block;
+      margin-left: 109px;
+      margin-right: 28px;
+      ul:first-child {
+        display: inline-block;
+        width: 50%;
+        img {
+          border-radius: 50%;
+          margin: -19px 16px 0 0;
+        }
+      }
+      ul:last-child {
+        display: inline-block;
+        width: 50%;
+        li:first-child {
+          p {
+            font-size: 14px;
+            white-space: nowrap;
+            font-weight: 500;
+          }
+        }
+        li:last-child {
+          p {
+            font-size: 11px;
+            white-space: nowrap;
+            font-weight: 400;
+            opacity: 0.4;
+            margin: -15px 0 0 0;
+          }
+        }
+      }
+    }
+  }
+}

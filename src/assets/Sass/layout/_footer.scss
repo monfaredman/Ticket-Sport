@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+/* footer */
+footer {
+  margin: auto;
+  padding: 0px 0px 0px 0px;
+  direction: rtl;
+  font-family: shabnam;
+  display: grid;
+  grid-template-rows: 100px 200px 100px;
+
+  .containerBox {
+    background-color: #06ca58;
+    width: 100%;
+    .footer-one {
+      margin: auto;
+      padding: 0px 0px 0px 0px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      .footer-news {
+        padding: 27px 0;
+        li {
+          display: block;
+          p {
+            white-space: nowrap;
+            font-size: 14px;
+            color: #f7f7f7;
+            text-align: right;
+            margin: 0;
+          }
+        }
+
+        .span-li {
+          text-align: right;
+          display: block;
+          span {
+            white-space: nowrap;
+            font-size: 12px;
+            color: black;
+            opacity: 0.6;
+          }
+        }
+      }
+      .footer-emails {
+        margin: 32px 0;
+        text-align: left;
+        border-radius: 6px;
+        input {
+          margin: -3px -65px;
+          width: 409px;
+        }
+        a {
+          position: relative;
+          left: -1px;
+          font-size: 12px;
+          width: 89px;
+        }
+      }
+    }
+  }
+  .container {
+    padding: 0;
+    .footer-two {
+      margin: auto;
+      padding: 0px 0px 0px 0px;
+      background-color: #fdfdfd;
+      align-items: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      .footer-address {
+        padding: 0px 0px 0px 0px;
+        align-items: center;
+        direction: rtl;
+        li:first-child {
+          direction: rtl;
+          text-align: right;
+          white-space: nowrap;
+          font-size: 10px;
+          font-weight: 900;
+          h3 {
+            margin-bottom: 19px;
+            font-size: 31px;
+            padding: 21px 0 0px 0;
+            font-weight: 900;
+            font-family: "AArghavan";
+            background: -webkit-linear-gradient(45deg, #32f800, #e4f211);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+        li:not(:first-child) {
+          font-size: 12px;
+          white-space: nowrap;
+          padding: 3px 0;
+          font-weight: 500;
+        }
+      }
+      .footer-menu {
+        padding: 0px 0px 0px 0px;
+        align-items: center;
+        direction: rtl;
+        margin: 20px 113px 0 0;
+        li {
+          padding: 10px 0px 0px 0px;
+          font-size: 11px;
+          font-weight: 900;
+        }
+      }
+      .footer-q {
+        margin: 20px 0 0 0;
+        li {
+          padding: 10px 0px 0px 0px;
+          font-size: 11px;
+          font-weight: 900;
+        }
+      }
+
+      .footer-app {
+        padding: 0px 0px 0px 0px;
+        direction: rtl;
+        text-align: left;
+        margin: 0 0 7px 0;
+        li:first-child {
+          padding: 6px 0px 0px 0px;
+          direction: rtl;
+          white-space: nowrap;
+          font-size: 13px;
+          font-weight: 900;
+        }
+        li.with {
+          padding: 6px 77px 0px 0px;
+          direction: rtl;
+          white-space: nowrap;
+          font-size: 11px;
+          font-weight: 100;
+          opacity: 0.6;
+          display: block;
+        }
+
+        li {
+          display: inline-block;
+          display: inline-block;
+          padding: 8px 45px 0 0;
+          font-size: 30px;
+          i {
+          }
+        }
+      }
+    }
+  }
+
+  .footer-three {
+    padding: 0px 0px 0px 0px;
+    background-color: white;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .social-icons-footer {
+      opacity: 0.6;
+      li {
+        display: inline-block;
+        font-size: 23px;
+        padding-left: 25px;
+        span {
+          i {
+          }
+        }
+      }
+    }
+    .last-site {
+      text-align: left;
+      li {
+        display: inline-block;
+        width: 13%;
+        img {
+        }
+      }
+    }
+  }
+}

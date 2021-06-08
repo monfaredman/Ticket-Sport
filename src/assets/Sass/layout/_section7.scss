@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+/* sport-magazine */
+div.sport-magazine {
+  margin: auto;
+  direction: rtl;
+  font-family: shabnam;
+  width: 100%;
+  padding: 0;
+  border-bottom: 1px solid #80808033;
+  padding-bottom: 34px;
+  .magazine-brand {
+    text-align: right;
+    padding-top: 20px;
+    h4 {
+      font-size: 26px;
+      font-weight: 800;
+    }
+    span {
+      font-size: 14px;
+      opacity: 0.6;
+    }
+  }
+  .row {
+    .card-match {
+      border: none !important;
+      border-radius: 10px;
+      padding: 0%;
+      margin: auto 16px;
+      position: relative;
+      background-color: #fff;
+      top: 54px;
+      top: 54px;
+      left: 0;
+      box-shadow: 0px 3px 10px 1px #8080803d;
+      .card-header {
+        padding: 0px !important;
+        margin: 0%;
+        img {
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+      }
+      .card-body {
+        padding: 0px !important;
+        margin-top: 8px;
+        align-items: center;
+        li:first-child {
+          margin-right: 12px;
+          span {
+            font-family: "Samim";
+            font-weight: 600;
+            word-break: break-word;
+            font-size: 20px;
+            word-spacing: 1px;
+          }
+        }
+        .date-magazine {
+          margin-right: 12px;
+          p {
+            font-family: "Samim";
+            font-weight: 400;
+            word-break: break-word;
+            font-size: 15px;
+            margin-top: 6px;
+            opacity: 0.7;
+            text-align: right;
+            word-spacing: 1px;
+          }
+        }
+        li:last-child {
+          margin-right: 12px;
+          span {
+            font-family: "Samim";
+            font-weight: 400;
+            word-break: break-word;
+            font-size: 15px;
+            word-spacing: 1px;
+            opacity: 0.9;
+          }
+        }
+      }
+      .card-footer {
+        padding: 0px !important;
+        margin-top: 0px;
+        align-items: center;
+        direction: rtl;
+        border-top: 0ch !important;
+        background-color: white !important;
+        border-radius: 10px;
+        .button-topsite {
+          margin: 0px auto 0px auto;
+          padding: 1px 0 12px 0;
+          li {
+            width: 94%;
+            margin: auto;
+            a {
+              width: 100%;
+              font-weight: 100;
+              font-size: 17px;
+              font-family: "Samim";
+              i {
+                position: relative;
+                left: -103px;
+                top: 2px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .col-4 {
+      flex: 0 0 auto;
+      width: 30.333333%;
+    }
+  }
+  .social-icons {
+    margin-top: 50px;
+    .social-icons-magazine {
+      display: inline-block;
+      width: 35%;
+      padding: 10px 23px 0px 0px;
+      opacity: 0.6;
+      li:first-child {
+        display: inline-block;
+        width: 26%;
+        font-size: 12px;
+        span {
+        }
+      }
+      li:not(:first-child) {
+        display: inline-block;
+        width: 8%;
+        padding: 10px 19px 0px 0px;
+        span {
+        }
+      }
+    }
+  }
+}

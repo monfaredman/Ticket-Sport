@@ -1,0 +1,191 @@
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/shabnam/Shabnam.ttf");
+}
+@font-face {
+  font-family: "ANegaar";
+  src: url("../Fonts/ANegaar.ttf");
+}
+@font-face {
+  font-family: "AArghavan";
+  src: url("../Fonts/AArghavan.ttf");
+}
+/* hottest-match */
+div.hottest-match {
+  margin: auto;
+  direction: rtl;
+  font-family: shabnam;
+  border-bottom: 1px solid #80808033;
+  padding: 0;
+  padding-bottom: 24px;
+  .brand-hottest {
+    margin: 23px 0;
+    h4 {
+    }
+  }
+  .two-matches {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    .card {
+      border-radius: 10px;
+      margin: auto;
+      .card-header {
+        background-color: white !important;
+        border-bottom: none !important;
+        padding: 0px !important;
+        div {
+          width: 100%;
+          img {
+            border-radius: 10px 10px 0 0;
+          }
+        }
+        div {
+          p {
+            opacity: 0.7;
+          }
+        }
+        div.footer-in2 {
+          border-bottom: 1px solid rgba(128, 128, 128, 0.589);
+          width: 93%;
+          white-space: nowrap;
+          margin: auto;
+          display: grid;
+          grid-template-columns: 2fr 1fr 1fr;
+          li:first-child {
+          }
+          li:last-child {
+            margin-right: 42px;
+          }
+        }
+      }
+      .card-body {
+        align-items: center;
+        width: 93%;
+        margin: auto;
+        border-bottom: 1px solid #80808033;
+        div {
+          width: 50%;
+          img {
+            width: 36%;
+            text-align: center;
+          }
+          h4 {
+            font-family: "Samim";
+            font-size: 27px;
+          }
+          p {
+            font-family: "Samim";
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: 1px;
+          }
+        }
+      }
+      .card-footer {
+        background-color: unset !important;
+        border-top: none !important;
+        .firts-footer {
+          width: 100%;
+          margin: auto;
+          border-bottom: 1px solid #80808033;
+          padding: 3px 0;
+          .seat {
+            display: inline-block;
+            width: 40%;
+            span {
+              font-size: 11px;
+              opacity: 0.6;
+              white-space: nowrap;
+            }
+
+            h5 {
+              font-size: 17px;
+              color: #30f6c7;
+              margin: 0;
+            }
+
+            span {
+              font-size: 11px;
+              opacity: 0.6;
+            }
+          }
+        }
+        .second-footer {
+          width: 100%;
+          margin: auto;
+          padding-top: 10px;
+          .social-icons {
+            display: inline-block;
+            width: 50%;
+            text-align: center;
+            padding: 0;
+            height: 51px;
+            background-color: #80808024;
+            border-radius: 4px;
+            li:first-child {
+              width: 30%;
+              text-align: center;
+              padding: 0;
+              position: relative;
+              top: -6px;
+              span {
+                font-size: 11px;
+              }
+            }
+            li:not(:first-child) {
+              width: 15%;
+              text-align: center;
+              margin-right: 5px;
+              padding: 13px 0;
+              span {
+                font-size: 22px;
+                opacity: 0.7;
+              }
+            }
+          }
+          .hottest-button {
+            display: inline-block;
+            width: 49%;
+            li {
+              width: 100%;
+              margin: auto;
+              padding: 0;
+              a {
+                width: 100%;
+                margin: auto;
+                div {
+                  height: 37px;
+                  div {
+                    padding: 6px;
+                  }
+                  div {
+                    span {
+                      i {
+                        position: relative;
+                        left: -94px;
+                        top: -36px;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .col-6 {
+      flex: 0 0 auto;
+      width: 96%;
+    }
+  }
+}
