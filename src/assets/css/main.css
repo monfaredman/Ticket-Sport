@@ -39,6 +39,7 @@ header nav {
 header nav .navbar-brand {
   font-size: 30px;
   margin: 0px;
+  width: 13%;
 }
 
 header nav .navbar-brand a {
@@ -46,7 +47,9 @@ header nav .navbar-brand a {
   letter-spacing: 5px;
   font-size: 27px;
   margin: auto;
-  color: white;
+  background: -webkit-linear-gradient(45deg, #32f800, #e4f211);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-decoration: none;
 }
 
@@ -64,7 +67,7 @@ header nav .collapse .search-box {
 }
 
 header nav .collapse .search-box input {
-  border: 2px solid white;
+  border: 2px solid #c5c5c557;
   border-radius: 50px;
   background-image: url("../Images/img-11.svg");
   background-size: 20px;
@@ -79,7 +82,7 @@ header nav .collapse .menu {
 }
 
 header nav .collapse .menu li:not(:last-child) {
-  border-left: 1px solid white;
+  border-left: 1px solid black;
 }
 
 header nav .collapse .menu li {
@@ -89,7 +92,7 @@ header nav .collapse .menu li {
 }
 
 header nav .collapse .menu li a {
-  color: #ebe2e2;
+  color: black;
   text-decoration: none;
   white-space: nowrap;
   font-family: shabnam;
@@ -97,9 +100,8 @@ header nav .collapse .menu li a {
 }
 
 header nav .collapse .acount-box {
-  border: 1px solid white;
   border-radius: 50px;
-  background-color: #f9fafb;
+  background-color: #bababa8a;
   opacity: 0.6;
   list-style: none;
   margin-right: 26px;
@@ -132,7 +134,7 @@ header nav .collapse .acount-box li.login {
 }
 
 header nav .collapse .acount-box li:last-child {
-  padding: 0px 0px 0px 8px;
+  padding: 0px;
 }
 
 header nav .collapse .acount-box .svg-inline--fa {
@@ -175,6 +177,7 @@ div.top-site {
   height: 653px;
   margin: auto;
   direction: ltr;
+  box-shadow: inset 0 1000px #1bff004a;
 }
 
 div.top-site .card-match {
@@ -812,6 +815,7 @@ div.special-match {
   background-size: cover;
   direction: ltr;
   font-family: shabnam;
+  box-shadow: inset 0 1000px #1bff004a;
 }
 
 div.special-match .special-back {
@@ -1553,6 +1557,2467 @@ footer .footer-three .last-site {
 footer .footer-three .last-site li {
   display: inline-block;
   width: 13%;
+}
+
+/* buy page */
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/Shabnam.ttf");
+}
+
+/* main */
+body {
+  background-color: white !important;
+}
+
+.color-back {
+  background-color: #6666660d;
+}
+
+.payment {
+  padding: 117px 0 0 0;
+  margin: auto;
+}
+
+.payment div.payment-main {
+  margin: auto;
+  direction: rtl;
+  display: grid;
+  grid-template-row: 1fr 1fr;
+  font-family: shabnam;
+}
+
+.payment div.payment-main .top-main {
+  box-shadow: 0px 11px 11px -3px #80808080;
+}
+
+.payment div.payment-main .top-main .container {
+  padding-bottom: 37px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.payment div.payment-main .top-main .container .carousel {
+  width: 98%;
+}
+
+.payment div.payment-main .top-main .container .carousel button {
+  width: 13px;
+  border-radius: 50%;
+  height: 13px;
+  color: gray;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card {
+  height: unset !important;
+  margin: auto;
+  width: 96%;
+  box-shadow: none;
+  border: none;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-header {
+  width: 91%;
+  margin: auto;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-header p.stadium {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "shabnam";
+  text-align: right;
+  opacity: 1;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #8080804a;
+  color: black;
+  padding-bottom: 8px;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-header p:not(:first-child) {
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "shabnam";
+  text-align: right;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #8080804a;
+  color: black;
+  padding-bottom: 8px;
+  opacity: 1;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-header li.date {
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "shabnam";
+  text-align: right;
+  border-bottom: 1px solid #8080804a;
+  color: black;
+  padding-bottom: 8px;
+  text-align: right;
+  width: 100%;
+  margin: auto;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-header li.date p:first-child {
+  border: none;
+  letter-spacing: 0;
+  padding: 0;
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "shabnam";
+  text-align: right;
+  color: black;
+  padding-bottom: 8px;
+  opacity: 1;
+  margin: 0;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-header li.date p:last-child {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-body {
+  margin: 0;
+  flex: none;
+  padding: 24px 1rem;
+  height: unset !important;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-body .stars {
+  width: 100%;
+  margin: auto;
+  background-color: gainsboro !important;
+  border-radius: 4px;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-body .stars li.star {
+  text-align: center;
+  padding: 15px 14px;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-body .stars li.star p {
+  font-size: 9px !important;
+  font-weight: 700;
+  font-family: "shabnam";
+  color: black;
+  text-align: center;
+  margin: 0;
+  opacity: 0.7;
+  padding-top: 2px;
+  white-space: nowrap;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-body .stars li.star p i {
+  font-size: 19px;
+  padding-left: 3px;
+  opacity: 0.7;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-body .stars li.star p {
+  font-size: 13px;
+  font-weight: 700;
+  font-family: "shabnam";
+  color: black;
+  text-align: center;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-body .stars .comments-star {
+  opacity: 0.7;
+  text-align: center;
+  padding: 11px 14px;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-body .stars .comments-star p:first-child {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "shabnam";
+  color: black;
+  text-align: center;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-body .stars .comments-star p:last-child {
+  font-size: 10px;
+  font-weight: 700;
+  font-family: "shabnam";
+  color: black;
+  text-align: center;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-footer {
+  padding: 14px 1rem;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-footer button {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-footer button i {
+  position: relative;
+  left: -161px;
+  transform: rotate(-90deg);
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-footer ul {
+  margin: 10px auto;
+  background-color: gainsboro !important;
+  width: 100%;
+  border-radius: 4px;
+  padding: 0;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-footer ul li:first-child {
+  margin: auto;
+  font-size: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+  color: black;
+  text-align: right;
+  opacity: 0.7;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-footer ul li {
+  text-align: center;
+  padding: 10px 0px;
+  margin: 0px 52px 0 7px;
+}
+
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-footer ul li i {
+  font-size: 18px;
+  padding: 4px 18px 0 5px;
+  opacity: 0.7;
+}
+
+.payment div.payment-main .payment-main2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-top: 64px;
+}
+
+.payment div.payment-main .payment-main2 .right-section {
+  margin: -12px auto;
+  width: 98%;
+}
+
+.payment div.payment-main .payment-main2 .right-section .payment-comments {
+  width: 100%;
+  margin: auto;
+  border-radius: 9px;
+  background-color: rgba(189, 12, 12, 0.74) !important;
+  display: grid;
+  grid-template-columns: 36px 6fr 2fr 32px;
+}
+
+.payment div.payment-main .payment-main2 .right-section .payment-comments .span1 {
+  height: 49px;
+  color: white;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  list-style: none;
+}
+
+.payment div.payment-main .payment-main2 .right-section .payment-comments .span1 i {
+  text-align: center;
+  opacity: 0.3;
+  position: relative;
+  top: 14px;
+  font-size: 23px;
+  right: 7px;
+}
+
+.payment div.payment-main .payment-main2 .right-section .payment-comments .span2 {
+  color: white;
+  font-size: 14px;
+  margin: auto;
+  text-align: right;
+  list-style: none;
+  width: 84%;
+  text-align: right;
+  display: inline;
+  white-space: nowrap;
+}
+
+.payment div.payment-main .payment-main2 .right-section .payment-comments .span3 {
+  font-size: 13px;
+  margin: auto;
+  text-align: right;
+  list-style: none;
+  width: 60%;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+.payment div.payment-main .payment-main2 .right-section .payment-comments .span3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.payment div.payment-main .payment-main2 .right-section .payment-comments .span4 {
+  color: white;
+  font-size: 21px;
+  margin: 0;
+  text-align: center;
+  height: 17px;
+  list-style: none;
+}
+
+.payment div.payment-main .payment-main2 .right-section .payment-comments .span4 i {
+  position: relative;
+  top: 11px;
+}
+
+.payment div.payment-main .payment-main2 .right-section .fans {
+  margin: 25px auto;
+  direction: rtl;
+  font-family: shabnam;
+  border-bottom: 4px dotted gray;
+  width: 100%;
+}
+
+.payment div.payment-main .payment-main2 .right-section .fans .fan-team {
+  text-align: right;
+  font-size: 15px;
+  font-weight: 800;
+  margin: auto;
+}
+
+.payment div.payment-main .payment-main2 .right-section .fans .teams {
+  display: grid;
+  grid-template-columns: 1fr 30px 1fr;
+  margin: 33px 0px;
+}
+
+.payment div.payment-main .payment-main2 .right-section .fans .teams .perspolisBtn {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: gainsboro !important;
+  width: 96%;
+  border-radius: 5px;
+  margin: 0;
+  padding: 19px 18px;
+  font-size: 23px;
+  text-align: right;
+}
+
+.payment div.payment-main .payment-main2 .right-section .fans .teams .esteghlalBtn {
+  border: none;
+  padding: 0;
+  margin: auto 12px 0 0;
+  background-color: gainsboro !important;
+  width: 96%;
+  border-radius: 5px;
+  padding: 19px 18px;
+  font-size: 23px;
+  text-align: right;
+}
+
+.payment div.payment-main .payment-main2 .right-section .fans .teams .esteghlalBtn:hover {
+  background-color: #0080003d !important;
+  color: #0d870d;
+}
+
+.payment div.payment-main .payment-main2 .right-section .fans .teams .perspolisBtn:hover {
+  background-color: #0080003d !important;
+  color: #0d870d;
+}
+
+.payment div.payment-main .payment-main2 .right-section .fans .teams .esteghlalBtn:focus {
+  background-color: #0dd50dab !important;
+  color: #093709c2;
+}
+
+.payment div.payment-main .payment-main2 .right-section .fans .teams .perspolisBtn:focus {
+  background-color: #0dd50dab !important;
+  color: #093709c2;
+}
+
+.payment div.payment-main .payment-main2 .right-section .fans .teams .esteghlalBtn:active {
+  background-color: #0dd50dab !important;
+  color: #093709c2;
+}
+
+.payment div.payment-main .payment-main2 .right-section .fans .teams .perspolisBtn:active {
+  background-color: #0dd50dab !important;
+  color: #093709c2;
+}
+
+.payment div.payment-main .payment-main2 .right-section .fans .teams .perspolisBtn:focus-visible {
+  background-color: #d54c0dab !important;
+  color: #093709c2;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location {
+  width: 100%;
+  margin: auto;
+  direction: rtl;
+  font-family: shabnam;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-question {
+  text-align: right;
+  font-size: 15px;
+  font-weight: 800;
+  margin: auto;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main {
+  width: 100%;
+  margin: 27px auto;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map {
+  width: 100%;
+  margin: auto;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map img {
+  width: 100%;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map area#ga:hover {
+  border: 1px solid #efefef00;
+  position: absolute;
+  right: 283px;
+  background-color: #ff797987;
+  top: 1015px;
+  box-shadow: 0 0 11px 1px #ff0000;
+  width: 430px;
+  height: 66px;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map #three:hover {
+  border: 1px solid #efefef00;
+  position: absolute;
+  right: 462px;
+  background-color: #ff797987;
+  top: 1323px;
+  box-shadow: 0 0 11px 1px #ff0000;
+  width: 72px;
+  height: 69px;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map #four:hover {
+  border: 1px solid #efefef00;
+  position: absolute;
+  right: 536px;
+  background-color: #ff797987;
+  top: 1320px;
+  box-shadow: 0 0 11px 1px #ff0000;
+  width: 50px;
+  height: 71px;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map #two:hover {
+  border: 1px solid #efefef00;
+  position: absolute;
+  right: 406px;
+  background-color: #ff797987;
+  top: 1320px;
+  box-shadow: 0 0 11px 1px #ff0000;
+  width: 54px;
+  height: 74px;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map #one:hover {
+  border: 1px solid #efefef00;
+  position: absolute;
+  right: 350px;
+  background-color: #5f87e687;
+  top: 1318px;
+  box-shadow: 0 0 11px 1px #003dff;
+  width: 54px;
+  height: 74px;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map #five:hover {
+  border: 1px solid #efefef00;
+  position: absolute;
+  right: 587px;
+  background-color: #5f87e687;
+  top: 1318px;
+  box-shadow: 0 0 11px 1px #003dff;
+  width: 54px;
+  height: 74px;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map #trW:hover {
+  border: 1px solid #efefef00;
+  position: absolute;
+  right: 641px;
+  background-color: #5f87e687;
+  top: 1319px;
+  box-shadow: 0 0 11px 1px #003dff;
+  width: 54px;
+  height: 74px;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map #trS:hover {
+  border: 1px solid #efefef00;
+  border: 1px solid #efefef00;
+  position: absolute;
+  right: 296px;
+  background-color: #5f87e687;
+  top: 1320px;
+  box-shadow: 0 0 11px 1px #003dff;
+  width: 54px;
+  height: 74px;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map #two:focus {
+  border: 1px solid #efefef00;
+  position: absolute;
+  right: 406px;
+  background-color: #ff797987;
+  top: 1282px;
+  box-shadow: 0 0 11px 1px #ff0000;
+  width: 54px;
+  height: 74px;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .loacation-tooltips {
+  margin: 30px auto;
+  border-bottom: 4px dotted gray;
+  padding-bottom: 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .loacation-tooltips .loacation-tooltip1 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .loacation-tooltips .loacation-tooltip1 .loacation-tooltip {
+  width: 100%;
+  margin: auto;
+  background-color: #d1cccc !important;
+  text-align: right;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .loacation-tooltips .loacation-tooltip1 .loacation-tooltip #span {
+  margin: 5px 10px 0px 0px;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .loacation-tooltips .loacation-tooltip1 .loacation-tooltip .text-section {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .loacation-tooltips .loacation-tooltip1 .loacation-tooltip .text-section .line-one {
+  font-size: 20px;
+  font-weight: 100;
+  color: black;
+  margin: 5px 9px 0px 0px;
+  opacity: 0.7;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .loacation-tooltips .loacation-tooltip1 .loacation-tooltip .text-section .line-two {
+  font-size: 15px;
+  font-weight: 100;
+  color: black;
+  margin: 0px 10px 0px 71px;
+  white-space: nowrap;
+  opacity: 0.7;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .loacation-tooltips .loacation-tooltip1 .loacation-tooltip {
+  width: 95%;
+  margin: auto;
+  background-color: #d1cccc !important;
+  text-align: right;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .loacation-tooltips .loacation-tooltip1 .loacation-tooltip #span {
+  margin: auto;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .loacation-tooltips .loacation-tooltip1 .loacation-tooltip #span span {
+  font-size: 43px;
+  font-family: "shabnam";
+  font-weight: 700;
+  padding-right: 17px;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .loacation-tooltips .loacation-tooltip1 .loacation-tooltip .text-section {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  width: 80%;
+  margin: auto;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .loacation-tooltips .loacation-tooltip1 .loacation-tooltip .text-section .line-one {
+  font-size: 20px;
+  font-weight: 100;
+  color: black;
+  margin: 5px 9px 0px 0px;
+  opacity: 0.7;
+}
+
+.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .loacation-tooltips .loacation-tooltip1 .loacation-tooltip .text-section .line-two {
+  font-size: 15px;
+  font-weight: 100;
+  color: black;
+  margin: 0px 10px 0px 71px;
+  white-space: nowrap;
+  opacity: 0.7;
+}
+
+.payment div.payment-main .payment-main2 .right-section .seats {
+  width: 100%;
+  margin: auto;
+  direction: rtl;
+  font-family: shabnam;
+}
+
+.payment div.payment-main .payment-main2 .right-section .seats .seat-selection {
+  text-align: right;
+  font-size: 15px;
+  font-weight: 800;
+  margin: auto;
+}
+
+.payment div.payment-main .payment-main2 .right-section .seats .seat-row {
+  margin: 25px auto 82px auto;
+  width: 103%;
+}
+
+.payment div.payment-main .payment-main2 .right-section .seats .seat-row li {
+  display: contents;
+}
+
+.payment div.payment-main .payment-main2 .right-section .seats .seat-row li img {
+  text-align: right;
+  font-size: 15px;
+  font-weight: 800;
+  margin: -2px 0px;
+  width: 9%;
+}
+
+.payment div.payment-main .payment-main2 .right-section .seats .seat-row li img:hover {
+  box-shadow: inset 0 1000px #ffc5c578;
+  border-radius: 50%;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card {
+  width: 88%;
+  height: max-content;
+  margin: 0 auto;
+  border-radius: 7px;
+  box-shadow: 0 0 12px 1px #8080802b;
+  background-color: white;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px;
+  margin-bottom: 0;
+  background-color: white !important;
+  border: none !important;
+  border-radius: 7px 7px 0 0;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-header div {
+  padding: 30px 0 0 0;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-header div h4 {
+  font-size: 19px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-header div p {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: 10px;
+  letter-spacing: 3px;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-header div img {
+  width: 43%;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-body {
+  margin: auto;
+  height: auto !important;
+  padding: 0;
+  width: 100%;
+  border: none !important;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-body .footer-in {
+  width: 94%;
+  margin: auto;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #dbd1d1;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-body .footer-in li {
+  list-style: none;
+  white-space: nowrap;
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-body .footer-in .varzeshgah {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: right;
+  width: 46%;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-body .footer-in .date {
+  margin: auto;
+  font-size: 14px;
+  font-weight: 300;
+  width: 17%;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-body .footer-in .time {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 300;
+  width: 16%;
+  text-align: left;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-body .match-card-detail {
+  background-color: #45c38b !important;
+  width: 100%;
+  margin: auto;
+  height: auto !important;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-body .match-card-detail li {
+  list-style: none;
+  margin: auto;
+  font-size: 13px;
+  color: white;
+  opacity: 0.9;
+  padding: 10px 0px;
+  width: 93%;
+  border-bottom: 1px solid #ffffff87;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-body .match-card-detail li p {
+  margin: 0;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-body .match-card-detail li span {
+  padding: 0 10px;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-body .price {
+  width: 93%;
+  margin: 9px auto;
+  border-bottom: 1px solid #dbd1d1;
+  padding: 0px 0px;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-body .price li {
+  list-style: none;
+  margin: auto;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-body .price li span {
+  font-size: 14px;
+  color: #0da087;
+  font-weight: 900;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-body .price li p {
+  font-size: 13px;
+  color: black;
+  font-weight: 100;
+  opacity: 0.6;
+  margin: 2px 0;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-body .price li p span {
+  font-size: 13px;
+  color: black;
+  font-weight: 100;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-footer {
+  width: 95%;
+  margin: auto;
+  background-color: white !important;
+  border-top: none !important;
+  padding: 0;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-footer li {
+  margin: 14px auto;
+  width: 100%;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-footer li a {
+  width: 100%;
+  margin: auto;
+  background-color: #50bc2f;
+  border: none;
+  padding: 10px;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-footer li a i {
+  position: absolute;
+  left: 17px;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-footer p {
+  width: 171px;
+  margin: 6px 3px;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+  text-align: right;
+  color: #329696;
+}
+
+.payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-footer p span {
+  padding-right: 103px;
+  letter-spacing: 2px;
+}
+
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/Shabnam.ttf");
+}
+
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+div.acount-login {
+  width: 100%;
+  background-color: darkgrey;
+  direction: rtl;
+  font-family: "shabnam";
+}
+
+div.acount-login .sign-in {
+  width: 61%;
+  margin: auto;
+  padding: 104px 0;
+  display: grid;
+  grid-template-columns: 58% 42%;
+  height: unset !important;
+}
+
+div.acount-login .sign-in div.input {
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 0 8px 8px 0;
+  background-color: white;
+}
+
+div.acount-login .sign-in div.input li.title {
+  font-size: 19px;
+  font-weight: 600;
+  color: #44cb60;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  width: 73%;
+  margin: 41px auto;
+  text-align: center;
+}
+
+div.acount-login .sign-in div.input .input-email {
+  text-align: right;
+  width: 73%;
+  margin: 85px auto 20px auto;
+}
+
+div.acount-login .sign-in div.input .input-email p {
+  font-size: 12px;
+  font-weight: 100;
+  color: black;
+  margin: 0px 0px 2px 0px;
+}
+
+div.acount-login .sign-in div.input .input-email input {
+  margin: auto;
+  width: 100%;
+  border: 1px solid #d5d5d5;
+  border-radius: 3px;
+  padding: 7px 0;
+}
+
+div.acount-login .sign-in div.input .input-password {
+  width: 73%;
+  margin: 28px auto 41px auto;
+}
+
+div.acount-login .sign-in div.input .input-password p {
+  font-size: 12px;
+  font-weight: 100;
+  color: black;
+  margin: 0px 0px 2px 0px;
+}
+
+div.acount-login .sign-in div.input .input-password input {
+  margin: auto;
+  width: 100%;
+  border: 1px solid #d5d5d5;
+  border-radius: 3px;
+  padding: 7px 0;
+}
+
+div.acount-login .sign-in div.input .input-button {
+  width: 73%;
+  margin: 47px auto 0 auto;
+}
+
+div.acount-login .sign-in div.input .input-button button {
+  font-size: 15px;
+  color: white;
+  width: 100%;
+  margin: auto;
+  padding: 10px 0;
+}
+
+div.acount-login .sign-in div.input .input-button2 {
+  width: 73%;
+  margin: 11px auto 49px auto;
+}
+
+div.acount-login .sign-in div.input .input-button2 button {
+  background-color: #b8b8b836;
+  color: #0000cf9e;
+  border: none;
+  padding: 14px 0;
+  font-size: 13px;
+  width: 100%;
+}
+
+div.acount-login .sign-in div.title {
+  height: unset !important;
+  text-align: center;
+  font-family: "Shabnam";
+  background-size: cover;
+  background-image: url(/img/img-10.88c21608.jpg);
+  box-shadow: inset 0 1000px #00ff6e9c;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px 0 0 8px;
+}
+
+div.acount-login .sign-in div.title .head-title {
+  font-size: 34px;
+  font-weight: 900;
+  color: white;
+  margin: 29px auto;
+  list-style: none;
+  font-family: "AArghavan";
+  width: 85%;
+}
+
+div.acount-login .sign-in div.title .head-text {
+  list-style: none;
+  font-size: 12px;
+  font-weight: 900;
+  color: white;
+  margin: 42px auto 193px auto;
+  text-align: center;
+  width: 85%;
+  letter-spacing: 1px;
+}
+
+div.acount-login .sign-in div.title .head-enter {
+  margin: 149px auto 10px auto;
+  width: 85%;
+}
+
+div.acount-login .sign-in div.title .head-enter a {
+  font-size: 14px;
+  padding: 12px 0;
+  text-align: center;
+  height: unset;
+  width: 100%;
+  background-color: #28445f;
+  border: none;
+  color: white;
+}
+
+div.acount-login .sign-in div.title .head-enter2 {
+  margin: -2px auto 69px auto;
+  width: 85%;
+}
+
+div.acount-login .sign-in div.title .head-enter2 button {
+  width: 100%;
+  background-image: url(/img/img-34.1b8993b8.jpg);
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: 232px 8px;
+  font-size: 14px;
+  padding: 12px 0;
+  text-align: center;
+  height: unset;
+}
+
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/Shabnam.ttf");
+}
+
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+div.acount-register {
+  width: 100%;
+  background-color: darkgrey;
+  direction: rtl;
+  font-family: "shabnam";
+}
+
+div.acount-register .sign-up {
+  width: 61%;
+  margin: auto;
+  padding: 104px 0;
+  display: grid;
+  grid-template-columns: 58% 42%;
+  height: unset !important;
+}
+
+div.acount-register .sign-up div.input {
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 0 8px 8px 0;
+  background-color: white;
+}
+
+div.acount-register .sign-up div.input li.title {
+  font-size: 19px;
+  font-weight: 600;
+  color: #44cb60;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  width: 73%;
+  margin: 40px auto 25px auto;
+  text-align: center;
+}
+
+div.acount-register .sign-up div.input .input-name {
+  width: 34%;
+  margin: 0 64px 0px 10px;
+  display: inline-block;
+}
+
+div.acount-register .sign-up div.input .input-name p {
+  font-size: 12px;
+  font-weight: 100;
+  color: black;
+  margin: 0px 0px 2px 0px;
+}
+
+div.acount-register .sign-up div.input .input-name input {
+  margin: auto;
+  width: 100%;
+  border: 1px solid #d5d5d5;
+  border-radius: 3px;
+  padding: 7px 0;
+}
+
+div.acount-register .sign-up div.input .input-lastName {
+  width: 34%;
+  display: inline-block;
+  margin: 0 15px 0px 0px;
+}
+
+div.acount-register .sign-up div.input .input-lastName p {
+  font-size: 12px;
+  font-weight: 100;
+  color: black;
+  margin: 0px 0px 2px 0px;
+}
+
+div.acount-register .sign-up div.input .input-lastName input {
+  margin: auto;
+  width: 100%;
+  border: 1px solid #d5d5d5;
+  border-radius: 3px;
+  padding: 7px 0;
+}
+
+div.acount-register .sign-up div.input .input-email {
+  text-align: right;
+  width: 73%;
+  margin: 15px auto 10px auto;
+}
+
+div.acount-register .sign-up div.input .input-email p {
+  font-size: 12px;
+  font-weight: 100;
+  color: black;
+  margin: 0px 0px 2px 0px;
+}
+
+div.acount-register .sign-up div.input .input-email input {
+  margin: auto;
+  width: 100%;
+  border: 1px solid #d5d5d5;
+  border-radius: 3px;
+  padding: 7px 0;
+}
+
+div.acount-register .sign-up div.input .input-password {
+  width: 73%;
+  margin: 17px auto 41px auto;
+}
+
+div.acount-register .sign-up div.input .input-password p {
+  font-size: 12px;
+  font-weight: 100;
+  color: black;
+  margin: 0px 0px 2px 0px;
+}
+
+div.acount-register .sign-up div.input .input-password input {
+  margin: auto;
+  width: 100%;
+  border: 1px solid #d5d5d5;
+  border-radius: 3px;
+  padding: 7px 0;
+}
+
+div.acount-register .sign-up div.input .input-button {
+  width: 73%;
+  margin: 44px auto 0 auto;
+}
+
+div.acount-register .sign-up div.input .input-button button {
+  font-size: 15px;
+  color: white;
+  width: 100%;
+  margin: auto;
+  padding: 10px 0;
+}
+
+div.acount-register .sign-up div.input .input-underB {
+  width: 73%;
+  margin: 11px auto 49px auto;
+}
+
+div.acount-register .sign-up div.input .input-underB p {
+  font-size: 12px;
+  text-align: right;
+}
+
+div.acount-register .sign-up div.input .input-underB p span {
+  text-decoration: underline;
+  color: #5de404;
+}
+
+div.acount-register .sign-up div.title {
+  height: unset !important;
+  text-align: center;
+  font-family: "Shabnam";
+  background-size: cover;
+  background-image: url(/img/img-10.88c21608.jpg);
+  box-shadow: inset 0 1000px #00ff6e9c;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px 0 0 8px;
+}
+
+div.acount-register .sign-up div.title .head-title {
+  font-size: 34px;
+  font-weight: 900;
+  color: white;
+  margin: 29px auto;
+  list-style: none;
+  font-family: "AArghavan";
+  width: 85%;
+}
+
+div.acount-register .sign-up div.title .head-text {
+  list-style: none;
+  font-size: 12px;
+  font-weight: 900;
+  color: white;
+  margin: 42px auto 193px auto;
+  text-align: center;
+  width: 85%;
+  letter-spacing: 1px;
+}
+
+div.acount-register .sign-up div.title .head-enter {
+  margin: 149px auto 10px auto;
+  width: 85%;
+}
+
+div.acount-register .sign-up div.title .head-enter a {
+  font-size: 14px;
+  padding: 12px 0;
+  text-align: center;
+  height: unset;
+  width: 100%;
+  background-color: #28445f;
+  border: none;
+  color: white;
+}
+
+div.acount-register .sign-up div.title .head-enter2 {
+  margin: -2px auto 69px auto;
+  width: 85%;
+}
+
+div.acount-register .sign-up div.title .head-enter2 button {
+  width: 100%;
+  background-image: url(/img/img-34.1b8993b8.jpg);
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: 232px 8px;
+  font-size: 14px;
+  padding: 12px 0;
+  text-align: center;
+  height: unset;
+}
+
+/* buy page */
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/Shabnam.ttf");
+}
+
+/* main */
+div.final-main {
+  width: 81%;
+  margin: auto;
+  direction: rtl;
+  font-family: shabnam;
+  padding: 108px 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+div.final-main .owner-comments {
+  width: 100%;
+  margin: 0;
+}
+
+div.final-main .owner-comments .final-comments {
+  width: 94%;
+  margin: auto 0;
+  border-radius: 9px;
+  text-align: center;
+  background-color: rgba(202, 13, 13, 0.74);
+  display: grid;
+  grid-template-columns: 2fr 1fr 20px;
+  height: unset !important;
+  padding: 13px 0;
+}
+
+div.final-main .owner-comments .final-comments .span2 {
+  color: white;
+  font-size: 13px;
+  margin: auto 22px auto 0;
+  text-align: right;
+  list-style: none;
+  white-space: nowrap;
+}
+
+div.final-main .owner-comments .final-comments li.span3 {
+  font-size: 13px;
+  text-align: center;
+  list-style: none;
+  margin: auto 58px auto 0;
+  white-space: nowrap;
+  opacity: 0.7;
+}
+
+div.final-main .owner-comments .final-comments li.span3 a {
+  text-decoration: none;
+  color: white;
+}
+
+div.final-main .owner-comments .final-comments .span4 {
+  color: white;
+  font-size: 21px;
+  text-align: center;
+  list-style: none;
+  margin: auto -22px auto 0;
+  display: inline;
+  white-space: nowrap;
+}
+
+div.final-main .owner-comments .cash {
+  margin: 34px 0 auto 0;
+  width: 94%;
+  border: 1px solid #e4e1e1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+div.final-main .owner-comments .cash li.price-string {
+  margin: 16px 18px 0 auto;
+  width: 100%;
+}
+
+div.final-main .owner-comments .cash li.price-string span {
+  margin: 0px 13px 0px 0px;
+  font-size: 13px;
+  font-weight: 900;
+  color: black;
+}
+
+div.final-main .owner-comments .cash li.price-number {
+  width: 90%;
+  padding: 20px 0;
+  text-align: left;
+}
+
+div.final-main .owner-comments .cash li.price-number .adad {
+  font-size: 33px;
+  font-weight: 900;
+  color: black;
+  letter-spacing: 3px;
+}
+
+div.final-main .owner-comments .cash li.price-number .rial {
+  margin: 0px 12px 0px 0px;
+  font-size: 12px;
+  font-weight: 100;
+  color: black;
+  opacity: 0.7;
+}
+
+div.final-main .owner-comments .cash li.price-number p {
+  font-size: 13px;
+  font-weight: 100;
+  color: black;
+  letter-spacing: 1px;
+}
+
+div.final-main .owner-comments .biling {
+  margin: 20px 0 auto auto;
+  width: 94%;
+  border: 1px solid #e4e1e1;
+}
+
+div.final-main .owner-comments .biling .price-string {
+  margin: 16px 18px auto 0;
+  width: 100%;
+  text-align: right;
+  white-space: nowrap;
+}
+
+div.final-main .owner-comments .biling .price-string span {
+  margin: 0px 13px 0px 0px;
+  font-size: 13px;
+  font-weight: 900;
+  color: black;
+  white-space: nowrap;
+}
+
+div.final-main .owner-comments .biling .pay-factory {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 37px auto 15px auto;
+}
+
+div.final-main .owner-comments .biling .pay-factory li {
+  margin: auto;
+  text-align: center;
+  width: 87%;
+  list-style: none;
+  border: 1px solid gainsboro;
+  border-radius: 8px;
+}
+
+div.final-main .owner-comments .biling .pay-factory li img {
+  margin: 10px auto 0 auto;
+  width: 33%;
+}
+
+div.final-main .owner-comments .biling .pay-factory li p.icon-way {
+  margin: 7px auto 0 auto;
+  font-size: 10px;
+  font-weight: 100;
+  color: black;
+  opacity: 0.6;
+}
+
+div.final-main .owner-comments .biling .pay-factory li p.icon-factory {
+  letter-spacing: 1px;
+  margin: 1px auto 0px auto;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 900;
+  color: black;
+}
+
+div.final-main .owner-comments .biling .pay-factory li a,
+div.final-main .owner-comments .biling .pay-factory li button {
+  margin: 5px auto 7px auto;
+  width: 78%;
+  font-size: 11px;
+  padding: 2px 0px;
+  background-color: #2fb62f;
+  border: none;
+}
+
+div.final-main .owner-comments .biling .pay-factory li .disabled {
+  background-color: #4d524d42;
+  border: none;
+  color: black;
+}
+
+div.final-main .owner-comments .biling .pay-factory .unfound {
+  background-color: #ff010124;
+  opacity: 0.8;
+}
+
+div.final-main .owner-comments .biling .pay-factory .unfound p.icon-way {
+  margin: 7px auto 0 auto;
+  font-size: 10px;
+  font-weight: 100;
+  color: #8d3333;
+  opacity: 0.6;
+}
+
+div.final-main .owner-comments .biling .pay-factory .unfound p.icon-factory {
+  letter-spacing: 1px;
+  margin: 1px auto 0px auto;
+  font-size: 13px;
+  text-align: center;
+  font-weight: 900;
+  color: #8d3333;
+  opacity: 0.7;
+}
+
+div.final-main .owner-comments .biling .pay-factory .unfound button {
+  margin: 5px auto 7px auto;
+  width: 78%;
+  font-size: 11px;
+  padding: 2px 0px;
+  background-color: #d18989;
+  border: none;
+  color: white;
+}
+
+div.final-main .final-card {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 7px;
+  box-shadow: 0 0 12px 1px #8080802b;
+  background-color: white;
+}
+
+div.final-main .final-card .final-card-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px;
+  margin-bottom: 0;
+  background-color: white !important;
+  border: none !important;
+  border-radius: 7px 7px 0 0;
+}
+
+div.final-main .final-card .final-card-header div {
+  padding: 30px 0 0 0;
+}
+
+div.final-main .final-card .final-card-header div h4 {
+  font-size: 19px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+div.final-main .final-card .final-card-header div p {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: 10px;
+  letter-spacing: 3px;
+}
+
+div.final-main .final-card .final-card-header div img {
+  width: 43%;
+}
+
+div.final-main .final-card .final-card-body {
+  margin: auto;
+  height: auto !important;
+  padding: 0;
+  width: 100%;
+  border: none !important;
+}
+
+div.final-main .final-card .final-card-body .footer-in {
+  width: 93%;
+  margin: auto;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #dbd1d1;
+}
+
+div.final-main .final-card .final-card-body .footer-in li {
+  list-style: none;
+  white-space: nowrap;
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+
+div.final-main .final-card .final-card-body .footer-in .varzeshgah {
+  margin: 0;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: right;
+  width: 46%;
+  padding: 0;
+}
+
+div.final-main .final-card .final-card-body .footer-in .date {
+  margin: auto;
+  font-size: 14px;
+  font-weight: 300;
+  width: 17%;
+}
+
+div.final-main .final-card .final-card-body .footer-in .time {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 300;
+  width: 16%;
+  text-align: left;
+  padding: 0;
+}
+
+div.final-main .final-card .final-card-body .match-card-detail {
+  background-color: #45c38b !important;
+  width: 100%;
+  margin: auto;
+  height: auto !important;
+}
+
+div.final-main .final-card .final-card-body .match-card-detail li {
+  list-style: none;
+  margin: auto;
+  font-size: 13px;
+  color: white;
+  opacity: 0.9;
+  padding: 10px 0px;
+  width: 93%;
+  border-bottom: 1px solid #ffffff87;
+}
+
+div.final-main .final-card .final-card-body .match-card-detail li p {
+  margin: 0;
+}
+
+div.final-main .final-card .final-card-body .match-card-detail li span {
+  padding: 0 10px;
+}
+
+div.final-main .final-card .final-card-body .price {
+  width: 93%;
+  margin: 9px auto;
+  border-bottom: 1px solid #dbd1d1;
+  padding: 0px 0px;
+}
+
+div.final-main .final-card .final-card-body .price li {
+  list-style: none;
+  margin: auto;
+}
+
+div.final-main .final-card .final-card-body .price li span {
+  font-size: 14px;
+  color: #0da087;
+  font-weight: 900;
+}
+
+div.final-main .final-card .final-card-body .price li p {
+  font-size: 13px;
+  color: black;
+  font-weight: 100;
+  opacity: 0.6;
+  margin: 2px 0;
+}
+
+div.final-main .final-card .final-card-body .price li p span {
+  font-size: 13px;
+  color: black;
+  font-weight: 100;
+}
+
+div.final-main .final-card .final-card-footer {
+  width: 95%;
+  margin: auto;
+  background-color: white !important;
+  border-top: none !important;
+  padding: 0;
+}
+
+div.final-main .final-card .final-card-footer li {
+  margin: 14px auto;
+  width: 100%;
+}
+
+div.final-main .final-card .final-card-footer li a {
+  width: 100%;
+  margin: auto;
+  background-color: #50bc2f;
+  border: none;
+  padding: 10px;
+}
+
+div.final-main .final-card .final-card-footer li a i {
+  position: absolute;
+  left: 17px;
+}
+
+div.final-main .final-card .final-card-footer p {
+  width: 171px;
+  margin: 6px 3px;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+  text-align: right;
+  color: #329696;
+}
+
+div.final-main .final-card .final-card-footer p span {
+  padding-right: 103px;
+  letter-spacing: 2px;
+}
+
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/Shabnam.ttf");
+}
+
+div.su-main {
+  width: 100%;
+  margin: auto;
+}
+
+div.su-main .success-payment {
+  background-image: url(/img/img-9.d30b4d7c.jpg);
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 121px 0 50px 0;
+  box-shadow: inset 0 1069px #38c138b3;
+}
+
+div.su-main .success-payment .su-title {
+  width: 100%;
+  margin: auto;
+  white-space: nowrap;
+  text-align: center;
+}
+
+div.su-main .success-payment .su-title p {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "shabnam";
+  color: aliceblue;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+div.su-main .success-payment .su-menu-color {
+  background-color: white;
+  width: 100%;
+  height: 85px;
+  position: absolute;
+  top: 0;
+}
+
+div.su-main .success-payment .su-card {
+  margin: auto;
+  background-color: white;
+  border-radius: 7px;
+  font-family: "shabnam";
+}
+
+div.su-main .success-payment .su-card .su-card-header {
+  padding: 0px;
+  margin-bottom: 0;
+  background-color: white !important;
+  border-bottom: none !important;
+  width: 100%;
+  margin: auto;
+  border-radius: 7px 7px 0 0;
+}
+
+div.su-main .success-payment .su-card .su-card-header li {
+  padding: 16px 0;
+}
+
+div.su-main .success-payment .su-card .su-card-header li img {
+  width: 34%;
+}
+
+div.su-main .success-payment .su-card .su-card-header li h4 {
+  font-size: 19px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+div.su-main .success-payment .su-card .su-card-header li p {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: 10px;
+  letter-spacing: 3px;
+}
+
+div.su-main .success-payment .su-card .su-card-body {
+  width: 100%;
+  margin: auto;
+}
+
+div.su-main .success-payment .su-card .su-card-body div.footer-in {
+  width: 92%;
+  margin: auto;
+  border-top: 2px solid #dbd2d2;
+  padding: 20px 0px 0px 0px;
+  direction: rtl;
+  font-family: "shabnam";
+}
+
+div.su-main .success-payment .su-card .su-card-body div.footer-in li {
+  list-style: none;
+  white-space: nowrap;
+}
+
+div.su-main .success-payment .su-card .su-card-body div.footer-in .varzeshgah {
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+div.su-main .success-payment .su-card .su-card-body div.footer-in .date {
+  display: inline-block;
+  width: 33%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+div.su-main .success-payment .su-card .su-card-body div.footer-in .time {
+  display: inline-block;
+  width: 17%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+div.su-main .success-payment .su-card .su-card-body div.match-card-detail {
+  background-color: #1bd78c;
+  width: 100%;
+  margin: 10px auto;
+}
+
+div.su-main .success-payment .su-card .su-card-body div.match-card-detail li {
+  list-style: none;
+  margin: auto;
+  font-size: 15px;
+  color: white;
+}
+
+div.su-main .success-payment .su-card .su-card-body div.match-card-detail .match-card-detail1 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.64);
+  width: 92%;
+  padding: 23px 0px;
+}
+
+div.su-main .success-payment .su-card .su-card-body div.match-card-detail .match-card-detail2 {
+  width: 92%;
+  padding: 14px 0px;
+}
+
+div.su-main .success-payment .su-card .su-card-body div.match-card-detail .match-card-detail2 p {
+  padding: 8px 0 0 0;
+  margin: 0;
+  font-size: 13px;
+  word-spacing: 8px;
+}
+
+div.su-main .success-payment .su-card .su-card-body div.price {
+  margin: auto;
+  width: 100%;
+  padding: 0px 0px;
+  border-bottom: 1px solid;
+  width: 94%;
+}
+
+div.su-main .success-payment .su-card .su-card-body div.price li {
+  list-style: none;
+  text-align: center;
+  white-space: nowrap;
+  border-bottom: 2px solid #ebe3e3;
+}
+
+div.su-main .success-payment .su-card .su-card-body div.price li span {
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+  word-spacing: 2px;
+}
+
+div.su-main .success-payment .su-card .su-card-body div.price li p {
+  font-size: 23px;
+  color: black;
+  font-weight: 900;
+  word-spacing: 6px;
+  margin: 12px 0px;
+}
+
+div.su-main .success-payment .su-card .su-card-footer {
+  padding: 0px;
+  margin: auto;
+  background-color: white !important;
+  border-top: none !important;
+  width: 100%;
+  border-radius: 0 0 7px 7px;
+}
+
+div.su-main .success-payment .su-card .su-card-footer li {
+  list-style: none;
+  margin: auto;
+}
+
+div.su-main .success-payment .su-card .su-card-footer li img {
+  width: 63%;
+  padding: 17px 0px;
+}
+
+div.su-main .success-payment .col-4 {
+  width: 29.333333%;
+}
+
+div.su-main .success-payment .share {
+  font-family: "shabnam";
+  margin: 10px auto;
+  width: 29%;
+  text-align: right;
+}
+
+div.su-main .success-payment .share button {
+  margin: auto;
+  width: 100%;
+  font-size: 19px;
+  font-weight: 900;
+  color: black;
+  text-align: right;
+  padding: 16px 10px;
+  padding-right: 54px;
+}
+
+div.su-main .success-payment .print {
+  font-family: "shabnam";
+  margin: 10px auto;
+  width: 29%;
+  text-align: right;
+}
+
+div.su-main .success-payment .print button {
+  margin: auto;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 900;
+  color: black;
+  text-align: right;
+  padding: 16px 0px;
+  padding-right: 12px;
+}
+
+div.su-main .success-payment .print button i {
+  font-size: 32px;
+  padding: 0px 6px;
+  position: relative;
+  top: 3px;
+}
+
+div.su-main .success-payment .end-payment {
+  width: 100%;
+  margin: auto;
+  white-space: nowrap;
+  text-align: center;
+}
+
+div.su-main .success-payment .end-payment p.end-payment-action {
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "shabnam";
+  color: aliceblue;
+  line-height: 25px;
+}
+
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/Shabnam.ttf");
+}
+
+div.unsa-main {
+  width: 100%;
+  margin: auto;
+}
+
+div.unsa-main .unsuccess-payment {
+  background-image: url(/img/img-9.d30b4d7c.jpg);
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 121px 0 50px 0;
+  box-shadow: inset 0 1031px #000000ad;
+}
+
+div.unsa-main .unsuccess-payment .unsa-title {
+  width: 100%;
+  margin: auto;
+  white-space: nowrap;
+  text-align: center;
+}
+
+div.unsa-main .unsuccess-payment .unsa-title p {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "shabnam";
+  color: aliceblue;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+div.unsa-main .unsuccess-payment .unsa-menu-color {
+  background-color: white;
+  width: 100%;
+  height: 85px;
+  position: absolute;
+  top: 0;
+}
+
+div.unsa-main .unsuccess-payment .unsa-card {
+  margin: auto;
+  background-color: white;
+  border-radius: 7px;
+  font-family: "shabnam";
+}
+
+div.unsa-main .unsuccess-payment .unsa-card .unsa-card-header {
+  padding: 0px;
+  margin-bottom: 0;
+  background-color: white !important;
+  border-bottom: none !important;
+  width: 100%;
+  margin: auto;
+  border-radius: 7px 7px 0 0;
+}
+
+div.unsa-main .unsuccess-payment .unsa-card .unsa-card-header li {
+  padding: 16px 0;
+}
+
+div.unsa-main .unsuccess-payment .unsa-card .unsa-card-header li img {
+  width: 34%;
+}
+
+div.unsa-main .unsuccess-payment .unsa-card .unsa-card-header li h4 {
+  font-size: 19px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+div.unsa-main .unsuccess-payment .unsa-card .unsa-card-header li p {
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: 10px;
+  letter-spacing: 3px;
+}
+
+div.unsa-main .unsuccess-payment .unsa-card .unsa-card-body {
+  width: 100%;
+  margin: auto;
+}
+
+div.unsa-main .unsuccess-payment .unsa-card .unsa-card-body div.footer-in {
+  width: 92%;
+  margin: auto;
+  border-top: 2px solid #dbd2d2;
+  padding: 20px 0px 0px 0px;
+  direction: rtl;
+  font-family: "shabnam";
+}
+
+div.unsa-main .unsuccess-payment .unsa-card .unsa-card-body div.footer-in li {
+  list-style: none;
+  white-space: nowrap;
+}
+
+div.unsa-main .unsuccess-payment .unsa-card .unsa-card-body div.footer-in .varzeshgah {
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+div.unsa-main .unsuccess-payment .unsa-card .unsa-card-body div.footer-in .date {
+  display: inline-block;
+  width: 33%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+div.unsa-main .unsuccess-payment .unsa-card .unsa-card-body div.footer-in .time {
+  display: inline-block;
+  width: 17%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+div.unsa-main .unsuccess-payment .unsa-card .unsa-card-body div.match-card-detail {
+  background-color: #bd0f0f;
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 0 0 7px 7px;
+}
+
+div.unsa-main .unsuccess-payment .unsa-card .unsa-card-body div.match-card-detail li {
+  list-style: none;
+  margin: auto;
+  font-size: 15px;
+  color: white;
+}
+
+div.unsa-main .unsuccess-payment .unsa-card .unsa-card-body div.match-card-detail .match-card-detail1 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.64);
+  width: 92%;
+  padding: 23px 0px;
+}
+
+div.unsa-main .unsuccess-payment .unsa-card .unsa-card-body div.match-card-detail .match-card-detail2 {
+  width: 92%;
+  padding: 14px 0px;
+}
+
+div.unsa-main .unsuccess-payment .unsa-card .unsa-card-body div.match-card-detail .match-card-detail2 p {
+  padding: 8px 0 0 0;
+  margin: 0;
+  font-size: 13px;
+  word-spacing: 8px;
+}
+
+div.unsa-main .unsuccess-payment .col-4 {
+  width: 29.333333%;
+}
+
+div.unsa-main .unsuccess-payment .share {
+  font-family: "shabnam";
+  margin: 10px auto;
+  width: 29%;
+  text-align: center;
+}
+
+div.unsa-main .unsuccess-payment .share button {
+  margin: auto;
+  width: 100%;
+  font-size: 19px;
+  font-weight: 900;
+  color: black;
+  text-align: center;
+  padding: 16px 0;
+}
+
+div.unsa-main .unsuccess-payment .end-payment {
+  width: 100%;
+  margin: 33px auto;
+  white-space: nowrap;
+  text-align: center;
+}
+
+div.unsa-main .unsuccess-payment .end-payment p.end-payment-action {
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "shabnam";
+  color: aliceblue;
+  line-height: 25px;
+}
+
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/Shabnam.ttf");
+}
+
+/* comment-alert */
+div.comments-main {
+  width: 47%;
+  margin: auto;
+  position: relative;
+  top: -1576px;
+}
+
+div.comments-main .comment-alert {
+  margin: auto;
+  direction: rtl;
+  font-family: shabnam;
+  width: 100%;
+  z-index: 99;
+  padding: 24px 24px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 1px #88888852;
+}
+
+div.comments-main .comment-alert .payment-comments {
+  width: 100%;
+  margin: auto;
+  border-radius: 9px;
+  background-color: rgba(189, 12, 12, 0.74) !important;
+  display: grid;
+  grid-template-columns: 36px 6fr 2fr 32px;
+}
+
+div.comments-main .comment-alert .payment-comments .span1 {
+  height: 49px;
+  color: white;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  list-style: none;
+}
+
+div.comments-main .comment-alert .payment-comments .span1 i {
+  text-align: center;
+  opacity: 0.3;
+  position: relative;
+  top: 14px;
+  font-size: 23px;
+  right: 7px;
+}
+
+div.comments-main .comment-alert .payment-comments .span2 {
+  color: white;
+  font-size: 12px;
+  margin: auto;
+  text-align: right;
+  list-style: none;
+  width: 84%;
+  text-align: right;
+  display: inline;
+  white-space: nowrap;
+}
+
+div.comments-main .comment-alert .payment-comments .span3 {
+  font-size: 13px;
+  margin: auto auto auto 0;
+  text-align: right;
+  word-spacing: -2px;
+  list-style: none;
+  width: 60%;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+div.comments-main .comment-alert .payment-comments .span3 a {
+  text-decoration: none;
+  color: white;
+}
+
+div.comments-main .comment-alert .payment-comments .span4 i {
+  color: white;
+  font-size: 15px;
+  margin: 17px 12px;
+  text-align: center;
+  opacity: 0.7;
+  list-style: none;
+}
+
+div.comments-main .comment-alert .comment-point {
+  margin: 20px auto;
+  width: 100%;
+  text-align: left;
+}
+
+div.comments-main .comment-alert .comment-point .icon-fill {
+  font-size: 23px;
+  opacity: 0.8;
+}
+
+div.comments-main .comment-alert .comment-point .icon-empty {
+  font-size: 23px;
+  opacity: 0.2;
+}
+
+div.comments-main .comment-alert .send-comment1 {
+  margin: 0px auto;
+  width: 100%;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+
+div.comments-main .comment-alert .send-comment1 .user-detail {
+  margin: auto;
+  width: 100%;
+}
+
+div.comments-main .comment-alert .send-comment1 .user-detail li {
+  margin: 15px 20px auto 0;
+  width: 100%;
+  list-style: none;
+}
+
+div.comments-main .comment-alert .send-comment1 .user-detail li img {
+  margin: auto;
+  width: 7%;
+  border-radius: 50%;
+}
+
+div.comments-main .comment-alert .send-comment1 .user-detail li span {
+  white-space: nowrap;
+}
+
+div.comments-main .comment-alert .send-comment1 .user-detail li #name {
+  font-size: 13px;
+  color: black;
+  font-weight: 900;
+  margin: 0px 21px 0 50px;
+}
+
+div.comments-main .comment-alert .send-comment1 .user-detail li #text {
+  font-size: 12px;
+  color: black;
+  font-weight: 100;
+  margin: 0px -25px;
+  opacity: 0.6;
+}
+
+div.comments-main .comment-alert .send-comment1 .user-text {
+  margin: 14px auto;
+  background-color: #f0eeee;
+  border-radius: 10px;
+  text-align: justify;
+  width: 97%;
+  padding: 6px 15px;
+  opacity: 0.7;
+  direction: rtl;
+}
+
+div.comments-main .comment-alert .send-comment1 .user-text li {
+  list-style: none;
+  margin: auto;
+  width: 100%;
+}
+
+div.comments-main .comment-alert .send-comment1 .user-text li span {
+  font-size: 13px;
+  color: black;
+  font-weight: 100;
+}
+
+div.comments-main .comment-alert .send-comment1 .submit {
+  margin: 17px auto;
+  text-align: left;
+  width: 97%;
+}
+
+div.comments-main .comment-alert .send-comment1 .submit button {
+  background-color: #2cb295;
+  color: white;
+  width: 23%;
+  text-align: center;
+  padding: 3px 0px;
+  font-size: 14px;
+}
+
+div.comments-main .comment-alert .send-comment2 {
+  margin: 20px auto;
+  width: 100%;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+
+div.comments-main .comment-alert .send-comment2 .user-detail2 {
+  margin: auto;
+  width: 100%;
+}
+
+div.comments-main .comment-alert .send-comment2 .user-detail2 li {
+  margin: 15px 12px 0 auto;
+  width: 100%;
+  list-style: none;
+}
+
+div.comments-main .comment-alert .send-comment2 .user-detail2 li img {
+  margin: auto;
+  width: 7%;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+div.comments-main .comment-alert .send-comment2 .user-detail2 li span {
+  white-space: nowrap;
+}
+
+div.comments-main .comment-alert .send-comment2 .user-detail2 li #name2 {
+  font-size: 14px;
+  color: black;
+  font-weight: 900;
+  margin: 4px 23px 0px 26px;
+}
+
+div.comments-main .comment-alert .send-comment2 .user-detail2 li #text2 {
+  font-size: 12px;
+  color: black;
+  font-weight: 100;
+  word-spacing: 4px;
+  margin: 4px -18px 0px 0px;
+  opacity: 0.6;
+}
+
+div.comments-main .comment-alert .send-comment2 .user-text2 {
+  margin: 12px auto;
+  width: 97%;
+  border-radius: 10px;
+  word-spacing: -1px;
+  direction: rtl;
+  word-break: break-word;
+  text-align: justify;
+}
+
+div.comments-main .comment-alert .send-comment2 .user-text2 li {
+  list-style: none;
+  margin: 7px 13px 0px 11px;
+}
+
+div.comments-main .comment-alert .send-comment2 .user-text2 li span {
+  font-size: 13px;
+  color: black;
+  font-weight: 100;
+}
+
+div.comments-main .comment-alert .send-comment2 .submit2 {
+  margin: 10px auto;
+  display: grid;
+  width: 96%;
+  grid-template-columns: 16% 16% 16% 41% !important;
+}
+
+div.comments-main .comment-alert .send-comment2 .submit2 li {
+  list-style: none;
+}
+
+div.comments-main .comment-alert .send-comment2 .submit2 li i {
+  position: relative;
+  right: -10px;
+  top: 3px;
+  font-size: 18px;
+  opacity: 0.4;
+}
+
+div.comments-main .comment-alert .send-comment2 .submit2 .dislike-icon {
+  width: 90%;
+  margin: auto 0px 0px 0px;
+  background-color: #f0eeee;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 0px;
+  font-size: 13px;
+}
+
+div.comments-main .comment-alert .send-comment2 .submit2 .like-icon {
+  width: 90%;
+  margin: auto 0px 0px 0px;
+  background-color: #f0eeee;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 0px;
+  font-size: 13px;
+}
+
+div.comments-main .comment-alert .send-comment2 .submit2 .reply-icon {
+  width: 90%;
+  margin: auto 0px 0px 0px;
+  background-color: #f0eeee;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 0px;
+  font-size: 13px;
+}
+
+div.comments-main .comment-alert .send-comment2 .submit2 .alert-icon {
+  width: 35%;
+  margin: auto 204px 0px 0px;
+  background-color: #f0eeee;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 0px;
+  font-size: 13px;
 }
 
 @media only screen and (min-width: 1200px) {

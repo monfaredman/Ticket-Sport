@@ -1,0 +1,761 @@
+/* buy page */
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/Shabnam.ttf");
+}
+
+/* main */
+body {
+  background-color: white !important;
+}
+
+.color-back {
+  background-color: #6666660d;
+}
+.payment {
+  padding: 117px 0 0 0;
+  margin: auto;
+  div.payment-main {
+    margin: auto;
+    direction: rtl;
+    display: grid;
+    grid-template-row: 1fr 1fr;
+
+    font-family: shabnam;
+    .top-main {
+      box-shadow: 0px 11px 11px -3px #80808080;
+
+      .container {
+        padding-bottom: 37px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+        .carousel {
+          width: 98%;
+          button {
+            width: 13px;
+            border-radius: 50%;
+            height: 13px;
+            color: gray;
+          }
+        }
+        .payment-first-card {
+          height: unset !important;
+          margin: auto;
+          width: 96%;
+          box-shadow: none;
+          border: none;
+          .payment-first-card-header {
+            width: 91%;
+            margin: auto;
+            p.stadium {
+              font-size: 20px;
+              font-weight: 700;
+              font-family: "shabnam";
+              text-align: right;
+              opacity: 1;
+              letter-spacing: 1px;
+              border-bottom: 1px solid #8080804a;
+              color: black;
+              padding-bottom: 8px;
+            }
+            p:not(:first-child) {
+              font-size: 13px;
+              font-weight: 700;
+              font-family: "shabnam";
+              text-align: right;
+              letter-spacing: 1px;
+              border-bottom: 1px solid #8080804a;
+              color: black;
+              padding-bottom: 8px;
+              opacity: 1;
+            }
+            li.date {
+              font-size: 13px;
+              font-weight: 700;
+              font-family: "shabnam";
+              text-align: right;
+              border-bottom: 1px solid #8080804a;
+              color: black;
+              padding-bottom: 8px;
+              text-align: right;
+              width: 100%;
+              margin: auto;
+              p:first-child {
+                border: none;
+                letter-spacing: 0;
+                padding: 0;
+                font-size: 13px;
+                font-weight: 700;
+                font-family: "shabnam";
+                text-align: right;
+                color: black;
+                padding-bottom: 8px;
+                opacity: 1;
+                margin: 0;
+              }
+              p:last-child {
+                border: none;
+                padding: 0;
+                margin: 0;
+              }
+            }
+          }
+          .payment-first-card-body {
+            margin: 0;
+            flex: none;
+            padding: 24px 1rem;
+            height: unset !important;
+            .stars {
+              width: 100%;
+              margin: auto;
+              background-color: gainsboro !important;
+              border-radius: 4px;
+              li.star {
+                text-align: center;
+                padding: 15px 14px;
+                p {
+                  font-size: 9px !important;
+                  font-weight: 700;
+                  font-family: "shabnam";
+                  color: black;
+                  text-align: center;
+                  margin: 0;
+                  opacity: 0.7;
+                  padding-top: 2px;
+                  white-space: nowrap;
+
+                  i {
+                    font-size: 19px;
+                    padding-left: 3px;
+                    opacity: 0.7;
+                  }
+                }
+                p {
+                  font-size: 13px;
+                  font-weight: 700;
+                  font-family: "shabnam";
+                  color: black;
+                  text-align: center;
+                  margin: 0;
+                  white-space: nowrap;
+                }
+              }
+              .comments-star {
+                opacity: 0.7;
+                text-align: center;
+                padding: 11px 14px;
+                p:first-child {
+                  font-size: 20px;
+                  font-weight: 700;
+                  font-family: "shabnam";
+                  color: black;
+                  text-align: center;
+                  margin: 0;
+                  white-space: nowrap;
+                }
+                p:last-child {
+                  font-size: 10px;
+                  font-weight: 700;
+                  font-family: "shabnam";
+                  color: black;
+                  text-align: center;
+                  margin: 0;
+                  white-space: nowrap;
+                }
+              }
+            }
+          }
+          .payment-first-card-footer {
+            padding: 14px 1rem;
+            button {
+              width: 100%;
+              border-radius: 4px;
+              i {
+                position: relative;
+                left: -161px;
+                transform: rotate(-90deg);
+              }
+            }
+            ul {
+              margin: 10px auto;
+              background-color: gainsboro !important;
+              width: 100%;
+              border-radius: 4px;
+              padding: 0;
+              li:first-child {
+                margin: auto;
+                font-size: 10px;
+                font-weight: 600;
+                white-space: nowrap;
+                color: black;
+                text-align: right;
+                opacity: 0.7;
+              }
+              li {
+                text-align: center;
+                padding: 10px 0px;
+                margin: 0px 52px 0 7px;
+                i {
+                  font-size: 18px;
+                  padding: 4px 18px 0 5px;
+                  opacity: 0.7;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .payment-main2 {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      margin-top: 64px;
+      .right-section {
+        margin: -12px auto;
+        width: 98%;
+        .payment-comments {
+          width: 100%;
+
+          margin: auto;
+          border-radius: 9px;
+          background-color: rgba(189, 12, 12, 0.74) !important;
+          display: grid;
+          grid-template-columns: 36px 6fr 2fr 32px;
+          .span1 {
+            height: 49px;
+            color: white;
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            list-style: none;
+            i {
+              text-align: center;
+              opacity: 0.3;
+              position: relative;
+              top: 14px;
+              font-size: 23px;
+              right: 7px;
+            }
+          }
+          .span2 {
+            color: white;
+            font-size: 14px;
+            margin: auto;
+            text-align: right;
+            list-style: none;
+            width: 84%;
+            text-align: right;
+            display: inline;
+            white-space: nowrap;
+            span {
+            }
+          }
+          .span3 {
+            font-size: 13px;
+            margin: auto;
+            text-align: right;
+            list-style: none;
+            width: 60%;
+            opacity: 0.7;
+            white-space: nowrap;
+            a {
+              text-decoration: none;
+              color: white;
+            }
+          }
+          .span4 {
+            color: white;
+            font-size: 21px;
+            margin: 0;
+            text-align: center;
+            height: 17px;
+            list-style: none;
+            i {
+              position: relative;
+              top: 11px;
+            }
+          }
+        }
+        .fans {
+          margin: 25px auto;
+          direction: rtl;
+          font-family: shabnam;
+          border-bottom: 4px dotted gray;
+          width: 100%;
+          .fan-team {
+            text-align: right;
+            font-size: 15px;
+            font-weight: 800;
+            margin: auto;
+            span {
+            }
+          }
+          .teams {
+            display: grid;
+            grid-template-columns: 1fr 30px 1fr;
+            margin: 33px 0px;
+            .perspolisBtn {
+              border: none;
+              padding: 0;
+              margin: 0;
+              background-color: gainsboro !important;
+              width: 96%;
+              border-radius: 5px;
+              margin: 0;
+              padding: 19px 18px;
+              font-size: 23px;
+              text-align: right;
+              span {
+              }
+            }
+            .esteghlalBtn {
+              border: none;
+              padding: 0;
+              margin: auto 12px 0 0;
+              background-color: gainsboro !important;
+              width: 96%;
+              border-radius: 5px;
+              padding: 19px 18px;
+              font-size: 23px;
+              text-align: right;
+              span {
+              }
+            }
+
+            .esteghlalBtn:hover {
+              background-color: #0080003d !important;
+              color: #0d870d;
+            }
+
+            .perspolisBtn:hover {
+              background-color: #0080003d !important;
+              color: #0d870d;
+            }
+
+            .esteghlalBtn:focus {
+              background-color: #0dd50dab !important;
+              color: #093709c2;
+            }
+            .perspolisBtn:focus {
+              background-color: #0dd50dab !important;
+              color: #093709c2;
+            }
+            .esteghlalBtn:active {
+              background-color: #0dd50dab !important;
+              color: #093709c2;
+            }
+            .perspolisBtn:active {
+              background-color: #0dd50dab !important;
+              color: #093709c2;
+            }
+            .perspolisBtn:focus-visible {
+              background-color: #d54c0dab !important;
+              color: #093709c2;
+            }
+          }
+        }
+        .stadium-location {
+          width: 100%;
+          margin: auto;
+          direction: rtl;
+          font-family: shabnam;
+          .location-question {
+            text-align: right;
+            font-size: 15px;
+            font-weight: 800;
+            margin: auto;
+            span {
+            }
+          }
+          .location-main {
+            width: 100%;
+            margin: 27px auto;
+            .location-map {
+              width: 100%;
+              margin: auto;
+              img {
+                width: 100%;
+              }
+
+              area#ga:hover {
+                border: 1px solid #efefef00;
+                position: absolute;
+                right: 283px;
+                background-color: #ff797987;
+                top: 1015px;
+                box-shadow: 0 0 11px 1px #ff0000;
+                width: 430px;
+                height: 66px;
+              }
+              #three:hover {
+                border: 1px solid #efefef00;
+                position: absolute;
+                right: 462px;
+                background-color: #ff797987;
+                top: 1323px;
+                box-shadow: 0 0 11px 1px #ff0000;
+                width: 72px;
+                height: 69px;
+              }
+              #four:hover {
+                border: 1px solid #efefef00;
+                position: absolute;
+                right: 536px;
+                background-color: #ff797987;
+                top: 1320px;
+                box-shadow: 0 0 11px 1px #ff0000;
+                width: 50px;
+                height: 71px;
+              }
+              #two:hover {
+                border: 1px solid #efefef00;
+                position: absolute;
+                right: 406px;
+                background-color: #ff797987;
+                top: 1320px;
+                box-shadow: 0 0 11px 1px #ff0000;
+                width: 54px;
+                height: 74px;
+              }
+              #one:hover {
+                border: 1px solid #efefef00;
+                position: absolute;
+                right: 350px;
+                background-color: #5f87e687;
+                top: 1318px;
+                box-shadow: 0 0 11px 1px #003dff;
+                width: 54px;
+                height: 74px;
+              }
+              #five:hover {
+                border: 1px solid #efefef00;
+                position: absolute;
+                right: 587px;
+                background-color: #5f87e687;
+                top: 1318px;
+                box-shadow: 0 0 11px 1px #003dff;
+                width: 54px;
+                height: 74px;
+              }
+              #trW:hover {
+                border: 1px solid #efefef00;
+                position: absolute;
+                right: 641px;
+                background-color: #5f87e687;
+                top: 1319px;
+                box-shadow: 0 0 11px 1px #003dff;
+                width: 54px;
+                height: 74px;
+              }
+              #trS:hover {
+                border: 1px solid #efefef00;
+                border: 1px solid #efefef00;
+                position: absolute;
+                right: 296px;
+                background-color: #5f87e687;
+                top: 1320px;
+                box-shadow: 0 0 11px 1px #003dff;
+                width: 54px;
+                height: 74px;
+              }
+
+              #two:focus {
+                border: 1px solid #efefef00;
+                position: absolute;
+                right: 406px;
+                background-color: #ff797987;
+                top: 1282px;
+                box-shadow: 0 0 11px 1px #ff0000;
+                width: 54px;
+                height: 74px;
+              }
+            }
+
+            .loacation-tooltips {
+              margin: 30px auto;
+              border-bottom: 4px dotted gray;
+              padding-bottom: 28px;
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              .loacation-tooltip1 {
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+                .loacation-tooltip {
+                  width: 100%;
+                  margin: auto;
+                  background-color: #d1cccc !important;
+                  text-align: right;
+                  border-radius: 6px;
+                  display: grid;
+                  grid-template-columns: 1fr 1fr;
+                  #span {
+                    margin: 5px 10px 0px 0px;
+                    span {
+                    }
+                  }
+                  .text-section {
+                    display: grid;
+                    grid-template-rows: 1fr 1fr;
+                    .line-one {
+                      font-size: 20px;
+                      font-weight: 100;
+                      color: black;
+                      margin: 5px 9px 0px 0px;
+                      opacity: 0.7;
+                    }
+                    .line-two {
+                      font-size: 15px;
+                      font-weight: 100;
+                      color: black;
+                      margin: 0px 10px 0px 71px;
+                      white-space: nowrap;
+                      opacity: 0.7;
+                    }
+                  }
+                }
+                .loacation-tooltip {
+                  width: 95%;
+                  margin: auto;
+                  background-color: #d1cccc !important;
+                  text-align: right;
+                  border-radius: 6px;
+                  display: grid;
+                  grid-template-columns: 50px 1fr;
+                  #span {
+                    margin: auto;
+                    span {
+                      font-size: 43px;
+                      font-family: "shabnam";
+                      font-weight: 700;
+                      padding-right: 17px;
+                    }
+                  }
+                  .text-section {
+                    display: grid;
+                    grid-template-rows: 1fr 1fr;
+                    width: 80%;
+                    margin: auto;
+                    .line-one {
+                      font-size: 20px;
+                      font-weight: 100;
+                      color: black;
+                      margin: 5px 9px 0px 0px;
+                      opacity: 0.7;
+                    }
+                    .line-two {
+                      font-size: 15px;
+                      font-weight: 100;
+                      color: black;
+                      margin: 0px 10px 0px 71px;
+                      white-space: nowrap;
+                      opacity: 0.7;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+        .seats {
+          width: 100%;
+          margin: auto;
+          direction: rtl;
+          font-family: shabnam;
+          .seat-selection {
+            text-align: right;
+            font-size: 15px;
+            font-weight: 800;
+            margin: auto;
+            span {
+            }
+          }
+          .seat-row {
+            margin: 25px auto 82px auto;
+            width: 103%;
+            li {
+              display: contents;
+              img {
+                text-align: right;
+                font-size: 15px;
+                font-weight: 800;
+                margin: -2px 0px;
+                width: 9%;
+              }
+              img:hover {
+                box-shadow: inset 0 1000px #ffc5c578;
+                border-radius: 50%;
+              }
+            }
+          }
+        }
+      }
+
+      .payment-second-card {
+        width: 88%;
+        height: max-content;
+        margin: 0 auto;
+        border-radius: 7px;
+        box-shadow: 0 0 12px 1px #8080802b;
+        background-color: white;
+        .payment-second-card-header {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          padding: 0px;
+          margin-bottom: 0;
+          background-color: rgb(255, 255, 255) !important;
+          border: none !important;
+          border-radius: 7px 7px 0 0;
+          div {
+            padding: 30px 0 0 0;
+            h4 {
+              font-size: 19px;
+              font-weight: 900;
+              margin-top: 10px;
+            }
+            p {
+              font-size: 12px;
+              opacity: 0.5;
+              margin-top: 10px;
+              letter-spacing: 3px;
+            }
+            img {
+              width: 43%;
+            }
+          }
+        }
+        .payment-second-card-body {
+          margin: auto;
+          height: auto !important;
+          padding: 0;
+          width: 100%;
+          border: none !important;
+          .footer-in {
+            width: 94%;
+            margin: auto;
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #dbd1d1;
+            li {
+              list-style: none;
+              white-space: nowrap;
+              display: inline-block;
+              width: 25%;
+              text-align: center;
+            }
+            .varzeshgah {
+              margin: 0;
+              font-weight: 600;
+              font-size: 16px;
+              text-align: right;
+              width: 46%;
+            }
+
+            .date {
+              margin: auto;
+              font-size: 14px;
+              font-weight: 300;
+              width: 17%;
+            }
+            .time {
+              margin: 0;
+              font-size: 14px;
+              font-weight: 300;
+              width: 16%;
+              text-align: left;
+            }
+          }
+          .match-card-detail {
+            background-color: #45c38b !important;
+            width: 100%;
+            margin: auto;
+            height: auto !important;
+            li {
+              list-style: none;
+              margin: auto;
+              font-size: 13px;
+              color: white;
+              opacity: 0.9;
+              padding: 10px 0px;
+              width: 93%;
+              border-bottom: 1px solid #ffffff87;
+              p {
+                margin: 0;
+              }
+              span {
+                padding: 0 10px;
+              }
+            }
+          }
+          .price {
+            width: 93%;
+            margin: 9px auto;
+            border-bottom: 1px solid #dbd1d1;
+            padding: 0px 0px;
+            li {
+              list-style: none;
+              margin: auto;
+              span {
+                font-size: 14px;
+                color: rgb(13, 160, 135);
+                font-weight: 900;
+              }
+              p {
+                font-size: 13px;
+                color: rgb(0, 0, 0);
+                font-weight: 100;
+                opacity: 0.6;
+                margin: 2px 0;
+                span {
+                  font-size: 13px;
+                  color: black;
+                  font-weight: 100;
+                }
+              }
+            }
+          }
+        }
+        .payment-second-card-footer {
+          width: 95%;
+          margin: auto;
+          background-color: white !important;
+          border-top: none !important;
+          padding: 0;
+          li {
+            margin: 14px auto;
+            width: 100%;
+            a {
+              width: 100%;
+              margin: auto;
+              background-color: #50bc2f;
+              border: none;
+              padding: 10px;
+
+              i {
+                position: absolute;
+                left: 17px;
+              }
+            }
+          }
+          p {
+            width: 171px;
+            margin: 6px 3px;
+            font-size: 15px;
+            font-weight: 600;
+            white-space: nowrap;
+            text-align: right;
+            color: #329696;
+            span {
+              padding-right: 103px;
+              letter-spacing: 2px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

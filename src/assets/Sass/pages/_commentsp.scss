@@ -1,0 +1,288 @@
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/Shabnam.ttf");
+}
+
+/* comment-alert */
+div.comments-main {
+  width: 47%;
+  margin: auto;
+  position: relative;
+  top: -1576px;
+  .comment-alert {
+    margin: auto;
+    direction: rtl;
+    font-family: shabnam;
+    width: 100%;
+    z-index: 99;
+    padding: 24px 24px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 1px #88888852;
+    .payment-comments {
+      width: 100%;
+      margin: auto;
+      border-radius: 9px;
+      background-color: rgba(189, 12, 12, 0.74) !important;
+      display: grid;
+      grid-template-columns: 36px 6fr 2fr 32px;
+      .span1 {
+        height: 49px;
+        color: white;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        list-style: none;
+        i {
+          text-align: center;
+          opacity: 0.3;
+          position: relative;
+          top: 14px;
+          font-size: 23px;
+          right: 7px;
+        }
+      }
+      .span2 {
+        color: white;
+        font-size: 12px;
+        margin: auto;
+        text-align: right;
+        list-style: none;
+        width: 84%;
+        text-align: right;
+        display: inline;
+        white-space: nowrap;
+        span {
+        }
+      }
+      .span3 {
+        font-size: 13px;
+        margin: auto auto auto 0;
+        text-align: right;
+        word-spacing: -2px;
+        list-style: none;
+        width: 60%;
+        opacity: 0.7;
+        white-space: nowrap;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+      .span4 {
+        i {
+          color: white;
+          font-size: 15px;
+          margin: 17px 12px;
+          text-align: center;
+          opacity: 0.7;
+          list-style: none;
+        }
+      }
+    }
+    .comment-point {
+      margin: 20px auto;
+      width: 100%;
+      text-align: left;
+      .icon-fill {
+        font-size: 23px;
+        opacity: 0.8;
+      }
+      .icon-empty {
+        font-size: 23px;
+        opacity: 0.2;
+      }
+    }
+    .send-comment1 {
+      margin: 0px auto;
+      width: 100%;
+      border: 1px solid gainsboro;
+      border-radius: 10px;
+      .user-detail {
+        margin: auto;
+        width: 100%;
+
+        li {
+          margin: 15px 20px auto 0;
+          width: 100%;
+          list-style: none;
+          img {
+            margin: auto;
+            width: 7%;
+            border-radius: 50%;
+          }
+          span {
+            white-space: nowrap;
+          }
+          #name {
+            font-size: 13px;
+            color: black;
+            font-weight: 900;
+            margin: 0px 21px 0 50px;
+          }
+          #text {
+            font-size: 12px;
+            color: black;
+            font-weight: 100;
+            margin: 0px -25px;
+            opacity: 0.6;
+          }
+        }
+      }
+      .user-text {
+        margin: 14px auto;
+        background-color: #f0eeee;
+        border-radius: 10px;
+        text-align: justify;
+        width: 97%;
+        padding: 6px 15px;
+        opacity: 0.7;
+        direction: rtl;
+        li {
+          list-style: none;
+          margin: auto;
+          width: 100%;
+          span {
+            font-size: 13px;
+            color: black;
+            font-weight: 100;
+          }
+        }
+      }
+
+      .submit {
+        margin: 17px auto;
+        text-align: left;
+        width: 97%;
+        button {
+          background-color: #2cb295;
+          color: white;
+          width: 23%;
+          text-align: center;
+          padding: 3px 0px;
+          font-size: 14px;
+        }
+      }
+    }
+    .send-comment2 {
+      margin: 20px auto;
+      width: 100%;
+      border: 1px solid gainsboro;
+      border-radius: 10px;
+      .user-detail2 {
+        margin: auto;
+        width: 100%;
+
+        li {
+          margin: 15px 12px 0 auto;
+          width: 100%;
+          list-style: none;
+          img {
+            margin: auto;
+            width: 7%;
+            border-radius: 50%;
+            display: inline-block;
+          }
+
+          span {
+            white-space: nowrap;
+          }
+
+          #name2 {
+            font-size: 14px;
+            color: black;
+            font-weight: 900;
+            margin: 4px 23px 0px 26px;
+          }
+
+          #text2 {
+            font-size: 12px;
+            color: black;
+            font-weight: 100;
+            word-spacing: 4px;
+            margin: 4px -18px 0px 0px;
+            opacity: 0.6;
+          }
+        }
+      }
+      .user-text2 {
+        margin: 12px auto;
+        width: 97%;
+        border-radius: 10px;
+        word-spacing: -1px;
+        direction: rtl;
+        word-break: break-word;
+        text-align: justify;
+        li {
+          list-style: none;
+          margin: 7px 13px 0px 11px;
+          span {
+            font-size: 13px;
+            color: black;
+            font-weight: 100;
+          }
+        }
+      }
+      .submit2 {
+        margin: 10px auto;
+        display: grid;
+        width: 96%;
+        grid-template-columns: 16% 16% 16% 41% !important;
+        li {
+          list-style: none;
+          i {
+            position: relative;
+            right: -10px;
+            top: 3px;
+            font-size: 18px;
+            opacity: 0.4;
+          }
+        }
+
+        .dislike-icon {
+          width: 90%;
+          margin: auto 0px 0px 0px;
+          background-color: #f0eeee;
+          text-align: center;
+          border-radius: 6px;
+          padding: 6px 0px;
+          font-size: 13px;
+        }
+
+        .like-icon {
+          width: 90%;
+          margin: auto 0px 0px 0px;
+          background-color: #f0eeee;
+          text-align: center;
+          border-radius: 6px;
+          padding: 6px 0px;
+          font-size: 13px;
+        }
+
+        .reply-icon {
+          width: 90%;
+          margin: auto 0px 0px 0px;
+          background-color: #f0eeee;
+          text-align: center;
+          border-radius: 6px;
+          padding: 6px 0px;
+          font-size: 13px;
+        }
+
+        .alert-icon {
+          width: 35%;
+          margin: auto 204px 0px 0px;
+          background-color: #f0eeee;
+          text-align: center;
+          border-radius: 6px;
+          padding: 6px 0px;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

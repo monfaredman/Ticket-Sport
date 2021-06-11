@@ -30,11 +30,14 @@
         </div>
         <div class="button-topsite">
           <li>
-            <a href="" class="btn btn-success btn-block text-center">
+            <router-link
+              to="/payment"
+              class="btn btn-success btn-block text-center"
+            >
               خرید بلیط
 
               <i class="fas fa-angle-left"></i>
-            </a>
+            </router-link>
           </li>
         </div>
       </div>
@@ -42,6 +45,12 @@
   </div>
 </template>
 <script>
-export default {};
+// import { useRouter, useRoutes } from "vue-router";
+export default {
+  setup() {
+    // const router = useRouter();
+    // const route = useRoute();
+  },
+};
 </script>
 <style></style>

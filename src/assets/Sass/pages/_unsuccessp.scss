@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/Shabnam.ttf");
+}
+
+div.unsa-main {
+  width: 100%;
+  margin: auto;
+
+  .unsuccess-payment {
+    background-image: url(/img/img-9.d30b4d7c.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 121px 0 50px 0;
+    box-shadow: inset 0 1031px #000000ad;
+    .unsa-title {
+      width: 100%;
+      margin: auto;
+      white-space: nowrap;
+      text-align: center;
+      p {
+        font-weight: 600;
+        font-size: 20px;
+        font-family: "shabnam";
+        color: aliceblue;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+      }
+    }
+    .unsa-menu-color {
+      background-color: white;
+      width: 100%;
+      height: 85px;
+      position: absolute;
+      top: 0;
+    }
+    .unsa-card {
+      margin: auto;
+      background-color: white;
+      border-radius: 7px;
+      font-family: "shabnam";
+      .unsa-card-header {
+        padding: 0px;
+        margin-bottom: 0;
+        background-color: white !important;
+        border-bottom: none !important;
+        width: 100%;
+        margin: auto;
+        border-radius: 7px 7px 0 0;
+        li {
+          padding: 16px 0;
+          img {
+            width: 34%;
+          }
+          h4 {
+            font-size: 19px;
+            font-weight: 900;
+            margin-top: 10px;
+          }
+          p {
+            font-size: 12px;
+            opacity: 0.5;
+            margin-top: 10px;
+            letter-spacing: 3px;
+          }
+        }
+      }
+      .unsa-card-body {
+        width: 100%;
+        margin: auto;
+
+        div.footer-in {
+          width: 92%;
+          margin: auto;
+          border-top: 2px solid #dbd2d2;
+          padding: 20px 0px 0px 0px;
+          direction: rtl;
+          font-family: "shabnam";
+          li {
+            list-style: none;
+            white-space: nowrap;
+          }
+          .varzeshgah {
+            display: inline-block;
+            width: 50%;
+            font-size: 16px;
+            font-weight: 400;
+          }
+          .date {
+            display: inline-block;
+            width: 33%;
+            font-size: 16px;
+            font-weight: 500;
+          }
+          .time {
+            display: inline-block;
+            width: 17%;
+            text-align: left;
+            font-size: 16px;
+            font-weight: 500;
+          }
+        }
+        div.match-card-detail {
+          background-color: #bd0f0f;
+          width: 100%;
+          margin: 10px auto;
+          border-radius: 0 0 7px 7px;
+          li {
+            list-style: none;
+            margin: auto;
+            font-size: 15px;
+            color: white;
+          }
+          .match-card-detail1 {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.64);
+            width: 92%;
+            padding: 23px 0px;
+          }
+          .match-card-detail2 {
+            width: 92%;
+            padding: 14px 0px;
+            p {
+              padding: 8px 0 0 0;
+              margin: 0;
+              font-size: 13px;
+              word-spacing: 8px;
+            }
+          }
+        }
+      }
+    }
+    .col-4 {
+      width: 29.333333%;
+    }
+    .share {
+      font-family: "shabnam";
+      margin: 10px auto;
+      width: 29%;
+      text-align: center;
+      button {
+        margin: auto;
+        width: 100%;
+        font-size: 19px;
+        font-weight: 900;
+        color: black;
+        text-align: center;
+        padding: 16px 0;
+      }
+    }
+
+    .end-payment {
+      width: 100%;
+      margin: 33px auto;
+      white-space: nowrap;
+      text-align: center;
+      p.end-payment-action {
+        font-weight: 500;
+        font-size: 14px;
+        font-family: "shabnam";
+        color: aliceblue;
+        line-height: 25px;
+      }
+    }
+  }
+}

@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/Shabnam.ttf");
+}
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/Samim.ttf");
+}
+@font-face {
+  font-family: "Samim";
+  src: url("../Fonts/AArghavan.ttf");
+}
+
+div.acount-login {
+  width: 100%;
+  background-color: darkgrey;
+  direction: rtl;
+  font-family: "shabnam";
+  .sign-in {
+    width: 61%;
+    margin: auto;
+    padding: 104px 0;
+    display: grid;
+    grid-template-columns: 58% 42%;
+    height: unset !important;
+    div.input {
+      margin: 0 auto;
+      width: 100%;
+      border-radius: 0 8px 8px 0;
+      background-color: white;
+      li.title {
+        font-size: 19px;
+        font-weight: 600;
+        color: #44cb60;
+        letter-spacing: 2px;
+        white-space: nowrap;
+        width: 73%;
+        margin: 41px auto;
+        text-align: center;
+      }
+      .input-email {
+        text-align: right;
+        width: 73%;
+        margin: 85px auto 20px auto;
+        p {
+          font-size: 12px;
+          font-weight: 100;
+          color: black;
+          margin: 0px 0px 2px 0px;
+        }
+        input {
+          margin: auto;
+          width: 100%;
+          border: 1px solid #d5d5d5;
+          border-radius: 3px;
+          padding: 7px 0;
+        }
+      }
+      .input-password {
+        width: 73%;
+        margin: 28px auto 41px auto;
+        p {
+          font-size: 12px;
+          font-weight: 100;
+          color: black;
+          margin: 0px 0px 2px 0px;
+        }
+        input {
+          margin: auto;
+          width: 100%;
+          border: 1px solid #d5d5d5;
+          border-radius: 3px;
+          padding: 7px 0;
+        }
+      }
+      .input-button {
+        width: 73%;
+        margin: 47px auto 0 auto;
+        button {
+          font-size: 15px;
+          color: white;
+          width: 100%;
+          margin: auto;
+          padding: 10px 0;
+        }
+      }
+      .input-button2 {
+        width: 73%;
+        margin: 11px auto 49px auto;
+        button {
+          background-color: #b8b8b836;
+          color: #0000cf9e;
+          border: none;
+          padding: 14px 0;
+          font-size: 13px;
+          width: 100%;
+        }
+      }
+    }
+    div.title {
+      height: unset !important;
+      text-align: center;
+      font-family: "Shabnam";
+      background-size: cover;
+      background-image: url(/img/img-10.88c21608.jpg);
+      box-shadow: inset 0 1000px #00ff6e9c;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 8px 0 0 8px;
+      .head-title {
+        font-size: 34px;
+        font-weight: 900;
+        color: white;
+        margin: 29px auto;
+        list-style: none;
+        font-family: "AArghavan";
+        width: 85%;
+      }
+      .head-text {
+        list-style: none;
+        font-size: 12px;
+        font-weight: 900;
+        color: white;
+        margin: 42px auto 193px auto;
+        text-align: center;
+        width: 85%;
+        letter-spacing: 1px;
+      }
+      .head-enter {
+        margin: 149px auto 10px auto;
+        width: 85%;
+        a {
+          font-size: 14px;
+          padding: 12px 0;
+          text-align: center;
+          height: unset;
+          width: 100%;
+          background-color: #28445f;
+          border: none;
+          color: white;
+        }
+      }
+
+      .head-enter2 {
+        margin: -2px auto 69px auto;
+        width: 85%;
+        button {
+          width: 100%;
+          background-image: url(/img/img-34.1b8993b8.jpg);
+          background-size: 20%;
+          background-repeat: no-repeat;
+          background-position: 232px 8px;
+          font-size: 14px;
+          padding: 12px 0;
+          text-align: center;
+          height: unset;
+        }
+      }
+    }
+  }
+}

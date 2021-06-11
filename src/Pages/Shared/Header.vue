@@ -22,15 +22,19 @@
             <input type="serach" class="form-control" placeholder="جستجو" />
           </div>
           <div class="menu">
-            <li><a href="" class="">باشگاها</a></li>
+            <li>
+              <router-link to="/login" href="" class="">باشگاها</router-link>
+            </li>
             <li><a href="" class="">دسته بندی ها</a></li>
             <li><a href="" class="">وبلاگ ها</a></li>
             <li><a href="" class="">ارتباط با ما</a></li>
           </div>
           <div class="acount-box">
-            <li href=""><i class="far fa-user-circle"></i></li>
-            <li class="login">ورود |</li>
-            <li href="" class="pl-2">ثبت نام</li>
+            <router-link to="/login">
+              <li href=""><i class="far fa-user-circle"></i></li>
+              <li class="login">ورود |</li>
+              <li href="">ثبت نام</li>
+            </router-link>
           </div>
         </div>
       </nav>

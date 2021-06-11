@@ -31,13 +31,15 @@ header {
     .navbar-brand {
       font-size: 30px;
       margin: 0px;
-
+      width: 13%;
       a {
         font-family: AArghavan;
         letter-spacing: 5px;
         font-size: 27px;
         margin: auto;
-        color: white;
+        background: -webkit-linear-gradient(45deg, #32f800, #e4f211);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         text-decoration: none;
       }
     }
@@ -51,7 +53,7 @@ header {
       .search-box {
         margin: 13px 28px;
         input {
-          border: 2px solid white;
+          border: 2px solid #c5c5c557;
           border-radius: 50px;
           background-image: url("../Images/img-11.svg");
           background-size: 20px;
@@ -64,14 +66,14 @@ header {
       .menu {
         margin: 17px 30px 0px 0px;
         li:not(:last-child) {
-          border-left: 1px solid white;
+          border-left: 1px solid black;
         }
         li {
           display: inline;
           padding: 0px 11px 0px 11px;
           text-decoration: none;
           a {
-            color: #ebe2e2;
+            color: black;
             text-decoration: none;
             white-space: nowrap;
             font-family: shabnam;
@@ -80,9 +82,8 @@ header {
         }
       }
       .acount-box {
-        border: 1px solid white;
         border-radius: 50px;
-        background-color: #f9fafb;
+        background-color: #bababa8a;
         opacity: 0.6;
         list-style: none;
         margin-right: 26px;
@@ -109,7 +110,7 @@ header {
           padding: 2px 0px 18px 6px;
         }
         li:last-child {
-          padding: 0px 0px 0px 8px;
+          padding: 0px;
         }
         .svg-inline--fa {
           font-size: x-large;

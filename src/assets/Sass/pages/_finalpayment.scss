@@ -1,0 +1,363 @@
+/* buy page */
+@font-face {
+  font-family: "AKavir";
+  src: url("../Fonts/AKavir.ttf");
+}
+@font-face {
+  font-family: "shabnam";
+  src: url("../Fonts/Shabnam.ttf");
+}
+
+/* main */
+div.final-main {
+  width: 81%;
+  margin: auto;
+  direction: rtl;
+  font-family: shabnam;
+  padding: 108px 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  .owner-comments {
+    width: 100%;
+    margin: 0;
+    .final-comments {
+      width: 94%;
+      margin: auto 0;
+      border-radius: 9px;
+      text-align: center;
+      background-color: rgba(202, 13, 13, 0.74);
+      display: grid;
+      grid-template-columns: 2fr 1fr 20px;
+      height: unset !important;
+      padding: 13px 0;
+
+      .span2 {
+        color: white;
+        font-size: 13px;
+        margin: auto 22px auto 0;
+        text-align: right;
+        list-style: none;
+        white-space: nowrap;
+      }
+      li.span3 {
+        font-size: 13px;
+        text-align: center;
+        list-style: none;
+        margin: auto 58px auto 0;
+        white-space: nowrap;
+        opacity: 0.7;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+      .span4 {
+        color: white;
+        font-size: 21px;
+        text-align: center;
+        list-style: none;
+        margin: auto -22px auto 0;
+        display: inline;
+        white-space: nowrap;
+      }
+    }
+    .cash {
+      margin: 34px 0 auto 0;
+      width: 94%;
+      border: 1px solid #e4e1e1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      li.price-string {
+        margin: 16px 18px 0 auto;
+        width: 100%;
+        span {
+          margin: 0px 13px 0px 0px;
+          font-size: 13px;
+          font-weight: 900;
+          color: black;
+        }
+      }
+      li.price-number {
+        width: 90%;
+        padding: 20px 0;
+        text-align: left;
+        .adad {
+          font-size: 33px;
+          font-weight: 900;
+          color: black;
+          letter-spacing: 3px;
+        }
+        .rial {
+          margin: 0px 12px 0px 0px;
+          font-size: 12px;
+          font-weight: 100;
+          color: black;
+          opacity: 0.7;
+        }
+        p {
+          font-size: 13px;
+          font-weight: 100;
+          color: black;
+          letter-spacing: 1px;
+        }
+      }
+    }
+    .biling {
+      margin: 20px 0 auto auto;
+      width: 94%;
+      border: 1px solid #e4e1e1;
+      .price-string {
+        margin: 16px 18px auto 0;
+        width: 100%;
+        text-align: right;
+        white-space: nowrap;
+        span {
+          margin: 0px 13px 0px 0px;
+          font-size: 13px;
+          font-weight: 900;
+          color: black;
+          white-space: nowrap;
+        }
+      }
+      .pay-factory {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin: 37px auto 15px auto;
+
+        li {
+          margin: auto;
+          text-align: center;
+          width: 87%;
+          list-style: none;
+          border: 1px solid gainsboro;
+          border-radius: 8px;
+          img {
+            margin: 10px auto 0 auto;
+            width: 33%;
+          }
+
+          p.icon-way {
+            margin: 7px auto 0 auto;
+            font-size: 10px;
+            font-weight: 100;
+            color: black;
+            opacity: 0.6;
+          }
+          p.icon-factory {
+            letter-spacing: 1px;
+            margin: 1px auto 0px auto;
+            font-size: 13px;
+            text-align: center;
+            font-weight: 900;
+            color: black;
+          }
+          a,
+          button {
+            margin: 5px auto 7px auto;
+            width: 78%;
+            font-size: 11px;
+            padding: 2px 0px;
+            background-color: #2fb62f;
+            border: none;
+          }
+          .disabled {
+            background-color: #4d524d42;
+            border: none;
+            color: black;
+          }
+        }
+        .unfound {
+          background-color: #ff010124;
+          opacity: 0.8;
+          p.icon-way {
+            margin: 7px auto 0 auto;
+            font-size: 10px;
+            font-weight: 100;
+            color: #8d3333;
+            opacity: 0.6;
+          }
+          p.icon-factory {
+            letter-spacing: 1px;
+            margin: 1px auto 0px auto;
+            font-size: 13px;
+            text-align: center;
+            font-weight: 900;
+            color: #8d3333;
+            opacity: 0.7;
+          }
+          button {
+            margin: 5px auto 7px auto;
+            width: 78%;
+            font-size: 11px;
+            padding: 2px 0px;
+            background-color: #d18989;
+            border: none;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .final-card {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 7px;
+    box-shadow: 0 0 12px 1px #8080802b;
+    background-color: white;
+    .final-card-header {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 0px;
+      margin-bottom: 0;
+      background-color: rgb(255, 255, 255) !important;
+      border: none !important;
+      border-radius: 7px 7px 0 0;
+      div {
+        padding: 30px 0 0 0;
+        h4 {
+          font-size: 19px;
+          font-weight: 900;
+          margin-top: 10px;
+        }
+        p {
+          font-size: 12px;
+          opacity: 0.5;
+          margin-top: 10px;
+          letter-spacing: 3px;
+        }
+        img {
+          width: 43%;
+        }
+      }
+    }
+    .final-card-body {
+      margin: auto;
+      height: auto !important;
+      padding: 0;
+      width: 100%;
+      border: none !important;
+      .footer-in {
+        width: 93%;
+        margin: auto;
+        text-align: center;
+        padding: 20px 0;
+        border-top: 1px solid #dbd1d1;
+        li {
+          list-style: none;
+          white-space: nowrap;
+          display: inline-block;
+          width: 25%;
+          text-align: center;
+        }
+        .varzeshgah {
+          margin: 0;
+          font-weight: 600;
+          font-size: 16px;
+          text-align: right;
+          width: 46%;
+          padding: 0;
+        }
+
+        .date {
+          margin: auto;
+          font-size: 14px;
+          font-weight: 300;
+          width: 17%;
+        }
+        .time {
+          margin: 0;
+          font-size: 14px;
+          font-weight: 300;
+          width: 16%;
+          text-align: left;
+          padding: 0;
+        }
+      }
+      .match-card-detail {
+        background-color: #45c38b !important;
+        width: 100%;
+        margin: auto;
+        height: auto !important;
+        li {
+          list-style: none;
+          margin: auto;
+          font-size: 13px;
+          color: white;
+          opacity: 0.9;
+          padding: 10px 0px;
+          width: 93%;
+          border-bottom: 1px solid #ffffff87;
+          p {
+            margin: 0;
+          }
+          span {
+            padding: 0 10px;
+          }
+        }
+      }
+      .price {
+        width: 93%;
+        margin: 9px auto;
+        border-bottom: 1px solid #dbd1d1;
+        padding: 0px 0px;
+        li {
+          list-style: none;
+          margin: auto;
+          span {
+            font-size: 14px;
+            color: rgb(13, 160, 135);
+            font-weight: 900;
+          }
+          p {
+            font-size: 13px;
+            color: rgb(0, 0, 0);
+            font-weight: 100;
+            opacity: 0.6;
+            margin: 2px 0;
+            span {
+              font-size: 13px;
+              color: black;
+              font-weight: 100;
+            }
+          }
+        }
+      }
+    }
+    .final-card-footer {
+      width: 95%;
+      margin: auto;
+      background-color: white !important;
+      border-top: none !important;
+      padding: 0;
+      li {
+        margin: 14px auto;
+        width: 100%;
+        a {
+          width: 100%;
+          margin: auto;
+          background-color: #50bc2f;
+          border: none;
+          padding: 10px;
+
+          i {
+            position: absolute;
+            left: 17px;
+          }
+        }
+      }
+      p {
+        width: 171px;
+        margin: 6px 3px;
+        font-size: 15px;
+        font-weight: 600;
+        white-space: nowrap;
+        text-align: right;
+        color: #329696;
+        span {
+          padding-right: 103px;
+          letter-spacing: 2px;
+        }
+      }
+    }
+  }
+}
