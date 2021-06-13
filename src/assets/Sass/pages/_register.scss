@@ -3,16 +3,12 @@
   src: url("../Fonts/AKavir.ttf");
 }
 @font-face {
-  font-family: "shabnam";
+  font-family: "Shabnam";
   src: url("../Fonts/Shabnam.ttf");
 }
 @font-face {
   font-family: "Samim";
   src: url("../Fonts/Samim.ttf");
-}
-@font-face {
-  font-family: "Samim";
-  src: url("../Fonts/AArghavan.ttf");
 }
 
 div.acount-register {
@@ -49,7 +45,7 @@ div.acount-register {
         p {
           font-size: 12px;
           font-weight: 100;
-          color: black;
+
           margin: 0px 0px 2px 0px;
         }
         input {
@@ -82,11 +78,19 @@ div.acount-register {
         text-align: right;
         width: 73%;
         margin: 15px auto 10px auto;
-        p {
+        .lable {
           font-size: 12px;
           font-weight: 100;
           color: black;
           margin: 0px 0px 2px 0px;
+        }
+        p.email-errors {
+          font-size: 12px;
+          font-weight: 100;
+          margin: 5px 10px 2px 0px;
+          span {
+            font-size: 12px;
+          }
         }
         input {
           margin: auto;
@@ -99,11 +103,19 @@ div.acount-register {
       .input-password {
         width: 73%;
         margin: 17px auto 41px auto;
-        p {
+        .lable {
           font-size: 12px;
           font-weight: 100;
           color: black;
           margin: 0px 0px 2px 0px;
+        }
+        p.email-errors {
+          font-size: 12px;
+          font-weight: 100;
+          margin: 5px 10px 2px 0px;
+          span {
+            font-size: 12px;
+          }
         }
         input {
           margin: auto;

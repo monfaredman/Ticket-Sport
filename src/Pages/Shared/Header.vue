@@ -29,7 +29,10 @@
             <li><a href="" class="">وبلاگ ها</a></li>
             <li><a href="" class="">ارتباط با ما</a></li>
           </div>
-          <div class="acount-box">
+          <div
+            class="acount-box"
+            :class="{ headerStylePaynent: paymentRouteBo }"
+          >
             <router-link to="/login">
               <li href=""><i class="far fa-user-circle"></i></li>
               <li class="login">ورود |</li>
@@ -43,7 +46,28 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      paymentRouteBo: false,
+    };
+  },
+  methods: {},
+  beforeEnter() {
+    if (window.location.href == "http://localhost:8080/payment") {
+      this.paymentRouteBo = true;
+      console.log("paymentRouteBo");
+    } else {
+      this.paymentRouteBo = false;
+      console.log("noooooooo");
+    }
+  },
+};
 </script>
 
-<style></style>
+<style scoped>
+.headerStylePaynent {
+  background-color: #000000c0 !important;
+  opacity: 0.8 !important;
+}
+</style>

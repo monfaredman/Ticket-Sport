@@ -8,8 +8,8 @@
   src: url("../Fonts/Samim.ttf");
 }
 @font-face {
-  font-family: "shabnam";
-  src: url("../Fonts/shabnam/Shabnam.ttf");
+  font-family: "Shabnam";
+  src: url("../Fonts/Shabnam.ttf");
 }
 @font-face {
   font-family: "ANegaar";
@@ -18,6 +18,26 @@
 @font-face {
   font-family: "AArghavan";
   src: url("../Fonts/AArghavan.ttf");
+}
+
+@font-face {
+  font-family: "ElMessiri-Bold";
+  src: url("../Fonts/ElMessiri-Bold.ttf");
+}
+
+@font-face {
+  font-family: "IranNastaliq";
+  src: url("../Fonts/IranNastaliq.ttf");
+}
+
+@font-face {
+  font-family: "Parvin-Regular";
+  src: url("../Fonts/Parvin-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Zahed_Dal";
+  src: url("../Fonts/Zahed_Dal.ttf");
 }
 
 header {
@@ -33,11 +53,13 @@ header {
       margin: 0px;
       width: 13%;
       a {
-        font-family: AArghavan;
-        letter-spacing: 5px;
-        font-size: 27px;
+        font-family: ElMessiri-Bold;
+        letter-spacing: -2px;
+        font-size: 34px;
+        word-spacing: -1px;
+        font-weight: 900;
         margin: auto;
-        background: -webkit-linear-gradient(45deg, #32f800, #e4f211);
+        background: -webkit-linear-gradient(45deg, #00b9ff, #b2ff47);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-decoration: none;
@@ -53,14 +75,16 @@ header {
       .search-box {
         margin: 13px 28px;
         input {
-          border: 2px solid #c5c5c557;
-          border-radius: 50px;
           background-image: url("../Images/img-11.svg");
+          border: 1px solid #37373724;
+          border-radius: 50px;
           background-size: 20px;
           background-repeat: no-repeat;
           background-position: 10px 8px;
-          font-family: shabnam;
           width: 219px;
+          font-size: 16px;
+          opacity: 0.9;
+          font-family: "Samim";
         }
       }
       .menu {
@@ -77,14 +101,21 @@ header {
             text-decoration: none;
             white-space: nowrap;
             font-family: shabnam;
-            font-size: 15px;
+            font-size: 14px;
+            font-family: "Samim";
+            font-weight: 600;
+          }
+          a:hover {
+            color: #ffffff;
+            font-size: 14px;
+            text-shadow: 0px 2px 6px #313731;
           }
         }
       }
       .acount-box {
         border-radius: 50px;
-        background-color: #bababa8a;
-        opacity: 0.6;
+        background-color: #e6e6e65e;
+        opacity: 0.7;
         list-style: none;
         margin-right: 26px;
         height: 42px;
@@ -96,26 +127,35 @@ header {
         }
         li {
           white-space: nowrap;
-          color: black;
-          font-family: shabnam;
+          color: #261e1e;
+          font-family: "Samim";
+          font-size: 14px;
           display: inline-block;
           i {
             font-size: 25px;
             margin: auto;
             padding: 2px 9px 5px 9px;
+            opacity: 1 !important;
           }
         }
         li.login {
           line-height: 2px;
           padding: 2px 0px 18px 6px;
+          opacity: 1 !important;
         }
         li:last-child {
           padding: 0px;
+          opacity: 1 !important;
         }
         .svg-inline--fa {
           font-size: x-large;
           vertical-align: -11.125px;
+          opacity: 1 !important;
         }
+      }
+      .acount-box:hover {
+        opacity: 1;
+        background-color: #ffffff87;
       }
     }
 

@@ -6,6 +6,7 @@ import SuccessPayment from "../Pages/Payment/SuccessPayment.vue";
 import UnsuccessPayment from "../Pages/Payment/UnsuccessPayment.vue";
 import Register from "../Pages/Acount/Register.vue";
 import Login from "../Pages/Acount/Login.vue";
+import NotFound from "../Pages/404/404.vue";
 const routes = [
   { path: "/", component: Index },
   { path: "/payment", component: payment },
@@ -14,6 +15,7 @@ const routes = [
   { path: "/unsuccesspayment", component: UnsuccessPayment },
   { path: "/register", component: Register },
   { path: "/login", component: Login },
+  { path: "/:pathMatch(.*)", component: NotFound },
 ];
 
 const router = createRouter({

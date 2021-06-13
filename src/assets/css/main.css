@@ -10,8 +10,8 @@
 }
 
 @font-face {
-  font-family: "shabnam";
-  src: url("../Fonts/shabnam/Shabnam.ttf");
+  font-family: "Shabnam";
+  src: url("../Fonts/Shabnam.ttf");
 }
 
 @font-face {
@@ -22,6 +22,26 @@
 @font-face {
   font-family: "AArghavan";
   src: url("../Fonts/AArghavan.ttf");
+}
+
+@font-face {
+  font-family: "ElMessiri-Bold";
+  src: url("../Fonts/ElMessiri-Bold.ttf");
+}
+
+@font-face {
+  font-family: "IranNastaliq";
+  src: url("../Fonts/IranNastaliq.ttf");
+}
+
+@font-face {
+  font-family: "Parvin-Regular";
+  src: url("../Fonts/Parvin-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Zahed_Dal";
+  src: url("../Fonts/Zahed_Dal.ttf");
 }
 
 header {
@@ -43,11 +63,13 @@ header nav .navbar-brand {
 }
 
 header nav .navbar-brand a {
-  font-family: AArghavan;
-  letter-spacing: 5px;
-  font-size: 27px;
+  font-family: ElMessiri-Bold;
+  letter-spacing: -2px;
+  font-size: 34px;
+  word-spacing: -1px;
+  font-weight: 900;
   margin: auto;
-  background: -webkit-linear-gradient(45deg, #32f800, #e4f211);
+  background: -webkit-linear-gradient(45deg, #00b9ff, #b2ff47);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -67,14 +89,16 @@ header nav .collapse .search-box {
 }
 
 header nav .collapse .search-box input {
-  border: 2px solid #c5c5c557;
-  border-radius: 50px;
   background-image: url("../Images/img-11.svg");
+  border: 1px solid #37373724;
+  border-radius: 50px;
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: 10px 8px;
-  font-family: shabnam;
   width: 219px;
+  font-size: 16px;
+  opacity: 0.9;
+  font-family: "Samim";
 }
 
 header nav .collapse .menu {
@@ -96,13 +120,21 @@ header nav .collapse .menu li a {
   text-decoration: none;
   white-space: nowrap;
   font-family: shabnam;
-  font-size: 15px;
+  font-size: 14px;
+  font-family: "Samim";
+  font-weight: 600;
+}
+
+header nav .collapse .menu li a:hover {
+  color: #ffffff;
+  font-size: 14px;
+  text-shadow: 0px 2px 6px #313731;
 }
 
 header nav .collapse .acount-box {
   border-radius: 50px;
-  background-color: #bababa8a;
-  opacity: 0.6;
+  background-color: #e6e6e65e;
+  opacity: 0.7;
   list-style: none;
   margin-right: 26px;
   height: 42px;
@@ -117,8 +149,9 @@ header nav .collapse .acount-box li:first-child {
 
 header nav .collapse .acount-box li {
   white-space: nowrap;
-  color: black;
-  font-family: shabnam;
+  color: #261e1e;
+  font-family: "Samim";
+  font-size: 14px;
   display: inline-block;
 }
 
@@ -126,20 +159,29 @@ header nav .collapse .acount-box li i {
   font-size: 25px;
   margin: auto;
   padding: 2px 9px 5px 9px;
+  opacity: 1 !important;
 }
 
 header nav .collapse .acount-box li.login {
   line-height: 2px;
   padding: 2px 0px 18px 6px;
+  opacity: 1 !important;
 }
 
 header nav .collapse .acount-box li:last-child {
   padding: 0px;
+  opacity: 1 !important;
 }
 
 header nav .collapse .acount-box .svg-inline--fa {
   font-size: x-large;
   vertical-align: -11.125px;
+  opacity: 1 !important;
+}
+
+header nav .collapse .acount-box:hover {
+  opacity: 1;
+  background-color: #ffffff87;
 }
 
 @font-face {
@@ -153,8 +195,8 @@ header nav .collapse .acount-box .svg-inline--fa {
 }
 
 @font-face {
-  font-family: "shabnam";
-  src: url("../Fonts/shabnam/Shabnam.ttf");
+  font-family: "Shabnam";
+  src: url("../Fonts/Shabnam.ttf");
 }
 
 @font-face {
@@ -322,8 +364,8 @@ div.top-site .col-4 {
 }
 
 @font-face {
-  font-family: "shabnam";
-  src: url("../Fonts/shabnam/Shabnam.ttf");
+  font-family: "Shabnam";
+  src: url("../Fonts/Shabnam.ttf");
 }
 
 @font-face {
@@ -370,8 +412,8 @@ div.last-number .total-tickets li span {
 }
 
 @font-face {
-  font-family: "shabnam";
-  src: url("../Fonts/shabnam/Shabnam.ttf");
+  font-family: "Shabnam";
+  src: url("../Fonts/Shabnam.ttf");
 }
 
 @font-face {
@@ -453,8 +495,8 @@ div.sport-category .sport-category-item .sport-item li:last-child span {
 }
 
 @font-face {
-  font-family: "shabnam";
-  src: url("../Fonts/shabnam/Shabnam.ttf");
+  font-family: "Shabnam";
+  src: url("../Fonts/Shabnam.ttf");
 }
 
 @font-face {
@@ -671,8 +713,8 @@ div.hottest-match .two-matches .col-6 {
 }
 
 @font-face {
-  font-family: "shabnam";
-  src: url("../Fonts/shabnam/Shabnam.ttf");
+  font-family: "Shabnam";
+  src: url("../Fonts/Shabnam.ttf");
 }
 
 @font-face {
@@ -791,8 +833,8 @@ div.table-matches .table td.buy-ticket li a i {
 }
 
 @font-face {
-  font-family: "shabnam";
-  src: url("../Fonts/shabnam/Shabnam.ttf");
+  font-family: "Shabnam";
+  src: url("../Fonts/Shabnam.ttf");
 }
 
 @font-face {
@@ -978,8 +1020,8 @@ div.special-match .special-back .row .col-4 {
 }
 
 @font-face {
-  font-family: "shabnam";
-  src: url("../Fonts/shabnam/Shabnam.ttf");
+  font-family: "Shabnam";
+  src: url("../Fonts/Shabnam.ttf");
 }
 
 @font-face {
@@ -1159,8 +1201,8 @@ div.sport-magazine .social-icons .social-icons-magazine li:not(:first-child) {
 }
 
 @font-face {
-  font-family: "shabnam";
-  src: url("../Fonts/shabnam/Shabnam.ttf");
+  font-family: "Shabnam";
+  src: url("../Fonts/Shabnam.ttf");
 }
 
 @font-face {
@@ -1294,8 +1336,8 @@ div.comments .user-comment .comment-users ul:last-child li:last-child p {
 }
 
 @font-face {
-  font-family: "shabnam";
-  src: url("../Fonts/shabnam/Shabnam.ttf");
+  font-family: "Shabnam";
+  src: url("../Fonts/Shabnam.ttf");
 }
 
 @font-face {
@@ -1351,7 +1393,7 @@ div.support .support-items .support-item {
 
 @font-face {
   font-family: "shabnam";
-  src: url("../Fonts/shabnam/Shabnam.ttf");
+  src: url("../Fonts/Shabnam.ttf");
 }
 
 @font-face {
@@ -1566,7 +1608,7 @@ footer .footer-three .last-site li {
 }
 
 @font-face {
-  font-family: "shabnam";
+  font-family: "Shabnam";
   src: url("../Fonts/Shabnam.ttf");
 }
 
@@ -1795,10 +1837,12 @@ body {
   margin: 0px 52px 0 7px;
 }
 
-.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-footer ul li i {
+.payment div.payment-main .top-main .container .payment-first-card .payment-first-card-footer ul li a {
   font-size: 18px;
   padding: 4px 18px 0 5px;
   opacity: 0.7;
+  text-decoration: none;
+  color: gray;
 }
 
 .payment div.payment-main .payment-main2 {
@@ -1905,7 +1949,7 @@ body {
   border: none;
   padding: 0;
   margin: 0;
-  background-color: gainsboro !important;
+  background-color: gainsboro;
   width: 96%;
   border-radius: 5px;
   margin: 0;
@@ -1918,7 +1962,7 @@ body {
   border: none;
   padding: 0;
   margin: auto 12px 0 0;
-  background-color: gainsboro !important;
+  background-color: gainsboro;
   width: 96%;
   border-radius: 5px;
   padding: 19px 18px;
@@ -1927,38 +1971,13 @@ body {
 }
 
 .payment div.payment-main .payment-main2 .right-section .fans .teams .esteghlalBtn:hover {
-  background-color: #0080003d !important;
+  background-color: #0080003d;
   color: #0d870d;
 }
 
 .payment div.payment-main .payment-main2 .right-section .fans .teams .perspolisBtn:hover {
-  background-color: #0080003d !important;
+  background-color: #0080003d;
   color: #0d870d;
-}
-
-.payment div.payment-main .payment-main2 .right-section .fans .teams .esteghlalBtn:focus {
-  background-color: #0dd50dab !important;
-  color: #093709c2;
-}
-
-.payment div.payment-main .payment-main2 .right-section .fans .teams .perspolisBtn:focus {
-  background-color: #0dd50dab !important;
-  color: #093709c2;
-}
-
-.payment div.payment-main .payment-main2 .right-section .fans .teams .esteghlalBtn:active {
-  background-color: #0dd50dab !important;
-  color: #093709c2;
-}
-
-.payment div.payment-main .payment-main2 .right-section .fans .teams .perspolisBtn:active {
-  background-color: #0dd50dab !important;
-  color: #093709c2;
-}
-
-.payment div.payment-main .payment-main2 .right-section .fans .teams .perspolisBtn:focus-visible {
-  background-color: #d54c0dab !important;
-  color: #093709c2;
 }
 
 .payment div.payment-main .payment-main2 .right-section .stadium-location {
@@ -1989,106 +2008,6 @@ body {
   width: 100%;
 }
 
-.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map area#ga:hover {
-  border: 1px solid #efefef00;
-  position: absolute;
-  right: 283px;
-  background-color: #ff797987;
-  top: 1015px;
-  box-shadow: 0 0 11px 1px #ff0000;
-  width: 430px;
-  height: 66px;
-}
-
-.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map #three:hover {
-  border: 1px solid #efefef00;
-  position: absolute;
-  right: 462px;
-  background-color: #ff797987;
-  top: 1323px;
-  box-shadow: 0 0 11px 1px #ff0000;
-  width: 72px;
-  height: 69px;
-}
-
-.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map #four:hover {
-  border: 1px solid #efefef00;
-  position: absolute;
-  right: 536px;
-  background-color: #ff797987;
-  top: 1320px;
-  box-shadow: 0 0 11px 1px #ff0000;
-  width: 50px;
-  height: 71px;
-}
-
-.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map #two:hover {
-  border: 1px solid #efefef00;
-  position: absolute;
-  right: 406px;
-  background-color: #ff797987;
-  top: 1320px;
-  box-shadow: 0 0 11px 1px #ff0000;
-  width: 54px;
-  height: 74px;
-}
-
-.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map #one:hover {
-  border: 1px solid #efefef00;
-  position: absolute;
-  right: 350px;
-  background-color: #5f87e687;
-  top: 1318px;
-  box-shadow: 0 0 11px 1px #003dff;
-  width: 54px;
-  height: 74px;
-}
-
-.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map #five:hover {
-  border: 1px solid #efefef00;
-  position: absolute;
-  right: 587px;
-  background-color: #5f87e687;
-  top: 1318px;
-  box-shadow: 0 0 11px 1px #003dff;
-  width: 54px;
-  height: 74px;
-}
-
-.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map #trW:hover {
-  border: 1px solid #efefef00;
-  position: absolute;
-  right: 641px;
-  background-color: #5f87e687;
-  top: 1319px;
-  box-shadow: 0 0 11px 1px #003dff;
-  width: 54px;
-  height: 74px;
-}
-
-.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map #trS:hover {
-  border: 1px solid #efefef00;
-  border: 1px solid #efefef00;
-  position: absolute;
-  right: 296px;
-  background-color: #5f87e687;
-  top: 1320px;
-  box-shadow: 0 0 11px 1px #003dff;
-  width: 54px;
-  height: 74px;
-}
-
-.payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .location-map #two:focus {
-  border: 1px solid #efefef00;
-  position: absolute;
-  right: 406px;
-  background-color: #ff797987;
-  top: 1282px;
-  box-shadow: 0 0 11px 1px #ff0000;
-  width: 54px;
-  height: 74px;
-}
-
 .payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .loacation-tooltips {
   margin: 30px auto;
   border-bottom: 4px dotted gray;
@@ -2105,7 +2024,7 @@ body {
 .payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .loacation-tooltips .loacation-tooltip1 .loacation-tooltip {
   width: 100%;
   margin: auto;
-  background-color: #d1cccc !important;
+  background-color: #d1cccc;
   text-align: right;
   border-radius: 6px;
   display: grid;
@@ -2141,7 +2060,7 @@ body {
 .payment div.payment-main .payment-main2 .right-section .stadium-location .location-main .loacation-tooltips .loacation-tooltip1 .loacation-tooltip {
   width: 95%;
   margin: auto;
-  background-color: #d1cccc !important;
+  background-color: #d1cccc;
   text-align: right;
   border-radius: 6px;
   display: grid;
@@ -2203,19 +2122,28 @@ body {
 }
 
 .payment div.payment-main .payment-main2 .right-section .seats .seat-row li {
-  display: contents;
+  display: inline;
+  width: 10%;
 }
 
-.payment div.payment-main .payment-main2 .right-section .seats .seat-row li img {
-  text-align: right;
-  font-size: 15px;
-  font-weight: 800;
-  margin: -2px 0px;
-  width: 9%;
+.payment div.payment-main .payment-main2 .right-section .seats .seat-row li button {
+  border-radius: 50%;
+  width: 11%;
+  border: none !important;
+  margin: 11px 5px;
 }
 
-.payment div.payment-main .payment-main2 .right-section .seats .seat-row li img:hover {
-  box-shadow: inset 0 1000px #ffc5c578;
+.payment div.payment-main .payment-main2 .right-section .seats .seat-row li button img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.payment div.payment-main .payment-main2 .right-section .seats .seat-row li .bg-danger {
+  opacity: 0.5;
+}
+
+.payment div.payment-main .payment-main2 .right-section .seats .seat-row li button:hover {
+  background-color: #ffc5c578;
   border-radius: 50%;
 }
 
@@ -2226,6 +2154,8 @@ body {
   border-radius: 7px;
   box-shadow: 0 0 12px 1px #8080802b;
   background-color: white;
+  position: sticky;
+  top: 45px;
 }
 
 .payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-header {
@@ -2348,6 +2278,7 @@ body {
   font-size: 14px;
   color: #0da087;
   font-weight: 900;
+  white-space: nowrap;
 }
 
 .payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-body .price li p {
@@ -2362,6 +2293,7 @@ body {
   font-size: 13px;
   color: black;
   font-weight: 100;
+  white-space: nowrap;
 }
 
 .payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-footer {
@@ -2401,7 +2333,7 @@ body {
 }
 
 .payment div.payment-main .payment-main2 .payment-second-card .payment-second-card-footer p span {
-  padding-right: 103px;
+  padding-right: 82px;
   letter-spacing: 2px;
 }
 
@@ -2411,18 +2343,13 @@ body {
 }
 
 @font-face {
-  font-family: "shabnam";
+  font-family: "Shabnam";
   src: url("../Fonts/Shabnam.ttf");
 }
 
 @font-face {
   font-family: "Samim";
   src: url("../Fonts/Samim.ttf");
-}
-
-@font-face {
-  font-family: "Samim";
-  src: url("../Fonts/AArghavan.ttf");
 }
 
 div.acount-login {
@@ -2465,11 +2392,21 @@ div.acount-login .sign-in div.input .input-email {
   margin: 85px auto 20px auto;
 }
 
-div.acount-login .sign-in div.input .input-email p {
+div.acount-login .sign-in div.input .input-email .lable {
   font-size: 12px;
   font-weight: 100;
   color: black;
   margin: 0px 0px 2px 0px;
+}
+
+div.acount-login .sign-in div.input .input-email p.email-errors {
+  font-size: 12px;
+  font-weight: 100;
+  margin: 5px 10px 2px 0px;
+}
+
+div.acount-login .sign-in div.input .input-email p.email-errors span {
+  font-size: 12px;
 }
 
 div.acount-login .sign-in div.input .input-email input {
@@ -2485,11 +2422,21 @@ div.acount-login .sign-in div.input .input-password {
   margin: 28px auto 41px auto;
 }
 
-div.acount-login .sign-in div.input .input-password p {
+div.acount-login .sign-in div.input .input-password .lable {
   font-size: 12px;
   font-weight: 100;
   color: black;
   margin: 0px 0px 2px 0px;
+}
+
+div.acount-login .sign-in div.input .input-password p.email-errors {
+  font-size: 12px;
+  font-weight: 100;
+  margin: 5px 10px 2px 0px;
+}
+
+div.acount-login .sign-in div.input .input-password p.email-errors span {
+  font-size: 12px;
 }
 
 div.acount-login .sign-in div.input .input-password input {
@@ -2532,7 +2479,7 @@ div.acount-login .sign-in div.title {
   text-align: center;
   font-family: "Shabnam";
   background-size: cover;
-  background-image: url(/img/img-10.88c21608.jpg);
+  background-image: url("../Images/img-10.jpg");
   box-shadow: inset 0 1000px #00ff6e9c;
   background-position: center;
   background-repeat: no-repeat;
@@ -2599,18 +2546,13 @@ div.acount-login .sign-in div.title .head-enter2 button {
 }
 
 @font-face {
-  font-family: "shabnam";
+  font-family: "Shabnam";
   src: url("../Fonts/Shabnam.ttf");
 }
 
 @font-face {
   font-family: "Samim";
   src: url("../Fonts/Samim.ttf");
-}
-
-@font-face {
-  font-family: "Samim";
-  src: url("../Fonts/AArghavan.ttf");
 }
 
 div.acount-register {
@@ -2656,7 +2598,6 @@ div.acount-register .sign-up div.input .input-name {
 div.acount-register .sign-up div.input .input-name p {
   font-size: 12px;
   font-weight: 100;
-  color: black;
   margin: 0px 0px 2px 0px;
 }
 
@@ -2695,11 +2636,21 @@ div.acount-register .sign-up div.input .input-email {
   margin: 15px auto 10px auto;
 }
 
-div.acount-register .sign-up div.input .input-email p {
+div.acount-register .sign-up div.input .input-email .lable {
   font-size: 12px;
   font-weight: 100;
   color: black;
   margin: 0px 0px 2px 0px;
+}
+
+div.acount-register .sign-up div.input .input-email p.email-errors {
+  font-size: 12px;
+  font-weight: 100;
+  margin: 5px 10px 2px 0px;
+}
+
+div.acount-register .sign-up div.input .input-email p.email-errors span {
+  font-size: 12px;
 }
 
 div.acount-register .sign-up div.input .input-email input {
@@ -2715,11 +2666,21 @@ div.acount-register .sign-up div.input .input-password {
   margin: 17px auto 41px auto;
 }
 
-div.acount-register .sign-up div.input .input-password p {
+div.acount-register .sign-up div.input .input-password .lable {
   font-size: 12px;
   font-weight: 100;
   color: black;
   margin: 0px 0px 2px 0px;
+}
+
+div.acount-register .sign-up div.input .input-password p.email-errors {
+  font-size: 12px;
+  font-weight: 100;
+  margin: 5px 10px 2px 0px;
+}
+
+div.acount-register .sign-up div.input .input-password p.email-errors span {
+  font-size: 12px;
 }
 
 div.acount-register .sign-up div.input .input-password input {
@@ -2831,7 +2792,7 @@ div.acount-register .sign-up div.title .head-enter2 button {
 }
 
 @font-face {
-  font-family: "shabnam";
+  font-family: "Shabnam";
   src: url("../Fonts/Shabnam.ttf");
 }
 
@@ -3244,7 +3205,7 @@ div.final-main .final-card .final-card-footer p span {
 }
 
 @font-face {
-  font-family: "shabnam";
+  font-family: "Shabnam";
   src: url("../Fonts/Shabnam.ttf");
 }
 
@@ -3514,7 +3475,7 @@ div.su-main .success-payment .end-payment p.end-payment-action {
 }
 
 @font-face {
-  font-family: "shabnam";
+  font-family: "Shabnam";
   src: url("../Fonts/Shabnam.ttf");
 }
 
@@ -3710,7 +3671,7 @@ div.unsa-main .unsuccess-payment .end-payment p.end-payment-action {
 }
 
 @font-face {
-  font-family: "shabnam";
+  font-family: "Shabnam";
   src: url("../Fonts/Shabnam.ttf");
 }
 
@@ -4018,6 +3979,92 @@ div.comments-main .comment-alert .send-comment2 .submit2 .alert-icon {
   border-radius: 6px;
   padding: 6px 0px;
   font-size: 13px;
+}
+
+@font-face {
+  font-family: "Shabnam";
+  src: url("../Fonts/Shabnam.ttf");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#notfound {
+  padding: 138px 0;
+  margin: auto;
+  width: 100%;
+}
+
+.notfound {
+  max-width: 767px;
+  width: 100%;
+  line-height: 1.4;
+  padding: 0px 15px;
+  margin: auto;
+}
+
+.notfound .notfound-404 {
+  line-height: 150px;
+  margin-bottom: 25px;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: "shabnam";
+  font-size: 186px;
+  font-weight: 900;
+  margin: 0px;
+  text-transform: uppercase;
+  background: url("../Images/text.png");
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center;
+}
+
+.notfound h2 {
+  font-family: "shabnam";
+  font-size: 26px;
+  font-weight: 700;
+  margin: 7px 0;
+}
+
+.notfound p {
+  font-family: "shabnam";
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.notfound a {
+  font-family: "shabnam";
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  background: #0cd02ead;
+  padding: 16px 40px;
+  font-size: 14px;
+  border-radius: 1px;
+  margin-top: 15px;
+  transition: 0.2s all;
+}
+
+.notfound a:hover {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 767px) {
+  .notfound .notfound-404 {
+    height: 110px;
+    line-height: 110px;
+  }
+  .notfound .notfound-404 h1 {
+    font-size: 120px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -5101,7 +5148,7 @@ div.comments-main .comment-alert .send-comment2 .submit2 .alert-icon {
 
 @font-face {
   font-family: "shabnam";
-  src: url("../Fonts/shabnam/Shabnam.ttf");
+  src: url("../Fonts/Shabnam.ttf");
 }
 
 /* body */

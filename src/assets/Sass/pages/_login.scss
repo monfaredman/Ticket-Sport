@@ -3,16 +3,12 @@
   src: url("../Fonts/AKavir.ttf");
 }
 @font-face {
-  font-family: "shabnam";
+  font-family: "Shabnam";
   src: url("../Fonts/Shabnam.ttf");
 }
 @font-face {
   font-family: "Samim";
   src: url("../Fonts/Samim.ttf");
-}
-@font-face {
-  font-family: "Samim";
-  src: url("../Fonts/AArghavan.ttf");
 }
 
 div.acount-login {
@@ -46,11 +42,19 @@ div.acount-login {
         text-align: right;
         width: 73%;
         margin: 85px auto 20px auto;
-        p {
+        .lable {
           font-size: 12px;
           font-weight: 100;
           color: black;
           margin: 0px 0px 2px 0px;
+        }
+        p.email-errors {
+          font-size: 12px;
+          font-weight: 100;
+          margin: 5px 10px 2px 0px;
+          span {
+            font-size: 12px;
+          }
         }
         input {
           margin: auto;
@@ -63,11 +67,19 @@ div.acount-login {
       .input-password {
         width: 73%;
         margin: 28px auto 41px auto;
-        p {
+        .lable {
           font-size: 12px;
           font-weight: 100;
           color: black;
           margin: 0px 0px 2px 0px;
+        }
+        p.email-errors {
+          font-size: 12px;
+          font-weight: 100;
+          margin: 5px 10px 2px 0px;
+          span {
+            font-size: 12px;
+          }
         }
         input {
           margin: auto;
@@ -106,7 +118,7 @@ div.acount-login {
       text-align: center;
       font-family: "Shabnam";
       background-size: cover;
-      background-image: url(/img/img-10.88c21608.jpg);
+      background-image: url("../Images/img-10.jpg");
       box-shadow: inset 0 1000px #00ff6e9c;
       background-position: center;
       background-repeat: no-repeat;

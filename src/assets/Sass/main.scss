@@ -1,6 +1,5 @@
 // در این فایل تنها لینک import فایل های بالا قرار دارد.
 
-@import "./pages/Index";
 @import "./layout/header";
 @import "./layout/section1";
 @import "./layout/section2";
@@ -19,6 +18,7 @@
 @import "./pages/successp";
 @import "./pages/unsuccessp";
 @import "./pages/commentsp";
+@import "./pages/404page";
 @import "./base/responseve";
 @font-face {
   font-family: "AKavir";
@@ -27,7 +27,7 @@
 
 @font-face {
   font-family: "shabnam";
-  src: url("../Fonts/shabnam/Shabnam.ttf");
+  src: url("../Fonts/Shabnam.ttf");
 }
 
 /* body */
